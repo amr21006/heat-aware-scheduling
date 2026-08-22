@@ -1,0 +1,17 @@
+# Python 3.13. Exact versions used to produce the reported results.
+pandas==2.3.3
+numpy==2.3.5
+scipy==1.15.3
+scikit-learn==1.8.0
+statsmodels==0.14.6
+lightgbm==4.6.0
+matplotlib==3.10.8
+ortools==9.15.6755
+meteostat==2.1.4
+joblib==1.5.3
+patsy==1.0.2
+requests==2.32.5
+seaborn==0.13.2
+pyarrow
+tabulate
+openpyxl
