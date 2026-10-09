@@ -1,0 +1,1433 @@
+{
+ "code": "C2025-14",
+ "name": "Drainge System",
+ "sector": "Construction (Civil)",
+ "n_activities": 82,
+ "resources": [
+  {
+   "name": "carpenter",
+   "capacity": 8
+  },
+  {
+   "name": "mason",
+   "capacity": 16
+  },
+  {
+   "name": "painter",
+   "capacity": 3
+  },
+  {
+   "name": "plumber",
+   "capacity": 7
+  },
+  {
+   "name": "steel worker",
+   "capacity": 6
+  },
+  {
+   "name": "team subcontractor",
+   "capacity": 12
+  }
+ ],
+ "activities": [
+  {
+   "id": 6,
+   "name": "CARTEL DE IDENTIFICACION DE LA OBRA DE 3.60x2.40M",
+   "wbs": "1.1.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "ALQUILER DE ALMACEN Y OFICINA",
+   "wbs": "1.1.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "LIMPIEZA DE TERRENO MANUAL",
+   "wbs": "1.1.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "MOVILIZACION Y DESMOVILIZACION DE EQUIPOS Y HERRAMIENTAS",
+   "wbs": "1.1.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "EQUIPO DE PROTESSION COLECTIVA",
+   "wbs": "1.1.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "EQUIPO DE PROTESSION INDIVIDUAL",
+   "wbs": "1.1.3.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "SE\u00d1ALIZACION TEMPORAL DE SEGURIDAD DE OBRA",
+   "wbs": "1.1.3.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "SE\u00d1ALIZACION PARA PREVENCION DEL COVID 19",
+   "wbs": "1.1.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "EQUIPO DE DETESSION (TERMOMETRO DIGITAL)",
+   "wbs": "1.1.4.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "MASCARILLA COMUNITARIA",
+   "wbs": "1.1.4.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "INSTALACION DE LAVADEROS",
+   "wbs": "1.1.4.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "INSUMOS PARA LAVADO DE MANOS",
+   "wbs": "1.1.4.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "ELABORACION DEL PLAN DE SEGURIDAD Y SALUD EN EL TRABAJO INCLUIDO COVID -19",
+   "wbs": "1.1.4.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "IDENTIFICACION DE SINTOMATOLOGIA COVID - 19 AL INGRESO A LA OBRA",
+   "wbs": "1.1.4.7",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "DEMOLICI\u00d3N DE ESTRUCTURA DE CONCRETO",
+   "wbs": "1.2.1.1.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "EXCAVACI\u00d3N A MANO EN TERRENO NORMAL",
+   "wbs": "1.2.1.1.2",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "PERFILADO Y COMPACTADO DE FONDO",
+   "wbs": "1.2.1.1.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "ELIMINACION DE MATERIAL DE DEMOLICIONES",
+   "wbs": "1.2.1.1.4",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "ENCOFRADO Y DESENCOFRADO NORMAL",
+   "wbs": "1.2.1.2.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "ACERO FY = 4200 KG/CM2 GRADO 60",
+   "wbs": "1.2.1.2.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "CONCRETO F'C=210 KG/CM2",
+   "wbs": "1.2.1.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "CURADO DE CONCRETO EN CANAL",
+   "wbs": "1.2.1.2.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "JUNTA ASFALTICA E= 1\" @ 3.00 m",
+   "wbs": "1.2.1.3.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "DEMOLICI\u00d3N DE ESTRUCTURA DE CONCRETO",
+   "wbs": "1.2.2.1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "EXCAVACI\u00d3N A MANO EN TERRENO NORMAL",
+   "wbs": "1.2.2.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "PERFILADO Y COMPACTADO DE FONDO",
+   "wbs": "1.2.2.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "ELIMINACION DE MATERIAL DE DEMOLICIONES",
+   "wbs": "1.2.2.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "name": "ENCOFRADO Y DESENCOFRADO NORMAL",
+   "wbs": "1.2.2.2.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "CONCRETO F'C=210 KG/CM2",
+   "wbs": "1.2.2.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "CURADO DE CONCRETO EN CANAL",
+   "wbs": "1.2.2.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "JUNTA ASFALTICA E= 1\" @ 3.00 m",
+   "wbs": "1.2.2.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "name": "REJILLA SUMIDERO PLATINA 1 1/4\" x 1/8\" @1\", MARCO \"L\" 1 1/2\" x 1 1/2\" x 1/8\"",
+   "wbs": "1.2.2.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "name": "DEMOLICI\u00d3N DE ESTRUCTURA DE CONCRETO",
+   "wbs": "1.2.3.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "name": "PERFILADO Y COMPACTADO DE FONDO",
+   "wbs": "1.2.3.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "name": "ELIMINACION DE MATERIAL DE DEMOLICIONES",
+   "wbs": "1.2.3.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "name": "ACERO FY = 4200 KG/CM2 GRADO 60",
+   "wbs": "1.2.3.2.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "name": "ENCOFRADO Y DESENCOFRADO NORMAL",
+   "wbs": "1.2.3.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "name": "CONCRETO F'C=210 KG/CM2",
+   "wbs": "1.2.3.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "name": "CURADO DE CONCRETO EN CANAL",
+   "wbs": "1.2.3.2.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "name": "JUNTA ASFALTICA E= 1\" @ 3.00 m",
+   "wbs": "1.2.3.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "name": "DEMOLICI\u00d3N DE ESTRUCTURA DE CONCRETO",
+   "wbs": "1.2.4.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "name": "EXCAVACI\u00d3N A MANO EN TERRENO NORMAL",
+   "wbs": "1.2.4.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "name": "PERFILADO Y COMPACTADO DE FONDO",
+   "wbs": "1.2.4.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "name": "ELIMINACION DE MATERIAL DE DEMOLICIONES",
+   "wbs": "1.2.4.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "name": "ACERO FY = 4200 KG/CM2 GRADO 60",
+   "wbs": "1.2.4.2.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "name": "ENCOFRADO Y DESENCOFRADO NORMAL",
+   "wbs": "1.2.4.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "name": "CONCRETO F'C=210 KG/CM2",
+   "wbs": "1.2.4.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "name": "CURADO DE CONCRETO EN CANAL",
+   "wbs": "1.2.4.2.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "name": "JUNTA ASFALTICA E= 1\" @ 3.00 m",
+   "wbs": "1.2.4.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "name": "SUMINISTRO Y COLOCACI\u00d3N DE COMPUERTA MET\u00c1LICA TIPO VOLANTE",
+   "wbs": "1.2.4.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "name": "DEMOLICI\u00d3N DE ESTRUCTURA DE CONCRETO",
+   "wbs": "1.2.5.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "name": "EXCAVACI\u00d3N A MANO EN TERRENO NORMAL",
+   "wbs": "1.2.5.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "name": "PERFILADO Y COMPACTADO DE FONDO",
+   "wbs": "1.2.5.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 83,
+   "name": "ELIMINACION DE MATERIAL DE DEMOLICIONES",
+   "wbs": "1.2.5.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "name": "ACERO FY = 4200 KG/CM2 GRADO 60",
+   "wbs": "1.2.5.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 86,
+   "name": "ENCOFRADO Y DESENCOFRADO NORMAL",
+   "wbs": "1.2.5.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 87,
+   "name": "CONCRETO F'C=210 KG/CM2",
+   "wbs": "1.2.5.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 88,
+   "name": "CURADO DE CONCRETO EN CANAL",
+   "wbs": "1.2.5.2.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 90,
+   "name": "JUNTA ASFALTICA E= 1\" @ 3.00 m",
+   "wbs": "1.2.5.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "name": "DEMOLICI\u00d3N DE ESTRUCTURA DE CONCRETO",
+   "wbs": "1.2.6.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "name": "EXCAVACI\u00d3N A MANO EN TERRENO NORMAL",
+   "wbs": "1.2.6.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "name": "PERFILADO Y COMPACTADO DE FONDO",
+   "wbs": "1.2.6.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 96,
+   "name": "ELIMINACION DE MATERIAL DE DEMOLICIONES",
+   "wbs": "1.2.6.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 98,
+   "name": "ACERO FY = 4200 KG/CM2 GRADO 60",
+   "wbs": "1.2.6.2.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 99,
+   "name": "ENCOFRADO Y DESENCOFRADO NORMAL",
+   "wbs": "1.2.6.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 100,
+   "name": "CONCRETO F'C=210 KG/CM2",
+   "wbs": "1.2.6.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "name": "CURADO DE CONCRETO EN CANAL",
+   "wbs": "1.2.6.2.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "name": "JUNTA ASFALTICA E= 1\" @ 3.00 m",
+   "wbs": "1.2.6.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "name": "REJILLA SUMIDERO PLATINA 1 1/4\" x 1/8\" @1\", MARCO \"L\" 1 1/2\" x 1 1/2\" x 1/8\"",
+   "wbs": "1.2.6.4.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 108,
+   "name": "EXCAVACI\u00d3N A MANO EN TERRENO NORMAL",
+   "wbs": "1.2.7.1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 109,
+   "name": "PERFILADO Y COMPACTADO DE FONDO",
+   "wbs": "1.2.7.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 110,
+   "name": "RELLENO CON MATERIAL PROPIO",
+   "wbs": "1.2.7.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 111,
+   "name": "ELIMINACION DE MATERIAL EXCEDENTE",
+   "wbs": "1.2.7.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 113,
+   "name": "SUMINISTRO E INSTALACI\u00d3N DE TUBER\u00cdA DN = 10\" Y ASSESORIOS",
+   "wbs": "1.2.7.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 115,
+   "name": "DISE\u00d1O DE MEZCLA PARA CONCRETO DE 210 Kg/cm2",
+   "wbs": "1.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 116,
+   "name": "ENSAYO A LA COMPRESION DE CONCRETO",
+   "wbs": "1.3.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 118,
+   "name": "CAPACITACION DE OPERACION Y MANTENIMIENTO",
+   "wbs": "1.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 120,
+   "name": "TRAZO Y REPLANTEO AL FINAL DE OBRA",
+   "wbs": "1.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 122,
+   "name": "MITIGACION DE RIESGO",
+   "wbs": "1.6.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 124,
+   "name": "IMPLEMENTACION DEL PLAN DE MANEJO AMBIENTAL",
+   "wbs": "1.7.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 126,
+   "name": "FLETE TERRESTRE",
+   "wbs": "1.8.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 127,
+   "name": "FLETE RURAL",
+   "wbs": "1.8.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 6,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 53,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 65,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 93,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 122,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 126,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 17,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 31,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 36,
+   "succ": 118,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 40,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 41,
+   "succ": 42,
+   "lag": 0
+  },
+  {
+   "pred": 41,
+   "succ": 44,
+   "lag": -1
+  },
+  {
+   "pred": 44,
+   "succ": 45,
+   "lag": 0
+  },
+  {
+   "pred": 45,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 45,
+   "succ": 115,
+   "lag": -1
+  },
+  {
+   "pred": 46,
+   "succ": 48,
+   "lag": 0
+  },
+  {
+   "pred": 48,
+   "succ": 50,
+   "lag": 0
+  },
+  {
+   "pred": 53,
+   "succ": 54,
+   "lag": 0
+  },
+  {
+   "pred": 54,
+   "succ": 55,
+   "lag": 0
+  },
+  {
+   "pred": 54,
+   "succ": 57,
+   "lag": 0
+  },
+  {
+   "pred": 57,
+   "succ": 58,
+   "lag": 0
+  },
+  {
+   "pred": 58,
+   "succ": 59,
+   "lag": 0
+  },
+  {
+   "pred": 59,
+   "succ": 60,
+   "lag": 0
+  },
+  {
+   "pred": 60,
+   "succ": 62,
+   "lag": 0
+  },
+  {
+   "pred": 65,
+   "succ": 66,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 67,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 68,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 70,
+   "lag": 0
+  },
+  {
+   "pred": 70,
+   "succ": 71,
+   "lag": 0
+  },
+  {
+   "pred": 71,
+   "succ": 72,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 73,
+   "lag": 0
+  },
+  {
+   "pred": 73,
+   "succ": 75,
+   "lag": 0
+  },
+  {
+   "pred": 75,
+   "succ": 77,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 80,
+   "lag": 0
+  },
+  {
+   "pred": 80,
+   "succ": 81,
+   "lag": 0
+  },
+  {
+   "pred": 81,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 82,
+   "succ": 83,
+   "lag": 0
+  },
+  {
+   "pred": 82,
+   "succ": 85,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 86,
+   "lag": 0
+  },
+  {
+   "pred": 86,
+   "succ": 87,
+   "lag": 0
+  },
+  {
+   "pred": 87,
+   "succ": 88,
+   "lag": 0
+  },
+  {
+   "pred": 88,
+   "succ": 90,
+   "lag": 0
+  },
+  {
+   "pred": 93,
+   "succ": 94,
+   "lag": 0
+  },
+  {
+   "pred": 94,
+   "succ": 95,
+   "lag": 0
+  },
+  {
+   "pred": 95,
+   "succ": 96,
+   "lag": 0
+  },
+  {
+   "pred": 95,
+   "succ": 98,
+   "lag": 0
+  },
+  {
+   "pred": 98,
+   "succ": 99,
+   "lag": 0
+  },
+  {
+   "pred": 99,
+   "succ": 100,
+   "lag": 0
+  },
+  {
+   "pred": 100,
+   "succ": 101,
+   "lag": 0
+  },
+  {
+   "pred": 101,
+   "succ": 103,
+   "lag": 0
+  },
+  {
+   "pred": 103,
+   "succ": 105,
+   "lag": 0
+  },
+  {
+   "pred": 105,
+   "succ": 108,
+   "lag": 0
+  },
+  {
+   "pred": 108,
+   "succ": 109,
+   "lag": 0
+  },
+  {
+   "pred": 109,
+   "succ": 110,
+   "lag": 0
+  },
+  {
+   "pred": 109,
+   "succ": 113,
+   "lag": 0
+  },
+  {
+   "pred": 110,
+   "succ": 111,
+   "lag": 0
+  },
+  {
+   "pred": 115,
+   "succ": 116,
+   "lag": 0
+  },
+  {
+   "pred": 118,
+   "succ": 120,
+   "lag": 0
+  },
+  {
+   "pred": 122,
+   "succ": 124,
+   "lag": 0
+  },
+  {
+   "pred": 126,
+   "succ": 127,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2025-14 Drainage System.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

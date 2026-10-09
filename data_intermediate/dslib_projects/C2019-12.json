@@ -1,0 +1,983 @@
+{
+ "code": "C2019-12",
+ "name": "Residential apartment building",
+ "sector": "Construction (residential building)",
+ "n_activities": 52,
+ "resources": [
+  {
+   "name": "Workers on site",
+   "capacity": 6
+  }
+ ],
+ "activities": [
+  {
+   "id": 54,
+   "name": "Placing fences around site",
+   "wbs": "1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Demolition of building",
+   "wbs": "1.2",
+   "duration": 17,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Excavation works",
+   "wbs": "1.3",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Basement Floor",
+   "wbs": "1.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Basement Walls",
+   "wbs": "1.5",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Construction Ground Level",
+   "wbs": "1.6",
+   "duration": 21,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Construction First Floor",
+   "wbs": "1.7",
+   "duration": 12,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Measuring Windows",
+   "wbs": "1.8",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Placing Windows",
+   "wbs": "1.9",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Placing Interior Glass walls",
+   "wbs": "1.10",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Contacting Exterior Carpenter Firm",
+   "wbs": "1.11",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Contacting Interior Design Firm",
+   "wbs": "1.12",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Roof Carpentry",
+   "wbs": "1.13",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Roofing and Pitched Roof",
+   "wbs": "1.14",
+   "duration": 11,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Measuring Exterior Carpentry",
+   "wbs": "1.15",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Meeting Technicians",
+   "wbs": "1.16",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "name": "Air Treatment",
+   "wbs": "1.17",
+   "duration": 11,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Electricity",
+   "wbs": "1.18",
+   "duration": 13,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Plumbing",
+   "wbs": "1.19",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Ventilation",
+   "wbs": "1.20",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Solar Panels",
+   "wbs": "1.21",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "Placing Exterior Carpentry",
+   "wbs": "1.22",
+   "duration": 11,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "PUR Isolation",
+   "wbs": "1.23",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "Screed (Chape)",
+   "wbs": "1.24",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Isolation Walls",
+   "wbs": "1.25",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "Plaster",
+   "wbs": "1.26",
+   "duration": 17,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Measuring interior design + fire resistance",
+   "wbs": "1.27",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Floorworks",
+   "wbs": "1.28",
+   "duration": 16,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Placing Stucco",
+   "wbs": "1.29",
+   "duration": 11,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Placing fire resistant door",
+   "wbs": "1.30",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "Construction Parking lot",
+   "wbs": "1.31",
+   "duration": 18,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "Contacting Company parapet",
+   "wbs": "1.32",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "Placing saves in basement through elevator hole",
+   "wbs": "1.33",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "Interior design / wood finishing",
+   "wbs": "1.34",
+   "duration": 42,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "Finishing Ventilation",
+   "wbs": "1.35",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "Floor Drilling for parapet",
+   "wbs": "1.36",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "Logo Front Wall",
+   "wbs": "1.37",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "name": "Gas Connection",
+   "wbs": "1.38",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "Covering Stairway in natural stone",
+   "wbs": "1.39",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "Parapet Steel Bar installation",
+   "wbs": "1.40",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "Aluminum Front Wall Finishing",
+   "wbs": "1.41",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "Air Treatment Finishing",
+   "wbs": "1.42",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "Fire/Theft/Access",
+   "wbs": "1.43",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "name": "Gas Stove Installation",
+   "wbs": "1.44",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "name": "Finishing Interior Design",
+   "wbs": "1.45",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "Parapet Glass Installation",
+   "wbs": "1.46",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "Electricity Check",
+   "wbs": "1.47",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "Lighting Placement",
+   "wbs": "1.48",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "name": "Painting",
+   "wbs": "1.49",
+   "duration": 16,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "name": "Elevator Installation",
+   "wbs": "1.50",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "name": "Finishing Elevator Floor",
+   "wbs": "1.51",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "name": "Seris Security Installation",
+   "wbs": "1.52",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "Workers on site",
+     "units": 3
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 54,
+   "succ": 2,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 3,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 4,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 5,
+   "lag": 2
+  },
+  {
+   "pred": 5,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 8,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 28,
+   "lag": 5
+  },
+  {
+   "pred": 8,
+   "succ": 9,
+   "lag": 30
+  },
+  {
+   "pred": 9,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 21,
+   "lag": 25
+  },
+  {
+   "pred": 16,
+   "succ": 53,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 53,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 17,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 23,
+   "lag": 2
+  },
+  {
+   "pred": 23,
+   "succ": 24,
+   "lag": 15
+  },
+  {
+   "pred": 24,
+   "succ": 25,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 26,
+   "lag": 10
+  },
+  {
+   "pred": 26,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 29,
+   "lag": 30
+  },
+  {
+   "pred": 26,
+   "succ": 33,
+   "lag": 35
+  },
+  {
+   "pred": 27,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 31,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 42,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 51,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 35,
+   "lag": 5
+  },
+  {
+   "pred": 32,
+   "succ": 49,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 36,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 37,
+   "succ": 43,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 45,
+   "lag": 0
+  },
+  {
+   "pred": 40,
+   "succ": 51,
+   "lag": 0
+  },
+  {
+   "pred": 41,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 42,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 43,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 44,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 45,
+   "succ": 51,
+   "lag": 0
+  },
+  {
+   "pred": 46,
+   "succ": 47,
+   "lag": 0
+  },
+  {
+   "pred": 48,
+   "succ": 51,
+   "lag": 0
+  },
+  {
+   "pred": 47,
+   "succ": 48,
+   "lag": 2
+  },
+  {
+   "pred": 49,
+   "succ": 50,
+   "lag": 0
+  },
+  {
+   "pred": 50,
+   "succ": 51,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2019-12 Residential apartment building.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

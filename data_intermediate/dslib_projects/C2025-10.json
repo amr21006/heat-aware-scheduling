@@ -1,0 +1,1976 @@
+{
+ "code": "C2025-10",
+ "name": "Temporary Facilities",
+ "sector": "Construction (institutional building)",
+ "n_activities": 114,
+ "resources": [
+  {
+   "name": "carpenter",
+   "capacity": 3
+  },
+  {
+   "name": "electrician",
+   "capacity": 5
+  },
+  {
+   "name": "mason",
+   "capacity": 2
+  },
+  {
+   "name": "painter",
+   "capacity": 6
+  },
+  {
+   "name": "plumber",
+   "capacity": 2
+  },
+  {
+   "name": "steel worker",
+   "capacity": 3
+  },
+  {
+   "name": "team subcontractor",
+   "capacity": 7
+  }
+ ],
+ "activities": [
+  {
+   "id": 3,
+   "name": "CARTEL DE IDENTIFICACION DE OBRA",
+   "wbs": "1.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "ENERG\u00cdA EL\u00c9CTRICA PROVISIONAL",
+   "wbs": "1.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "MOVILIZACION Y DESMOVILIZACION DE EQUIPOS",
+   "wbs": "1.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "FLETE (TRANSPORTE DE MATERIALES Y AGREGADO)",
+   "wbs": "1.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "DEMOLICION DE MUROS DE ADOBE INC. CIMIENTOS",
+   "wbs": "1.2.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "DESMONTAJE DE CALAMINA Y TIJERAS",
+   "wbs": "1.2.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "ELIMINACION MATERIAL EXCEDENTE DE EXCAVACION Y/O DEMOLICION C/MAQUINA",
+   "wbs": "1.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "LIMPIEZA INICIAL DE TERENO MANUAL",
+   "wbs": "1.3.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "ELIMINACION DE MATERIAL EXCEDENTE DE EXCAVACION C/MAQUINARIA",
+   "wbs": "1.3.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "TRAZO, NIVELES Y REPLANTEO PRELIMINAR",
+   "wbs": "1.3.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "EQUIPOS DE PROTESSION DE PERSONAL Y CHARLAS DE SEGURIDAD",
+   "wbs": "1.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "SE\u00d1ALIZACION Y SEGURIDAD",
+   "wbs": "1.4.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "CAPACITACION EN SEGURIDAD Y SALUD",
+   "wbs": "1.4.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "CONTENEDORES DE RESIDUOS SOLIDOS",
+   "wbs": "1.5.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "TRASLADO DE RESIDUOS SOLIDOS",
+   "wbs": "1.5.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "CAPACITACION EN TEMAS AMBIENTALES",
+   "wbs": "1.5.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "SE\u00d1ALIZACION AMBIENTAL",
+   "wbs": "1.5.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "CORTE SUPERFICIAL CON MAQUINARIA E=0.20M",
+   "wbs": "1.6.1.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "NIVELACION Y APISIONADO DEL TERRENO C/PLANCHA COMPACTADORA",
+   "wbs": "1.6.1.1.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "EXCAVACION PARA ZAPATAS EN TERRENO NORMAL",
+   "wbs": "1.6.1.2.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "EXCAVACION DE ZANJAS PARA CIMIENTOS",
+   "wbs": "1.6.1.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "NIVELACION INTERIOR APISONADO MANUAL",
+   "wbs": "1.6.1.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "RELLENO CON MATERIAL SELECIONADO",
+   "wbs": "1.6.1.4.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "RELLENO COMPACTADO CON MATERIAL PROPIO EN ZANJAS",
+   "wbs": "1.6.1.4.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "ACARREO DE MATERIAL EXCEDENTE CON BUGGIE D=30M",
+   "wbs": "1.6.1.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "ELIMINACION MATERIAL EXCEDENTE 2 KM",
+   "wbs": "1.6.1.5.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "SOLADO DE CONCRETO e=4\", MEZCLA C:A 1:12",
+   "wbs": "1.6.2.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "name": "CONCRETO1:10 30%pg para cimientos corrido",
+   "wbs": "1.6.2.2.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "ENCOFRADO Y DESENCOFRADO NORMAL PARA SOBRECIMIENTOS",
+   "wbs": "1.6.2.3.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "name": "CONCRETO 1:8 + 25% PM PARA SOBRECIMIENTOS",
+   "wbs": "1.6.2.3.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "name": "ACERO FY=4200 KG/CM2 GRADO 60 EN ZAPATAS",
+   "wbs": "1.6.3.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "name": "CONCRETO PARA ZAPATAS F'C=210 KG/CM2",
+   "wbs": "1.6.3.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "name": "ACERO FY=4200 KG/CM2 GRADO 60 EN VIGAS DE CONEXI\u00d3N",
+   "wbs": "1.6.3.2.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "name": "ENCOFRADO Y DESENCOFRADO NORMAL EN VIGAS DE CONEXI\u00d3N",
+   "wbs": "1.6.3.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "name": "CONCRETO EN VIGAS DE CONEXION F'C=210 KG/CM2",
+   "wbs": "1.6.3.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "name": "ACERO FY=4200 KG/CM2 GRADO 60 EN COLUMNAS",
+   "wbs": "1.6.3.3.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "name": "ENCOFRADO Y DESENCOFRADO NORMAL EN COLUMNAS",
+   "wbs": "1.6.3.3.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "name": "CONCRETO EN COLUMNAS F'C=210 KG/CM2",
+   "wbs": "1.6.3.3.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "name": "ACERO FY=4200 KG/CM2 GRADO 60 EN VIGAS",
+   "wbs": "1.6.3.4.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "name": "ENCOFRADO Y DESENCOFRADO NORMAL EN VIGAS",
+   "wbs": "1.6.3.4.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "name": "CONCRETO EN VIGAS F'C=210 KG/CM2",
+   "wbs": "1.6.3.4.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "name": "APOYO PARA ANCLAJE DE TIJERAL",
+   "wbs": "1.6.3.5.1.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "name": "TIJERAL T-1 L:9.30 M, MODULOS TIPOS",
+   "wbs": "1.6.3.5.1.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "name": "CORREAS DE MADERA 2 1/2\" X3\"",
+   "wbs": "1.6.3.5.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "name": "COBERTURA CON CALAMINON TIPO T DE 50MM",
+   "wbs": "1.6.3.5.2.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "name": "CUMBRERA DENTADA CALAMINON",
+   "wbs": "1.6.3.5.2.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "name": "MUROS DE LADRILLO KK DE ARCILLA DE CABEZA CON MEZCLA 1:4 X 1.5 CM",
+   "wbs": "1.6.3.6.1",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 74,
+   "name": "MUROS DE LADRILLO KK DE ARCILLA DE SOGA CON MEZCLA 1:4 X 1.5 CM",
+   "wbs": "1.6.3.6.2",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "name": "REFUERZO DE AMARRE EN MUROS",
+   "wbs": "1.6.3.6.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "name": "TARRAJEO DEL TIPO RAYADO O PRIMARIO CON MORTERO 1:5",
+   "wbs": "1.6.3.7.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "name": "TARRAJEO EN MUROS INTERIORES",
+   "wbs": "1.6.3.7.1.2",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "name": "TARRAJEO EN MUROS EXTERIORES",
+   "wbs": "1.6.3.7.1.3",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "name": "TARRAJEO DE SUPERFICIE DE COLUMNAS",
+   "wbs": "1.6.3.7.2.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 84,
+   "name": "TARRAJEO DE SUPERFICIES DE VIGAS",
+   "wbs": "1.6.3.7.3.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 86,
+   "name": "VESTIDURA DE DERRAMES EN PUERTAS, VENTANAS Y VANOS",
+   "wbs": "1.6.3.8.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 87,
+   "name": "BRU\u00d1AS",
+   "wbs": "1.6.3.8.2",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 89,
+   "name": "CIELORASOS CON BALDOSAS ACUSTICAS",
+   "wbs": "1.6.4.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 90,
+   "name": "FRISO DE MADERA 6\"X 1/2\"",
+   "wbs": "1.6.4.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "name": "FALSO PISO DE 4\" DE CONCRETO 1:10",
+   "wbs": "1.6.5.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "name": "PISO DE CERAMICO 40CM X 40CM ANTIDESLIZANTE",
+   "wbs": "1.6.5.1.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "name": "PISO DE CEMENTO FROTACHADO COLOREADO",
+   "wbs": "1.6.5.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "name": "EMPEDRADO PARA VEREDAS",
+   "wbs": "1.6.5.2.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 98,
+   "name": "ENCOFRADO Y DESENCOFRADO EN VEREDAS",
+   "wbs": "1.6.5.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 99,
+   "name": "VEREDAS DE CEMENTO-HORMIGON E=6\"PASTA 1:5",
+   "wbs": "1.6.5.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 100,
+   "name": "PISOS DE CEMENTO FROTACHADO",
+   "wbs": "1.6.5.2.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "name": "BRU\u00d1AS",
+   "wbs": "1.6.5.2.5",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 102,
+   "name": "JUNTAS ASFALTICAS.",
+   "wbs": "1.6.5.2.6",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "name": "CONTRAZOCALO DE CEMENTO E=2CM H=40 CM (EXTERIORES)",
+   "wbs": "1.6.6.1.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 106,
+   "name": "CONTRAZOCALO DE MADERA AGUANO DE 3/4\" X 3\" RODON 3/4\"",
+   "wbs": "1.6.6.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 108,
+   "name": "ZOCALO DE CERAMICA DE COLOR DE 1ERA",
+   "wbs": "1.6.6.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 110,
+   "name": "PUERTAS DE MADERA TABLEROS REBAJADOS",
+   "wbs": "1.6.7.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 112,
+   "name": "VENTANA DE TUBO DE ACERO NEGRO CON PERFIL DE 3/4\" X 3/4\"",
+   "wbs": "1.6.8.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 115,
+   "name": "BISAGRA CAPUCHINA DE 3 1/2\" X 3 1/2\"",
+   "wbs": "1.6.9.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 117,
+   "name": "CERRADURA PARA PUERTA PRINCIPAL PESADA",
+   "wbs": "1.6.9.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 118,
+   "name": "MANIJA DE BRONCE PARA PUERTAS",
+   "wbs": "1.6.9.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 120,
+   "name": "VIDRIOS SEMIDOBLES PROVISION Y COLOCACION EN VENTANAS",
+   "wbs": "1.6.10.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 122,
+   "name": "PINTURA EN MUROS INTERIORES Y EXTERIORES CON LATEX DOS MANOS",
+   "wbs": "1.6.11.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 123,
+   "name": "PINTURA EN MUROS EXTERIORES",
+   "wbs": "1.6.11.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 124,
+   "name": "PINTURA EN VIGAS Y COLUMNAS CON LATEX 2 MANOS",
+   "wbs": "1.6.11.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 125,
+   "name": "PINTURA EN CIELORASOS CON LATEX 2 MANOS",
+   "wbs": "1.6.11.4",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 126,
+   "name": "PINTURA EN PUERTAS CON BARNIZ 2 MANOS",
+   "wbs": "1.6.11.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 127,
+   "name": "PINTURA EN VENTANAS METALICAS",
+   "wbs": "1.6.11.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 128,
+   "name": "PINTURA DE CONTRAZOCALO CON BARNIZ",
+   "wbs": "1.6.11.7",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 130,
+   "name": "SALIDA DE PVC SAL PARA DESAGUE  DE 2\"",
+   "wbs": "1.6.12.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 131,
+   "name": "SALIDA DE PVC SAL PARA DESAGUE  DE 4\"",
+   "wbs": "1.6.12.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 132,
+   "name": "TUBERIA DE PVC SAL 2\"",
+   "wbs": "1.6.12.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 133,
+   "name": "TUBERIA DE PVC SAL 4\"",
+   "wbs": "1.6.12.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 134,
+   "name": "SUMIDERO DE 2\"",
+   "wbs": "1.6.12.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 135,
+   "name": "REGISTROS DE BRONCE DE 4\"",
+   "wbs": "1.6.12.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 136,
+   "name": "TRAMPA \"P\" DE PVC SAL PARA DESAGUE DE 2\"",
+   "wbs": "1.6.12.7",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 137,
+   "name": "YEE DE PVC SAL SP RAMAL CON REDUSSION DE 4-2\"",
+   "wbs": "1.6.12.8",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 138,
+   "name": "CODO PVC SAL 2X90",
+   "wbs": "1.6.12.9",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 139,
+   "name": "CODO PVC SAL 4X45",
+   "wbs": "1.6.12.10",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 140,
+   "name": "CAJA DE REGISTRO DE ALBA\u00d1ILERIA DE 10\" X 20\"  CON TAPA DE FIERRO FUNDIDO",
+   "wbs": "1.6.12.11",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 142,
+   "name": "LAVADERO DE COCINA DE ACERO INOXIDABLE",
+   "wbs": "1.6.13.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 144,
+   "name": "SALIDA DE AGUA FRIA CON TUBERIA DE PVC-SAP 1/2\"",
+   "wbs": "1.6.14.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 145,
+   "name": "RED DE DISTRIBUCION TUBERIA DE 1/2\" PVC-SAP",
+   "wbs": "1.6.14.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 146,
+   "name": "VALVULA COMPUERTA  DE BRONCE 1/2\"",
+   "wbs": "1.6.14.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 148,
+   "name": "CANALETA PARA AGUAS PLUVIALES DE F\u00baG\u00ba",
+   "wbs": "1.6.15.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 149,
+   "name": "BAJADA DE AGUA PLUVIALES TUBERIA PVC SAP DIAM 4\"",
+   "wbs": "1.6.15.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 150,
+   "name": "ENCOFRADO Y DESENCOFRADO NORMAL",
+   "wbs": "1.6.15.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 151,
+   "name": "CONCRETO f'c=140 kg/cm2, PROTESSION DE TUBERIA",
+   "wbs": "1.6.15.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 152,
+   "name": "TARRAJEO EN MUROS EXTERIORES",
+   "wbs": "1.6.15.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 153,
+   "name": "ABRAZADERA DE PLATINA DE 1\"X1/8\"",
+   "wbs": "1.6.15.6",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 155,
+   "name": "SALIDA PARA CENTROS DE LUZ",
+   "wbs": "1.6.16.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 156,
+   "name": "SALIDA PARA INTERRUPTORES SIMPLES",
+   "wbs": "1.6.16.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 157,
+   "name": "SALIDA PARA INTERRUPTORES DOBLES",
+   "wbs": "1.6.16.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 158,
+   "name": "SALIDA PARA TOMACORRIENTE BIPOLAR DOBLE CON PVC",
+   "wbs": "1.6.16.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 159,
+   "name": "TABLERO GENERAL",
+   "wbs": "1.6.16.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 160,
+   "name": "TABLEROS DISTRIBUCION INCLUYE CUCHILLA DE 5 CIRCUITOS",
+   "wbs": "1.6.16.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 161,
+   "name": "ARTEFACTO 2X40W PARA FLUORESCENTE RECTO INCLUYE EQUIPO Y PANTALLA",
+   "wbs": "1.6.16.7",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 162,
+   "name": "ARTEFACTO 1X32W PARA FLUORESCENTE CIRCULAR INCLUYE EQUIPO Y PANTALLA",
+   "wbs": "1.6.16.8",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 163,
+   "name": "INSTALACION PUESTA A TIERRA",
+   "wbs": "1.6.16.9",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 165,
+   "name": "PLACA RECORDATORIO",
+   "wbs": "1.6.17.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 3,
+   "succ": 4,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 16,
+   "lag": -1
+  },
+  {
+   "pred": 3,
+   "succ": 17,
+   "lag": -1
+  },
+  {
+   "pred": 3,
+   "succ": 18,
+   "lag": -1
+  },
+  {
+   "pred": 4,
+   "succ": 5,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 8,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 9,
+   "lag": -2
+  },
+  {
+   "pred": 9,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 13,
+   "lag": -3
+  },
+  {
+   "pred": 13,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 22,
+   "lag": -3
+  },
+  {
+   "pred": 22,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 31,
+   "lag": -2
+  },
+  {
+   "pred": 31,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 36,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 42,
+   "lag": 0
+  },
+  {
+   "pred": 42,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 44,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 44,
+   "succ": 50,
+   "lag": -7
+  },
+  {
+   "pred": 46,
+   "succ": 47,
+   "lag": 0
+  },
+  {
+   "pred": 50,
+   "succ": 51,
+   "lag": -1
+  },
+  {
+   "pred": 51,
+   "succ": 54,
+   "lag": 0
+  },
+  {
+   "pred": 54,
+   "succ": 53,
+   "lag": 0
+  },
+  {
+   "pred": 54,
+   "succ": 55,
+   "lag": 0
+  },
+  {
+   "pred": 55,
+   "succ": 57,
+   "lag": 0
+  },
+  {
+   "pred": 57,
+   "succ": 58,
+   "lag": -6
+  },
+  {
+   "pred": 58,
+   "succ": 59,
+   "lag": -2
+  },
+  {
+   "pred": 59,
+   "succ": 61,
+   "lag": 0
+  },
+  {
+   "pred": 61,
+   "succ": 62,
+   "lag": -5
+  },
+  {
+   "pred": 62,
+   "succ": 63,
+   "lag": 0
+  },
+  {
+   "pred": 63,
+   "succ": 66,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 67,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 68,
+   "lag": 0
+  },
+  {
+   "pred": 68,
+   "succ": 70,
+   "lag": 0
+  },
+  {
+   "pred": 70,
+   "succ": 71,
+   "lag": 0
+  },
+  {
+   "pred": 71,
+   "succ": 73,
+   "lag": 0
+  },
+  {
+   "pred": 73,
+   "succ": 74,
+   "lag": -8
+  },
+  {
+   "pred": 74,
+   "succ": 75,
+   "lag": 0
+  },
+  {
+   "pred": 75,
+   "succ": 78,
+   "lag": 0
+  },
+  {
+   "pred": 78,
+   "succ": 79,
+   "lag": 0
+  },
+  {
+   "pred": 79,
+   "succ": 80,
+   "lag": -5
+  },
+  {
+   "pred": 80,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 82,
+   "succ": 86,
+   "lag": 0
+  },
+  {
+   "pred": 86,
+   "succ": 84,
+   "lag": -6
+  },
+  {
+   "pred": 86,
+   "succ": 87,
+   "lag": -6
+  },
+  {
+   "pred": 86,
+   "succ": 89,
+   "lag": 0
+  },
+  {
+   "pred": 86,
+   "succ": 97,
+   "lag": 0
+  },
+  {
+   "pred": 87,
+   "succ": 93,
+   "lag": 0
+  },
+  {
+   "pred": 89,
+   "succ": 90,
+   "lag": -6
+  },
+  {
+   "pred": 93,
+   "succ": 94,
+   "lag": 0
+  },
+  {
+   "pred": 94,
+   "succ": 95,
+   "lag": -4
+  },
+  {
+   "pred": 95,
+   "succ": 101,
+   "lag": 0
+  },
+  {
+   "pred": 97,
+   "succ": 98,
+   "lag": -2
+  },
+  {
+   "pred": 98,
+   "succ": 99,
+   "lag": 0
+  },
+  {
+   "pred": 98,
+   "succ": 100,
+   "lag": -1
+  },
+  {
+   "pred": 101,
+   "succ": 102,
+   "lag": -2
+  },
+  {
+   "pred": 102,
+   "succ": 105,
+   "lag": 0
+  },
+  {
+   "pred": 102,
+   "succ": 108,
+   "lag": 0
+  },
+  {
+   "pred": 105,
+   "succ": 106,
+   "lag": 0
+  },
+  {
+   "pred": 105,
+   "succ": 110,
+   "lag": 0
+  },
+  {
+   "pred": 106,
+   "succ": 115,
+   "lag": 0
+  },
+  {
+   "pred": 108,
+   "succ": 118,
+   "lag": 0
+  },
+  {
+   "pred": 108,
+   "succ": 127,
+   "lag": 0
+  },
+  {
+   "pred": 110,
+   "succ": 112,
+   "lag": -3
+  },
+  {
+   "pred": 110,
+   "succ": 117,
+   "lag": 0
+  },
+  {
+   "pred": 112,
+   "succ": 126,
+   "lag": 0
+  },
+  {
+   "pred": 117,
+   "succ": 124,
+   "lag": 0
+  },
+  {
+   "pred": 118,
+   "succ": 120,
+   "lag": 0
+  },
+  {
+   "pred": 120,
+   "succ": 122,
+   "lag": 0
+  },
+  {
+   "pred": 122,
+   "succ": 123,
+   "lag": -6
+  },
+  {
+   "pred": 123,
+   "succ": 125,
+   "lag": -4
+  },
+  {
+   "pred": 124,
+   "succ": 130,
+   "lag": 0
+  },
+  {
+   "pred": 127,
+   "succ": 128,
+   "lag": -1
+  },
+  {
+   "pred": 130,
+   "succ": 131,
+   "lag": 0
+  },
+  {
+   "pred": 130,
+   "succ": 134,
+   "lag": 0
+  },
+  {
+   "pred": 131,
+   "succ": 132,
+   "lag": 0
+  },
+  {
+   "pred": 131,
+   "succ": 133,
+   "lag": 0
+  },
+  {
+   "pred": 132,
+   "succ": 136,
+   "lag": 0
+  },
+  {
+   "pred": 132,
+   "succ": 140,
+   "lag": 0
+  },
+  {
+   "pred": 133,
+   "succ": 135,
+   "lag": 0
+  },
+  {
+   "pred": 134,
+   "succ": 139,
+   "lag": 0
+  },
+  {
+   "pred": 135,
+   "succ": 137,
+   "lag": 0
+  },
+  {
+   "pred": 135,
+   "succ": 146,
+   "lag": 0
+  },
+  {
+   "pred": 136,
+   "succ": 138,
+   "lag": 0
+  },
+  {
+   "pred": 137,
+   "succ": 144,
+   "lag": 0
+  },
+  {
+   "pred": 139,
+   "succ": 142,
+   "lag": 0
+  },
+  {
+   "pred": 139,
+   "succ": 150,
+   "lag": 0
+  },
+  {
+   "pred": 144,
+   "succ": 145,
+   "lag": -2
+  },
+  {
+   "pred": 144,
+   "succ": 148,
+   "lag": 0
+  },
+  {
+   "pred": 148,
+   "succ": 149,
+   "lag": -2
+  },
+  {
+   "pred": 148,
+   "succ": 152,
+   "lag": 0
+  },
+  {
+   "pred": 150,
+   "succ": 151,
+   "lag": 0
+  },
+  {
+   "pred": 151,
+   "succ": 158,
+   "lag": 0
+  },
+  {
+   "pred": 151,
+   "succ": 162,
+   "lag": 0
+  },
+  {
+   "pred": 152,
+   "succ": 153,
+   "lag": 0
+  },
+  {
+   "pred": 152,
+   "succ": 157,
+   "lag": 0
+  },
+  {
+   "pred": 153,
+   "succ": 155,
+   "lag": -6
+  },
+  {
+   "pred": 155,
+   "succ": 156,
+   "lag": 0
+  },
+  {
+   "pred": 155,
+   "succ": 160,
+   "lag": 0
+  },
+  {
+   "pred": 157,
+   "succ": 161,
+   "lag": 0
+  },
+  {
+   "pred": 158,
+   "succ": 159,
+   "lag": 0
+  },
+  {
+   "pred": 158,
+   "succ": 163,
+   "lag": 0
+  },
+  {
+   "pred": 163,
+   "succ": 165,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2025-10 temporary facilities.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

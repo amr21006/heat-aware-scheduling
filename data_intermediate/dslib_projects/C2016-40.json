@@ -1,0 +1,1744 @@
+{
+ "code": "C2016-40",
+ "name": "Artes Project (1)",
+ "sector": "Construction (commercial building)",
+ "n_activities": 100,
+ "resources": [
+  {
+   "name": "work hours/day",
+   "capacity": 32
+  }
+ ],
+ "activities": [
+  {
+   "id": 1,
+   "name": "Funderingen TK",
+   "wbs": "1.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 14
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Montage TK",
+   "wbs": "1.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 19
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Voorbereidende werken afbraak bestaand gebouw",
+   "wbs": "1.3",
+   "duration": 18,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 30
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Afbraak bestaand gebouw",
+   "wbs": "1.4",
+   "duration": 14,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 27
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Grondwerk beton",
+   "wbs": "1.5",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Riolering",
+   "wbs": "1.6",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 8
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Wapening",
+   "wbs": "1.7",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 7
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Grondwerk beton",
+   "wbs": "1.8",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Riolering",
+   "wbs": "1.9",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Wapening",
+   "wbs": "1.10",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Grondwerk beton",
+   "wbs": "1.11",
+   "duration": 11,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Riolering",
+   "wbs": "1.12",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Waterbehandeling",
+   "wbs": "1.13",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Wapening",
+   "wbs": "1.14",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Grondwerk beton",
+   "wbs": "1.15",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 8
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Riolering in opbouw",
+   "wbs": "1.16",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 8
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Wapening",
+   "wbs": "1.17",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 8
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Kolommen",
+   "wbs": "1.18",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Balken GLV",
+   "wbs": "1.19",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Metselwerk GLV",
+   "wbs": "1.20",
+   "duration": 16,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "Gewelven GLV + Vloeren ter plaatse",
+   "wbs": "1.21",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "Kolommen",
+   "wbs": "1.22",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "Balken GLV",
+   "wbs": "1.23",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Wanden",
+   "wbs": "1.24",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "Metselwerk GLV",
+   "wbs": "1.25",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Gewelven GLV + Vloeren ter plaatse",
+   "wbs": "1.26",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Kolommen",
+   "wbs": "1.27",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Balken GLV",
+   "wbs": "1.28",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Buffer",
+   "wbs": "1.29",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "wanden groot bad",
+   "wbs": "1.30",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "afdek klein bad",
+   "wbs": "1.31",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "wanden klein bad",
+   "wbs": "1.32",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 9
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "Metselwerk GLV",
+   "wbs": "1.33",
+   "duration": 11,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "Afdek GLV (filters edm binnen!)",
+   "wbs": "1.34",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 9
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "Kolommen",
+   "wbs": "1.35",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "Balken GLV",
+   "wbs": "1.36",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "name": "Wanden",
+   "wbs": "1.37",
+   "duration": 16,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "Metselwerk GLV",
+   "wbs": "1.38",
+   "duration": 18,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "Gewelven GLV + vloer ter plaatse",
+   "wbs": "1.39",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "kolommen",
+   "wbs": "1.40",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "Balken +1",
+   "wbs": "1.41",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "Metselwerk +1 (niet dragend)",
+   "wbs": "1.42",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "name": "Gelammeleerde liggers +1",
+   "wbs": "1.43",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "name": "Houten kanaalplaten",
+   "wbs": "1.44",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "Dampscherm",
+   "wbs": "1.45",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 7
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "kolommen",
+   "wbs": "1.46",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 10
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "name": "Balken +1",
+   "wbs": "1.47",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 7
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "Metselwerk +1 (niet dragend)",
+   "wbs": "1.48",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 7
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "name": "Gelammeleerde liggers +1",
+   "wbs": "1.49",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 7
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "name": "Houten Kanaalplaten",
+   "wbs": "1.50",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 18
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "name": "Dampscherm",
+   "wbs": "1.51",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 7
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "name": "Balken +1",
+   "wbs": "1.52",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 7
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "name": "Metselwerk +1 (niet dragend)",
+   "wbs": "1.53",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 7
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "name": "tribune",
+   "wbs": "1.54",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 7
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "name": "Gelammeleerde liggers +1",
+   "wbs": "1.55",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "name": "Dampscherm",
+   "wbs": "1.56",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "name": "Balken +1",
+   "wbs": "1.57",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "name": "Metselwerk +1 (niet dragend)",
+   "wbs": "1.58",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "name": "Gelammeleerde liggers +1",
+   "wbs": "1.59",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "name": "Houten kanaalplaten",
+   "wbs": "1.60",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "name": "Dampscherm",
+   "wbs": "1.61",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "name": "kolommen",
+   "wbs": "1.62",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 10
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "name": "Balken +2",
+   "wbs": "1.63",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 11
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "name": "Metselwerk +2 (niet dragend)",
+   "wbs": "1.64",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 7
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "name": "Gelammeleerde liggers +2",
+   "wbs": "1.65",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 8
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "name": "Houten kanaalplaten",
+   "wbs": "1.66",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 7
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "name": "Dampscherm",
+   "wbs": "1.67",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 7
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "name": "Betonwanden",
+   "wbs": "1.68",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 12
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "name": "Gewelven +2",
+   "wbs": "1.69",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 9
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "name": "Balken +2",
+   "wbs": "1.70",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 16
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "name": "Metselwerk +2 (niet dragend)",
+   "wbs": "1.71",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "name": "Gelammeleerde liggers +2",
+   "wbs": "1.72",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 11
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "name": "Houten kanaalplaten",
+   "wbs": "1.73",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 11
+    }
+   ]
+  },
+  {
+   "id": 74,
+   "name": "Dampscherm",
+   "wbs": "1.74",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 11
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "name": "Dakdichting Afdek +1",
+   "wbs": "1.75",
+   "duration": 25,
+   "demands": []
+  },
+  {
+   "id": 76,
+   "name": "Dakdichting Afdek +2",
+   "wbs": "1.76",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 77,
+   "name": "Fase 1",
+   "wbs": "1.77",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 9
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "name": "Fase 2",
+   "wbs": "1.78",
+   "duration": 12,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 10
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "name": "Fase 3",
+   "wbs": "1.79",
+   "duration": 25,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 32
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "name": "Fase 4",
+   "wbs": "1.80",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "name": "Fase 1",
+   "wbs": "1.81",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 7
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "name": "Fase 2",
+   "wbs": "1.82",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 83,
+   "name": "Fase 3",
+   "wbs": "1.83",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 25
+    }
+   ]
+  },
+  {
+   "id": 84,
+   "name": "BA Fase 1",
+   "wbs": "1.84",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 85,
+   "name": "BA Fase 2",
+   "wbs": "1.85",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 86,
+   "name": "BA fase 3",
+   "wbs": "1.86",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 87,
+   "name": "BA fase 4",
+   "wbs": "1.87",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 88,
+   "name": "O&s Fase 1",
+   "wbs": "1.88",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 89,
+   "name": "O&s Fase 2",
+   "wbs": "1.89",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 90,
+   "name": "O&s Fase 3",
+   "wbs": "1.90",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 91,
+   "name": "O&s Fase 4",
+   "wbs": "1.91",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 92,
+   "name": "PUR",
+   "wbs": "1.92",
+   "duration": 5,
+   "demands": []
+  },
+  {
+   "id": 93,
+   "name": "Chapewerken",
+   "wbs": "1.93",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 94,
+   "name": "Plakwerken",
+   "wbs": "1.94",
+   "duration": 20,
+   "demands": []
+  },
+  {
+   "id": 95,
+   "name": "Waterdichtingswerken",
+   "wbs": "1.95",
+   "duration": 20,
+   "demands": []
+  },
+  {
+   "id": 96,
+   "name": "Tegelwerken",
+   "wbs": "1.96",
+   "duration": 70,
+   "demands": []
+  },
+  {
+   "id": 97,
+   "name": "Afwerking droog",
+   "wbs": "1.97",
+   "duration": 70,
+   "demands": []
+  },
+  {
+   "id": 98,
+   "name": "Technieken",
+   "wbs": "1.98",
+   "duration": 225,
+   "demands": []
+  },
+  {
+   "id": 99,
+   "name": "Buitenaanleg",
+   "wbs": "1.99",
+   "duration": 30,
+   "demands": []
+  },
+  {
+   "id": 100,
+   "name": "Oplevering",
+   "wbs": "1.100",
+   "duration": 11,
+   "demands": [
+    {
+     "resource": "work hours/day",
+     "units": 32
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 1,
+   "succ": 2,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 7,
+   "lag": -8
+  },
+  {
+   "pred": 5,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 5,
+   "lag": -5
+  },
+  {
+   "pred": 8,
+   "succ": 10,
+   "lag": -6
+  },
+  {
+   "pred": 8,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 8,
+   "lag": -1
+  },
+  {
+   "pred": 9,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 14,
+   "lag": -10
+  },
+  {
+   "pred": 11,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 13,
+   "lag": -6
+  },
+  {
+   "pred": 15,
+   "succ": 16,
+   "lag": -10
+  },
+  {
+   "pred": 15,
+   "succ": 17,
+   "lag": -8
+  },
+  {
+   "pred": 15,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 20,
+   "lag": -7
+  },
+  {
+   "pred": 18,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 98,
+   "lag": -16
+  },
+  {
+   "pred": 21,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 25,
+   "lag": -5
+  },
+  {
+   "pred": 22,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 33,
+   "lag": -3
+  },
+  {
+   "pred": 27,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 31,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 29,
+   "lag": -20
+  },
+  {
+   "pred": 30,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 52,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 38,
+   "lag": -8
+  },
+  {
+   "pred": 35,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 36,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 37,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 57,
+   "lag": 0
+  },
+  {
+   "pred": 40,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 41,
+   "succ": 42,
+   "lag": -5
+  },
+  {
+   "pred": 41,
+   "succ": 43,
+   "lag": 0
+  },
+  {
+   "pred": 43,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 43,
+   "succ": 59,
+   "lag": -5
+  },
+  {
+   "pred": 44,
+   "succ": 45,
+   "lag": -1
+  },
+  {
+   "pred": 45,
+   "succ": 62,
+   "lag": 0
+  },
+  {
+   "pred": 45,
+   "succ": 75,
+   "lag": 0
+  },
+  {
+   "pred": 45,
+   "succ": 84,
+   "lag": 0
+  },
+  {
+   "pred": 46,
+   "succ": 47,
+   "lag": 0
+  },
+  {
+   "pred": 47,
+   "succ": 48,
+   "lag": 0
+  },
+  {
+   "pred": 47,
+   "succ": 49,
+   "lag": 0
+  },
+  {
+   "pred": 49,
+   "succ": 50,
+   "lag": 0
+  },
+  {
+   "pred": 50,
+   "succ": 51,
+   "lag": -2
+  },
+  {
+   "pred": 51,
+   "succ": 68,
+   "lag": 0
+  },
+  {
+   "pred": 51,
+   "succ": 75,
+   "lag": 0
+  },
+  {
+   "pred": 51,
+   "succ": 85,
+   "lag": 0
+  },
+  {
+   "pred": 52,
+   "succ": 53,
+   "lag": -5
+  },
+  {
+   "pred": 52,
+   "succ": 54,
+   "lag": -5
+  },
+  {
+   "pred": 54,
+   "succ": 55,
+   "lag": 0
+  },
+  {
+   "pred": 55,
+   "succ": 56,
+   "lag": -3
+  },
+  {
+   "pred": 56,
+   "succ": 70,
+   "lag": 0
+  },
+  {
+   "pred": 56,
+   "succ": 71,
+   "lag": -3
+  },
+  {
+   "pred": 56,
+   "succ": 75,
+   "lag": 0
+  },
+  {
+   "pred": 56,
+   "succ": 86,
+   "lag": 0
+  },
+  {
+   "pred": 57,
+   "succ": 58,
+   "lag": -2
+  },
+  {
+   "pred": 59,
+   "succ": 60,
+   "lag": 0
+  },
+  {
+   "pred": 60,
+   "succ": 61,
+   "lag": -1
+  },
+  {
+   "pred": 61,
+   "succ": 75,
+   "lag": 0
+  },
+  {
+   "pred": 61,
+   "succ": 87,
+   "lag": 0
+  },
+  {
+   "pred": 62,
+   "succ": 63,
+   "lag": 0
+  },
+  {
+   "pred": 63,
+   "succ": 64,
+   "lag": 0
+  },
+  {
+   "pred": 63,
+   "succ": 65,
+   "lag": 0
+  },
+  {
+   "pred": 65,
+   "succ": 66,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 67,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 76,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 81,
+   "lag": 0
+  },
+  {
+   "pred": 68,
+   "succ": 69,
+   "lag": 0
+  },
+  {
+   "pred": 69,
+   "succ": 76,
+   "lag": 0
+  },
+  {
+   "pred": 69,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 70,
+   "succ": 72,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 73,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 74,
+   "lag": -2
+  },
+  {
+   "pred": 74,
+   "succ": 76,
+   "lag": 0
+  },
+  {
+   "pred": 74,
+   "succ": 83,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 88,
+   "lag": 0
+  },
+  {
+   "pred": 78,
+   "succ": 89,
+   "lag": 0
+  },
+  {
+   "pred": 79,
+   "succ": 90,
+   "lag": 0
+  },
+  {
+   "pred": 79,
+   "succ": 92,
+   "lag": 10
+  },
+  {
+   "pred": 80,
+   "succ": 91,
+   "lag": 0
+  },
+  {
+   "pred": 84,
+   "succ": 77,
+   "lag": 0
+  },
+  {
+   "pred": 84,
+   "succ": 85,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 78,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 86,
+   "lag": 0
+  },
+  {
+   "pred": 86,
+   "succ": 79,
+   "lag": 0
+  },
+  {
+   "pred": 87,
+   "succ": 80,
+   "lag": 0
+  },
+  {
+   "pred": 87,
+   "succ": 84,
+   "lag": 0
+  },
+  {
+   "pred": 92,
+   "succ": 93,
+   "lag": 0
+  },
+  {
+   "pred": 93,
+   "succ": 94,
+   "lag": -5
+  },
+  {
+   "pred": 93,
+   "succ": 95,
+   "lag": 0
+  },
+  {
+   "pred": 95,
+   "succ": 96,
+   "lag": -15
+  },
+  {
+   "pred": 96,
+   "succ": 97,
+   "lag": -50
+  },
+  {
+   "pred": 97,
+   "succ": 100,
+   "lag": 0
+  },
+  {
+   "pred": 98,
+   "succ": 99,
+   "lag": -30
+  },
+  {
+   "pred": 98,
+   "succ": 100,
+   "lag": 0
+  },
+  {
+   "pred": 99,
+   "succ": 100,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2016-40 Artes project (1).xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

@@ -1,0 +1,1880 @@
+{
+ "code": "C2012-04",
+ "name": "Asti-Cuneo Highway",
+ "sector": "Construction (civil)",
+ "n_activities": 67,
+ "resources": [
+  {
+   "name": "Bulldozer D8T",
+   "capacity": 1
+  },
+  {
+   "name": "Cold Milling Machine",
+   "capacity": 1
+  },
+  {
+   "name": "Concrete Mixer Truck",
+   "capacity": 1
+  },
+  {
+   "name": "Crane",
+   "capacity": 1
+  },
+  {
+   "name": "Crawler Excavator",
+   "capacity": 2
+  },
+  {
+   "name": "Drilling Rid",
+   "capacity": 1
+  },
+  {
+   "name": "Labourers",
+   "capacity": 10
+  },
+  {
+   "name": "Line Striper Machine",
+   "capacity": 1
+  },
+  {
+   "name": "Paler",
+   "capacity": 1
+  },
+  {
+   "name": "Pile Driver",
+   "capacity": 1
+  },
+  {
+   "name": "Pruning Machine",
+   "capacity": 1
+  },
+  {
+   "name": "Sheepfoot rolles",
+   "capacity": 2
+  },
+  {
+   "name": "Smooth Roller",
+   "capacity": 2
+  },
+  {
+   "name": "Tank Truck",
+   "capacity": 1
+  },
+  {
+   "name": "Truck IVECO Trakker",
+   "capacity": 6
+  },
+  {
+   "name": "Wheel Loader",
+   "capacity": 2
+  }
+ ],
+ "activities": [
+  {
+   "id": 1,
+   "name": "Pegging and fence",
+   "wbs": "1.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 2
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Clearing site",
+   "wbs": "1.1.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 3
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Levelling ground",
+   "wbs": "1.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Bulldozer D8T",
+     "units": 1
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 1
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Containers placement",
+   "wbs": "1.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 2
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Connection to network service",
+   "wbs": "1.1.5",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Pegging road",
+   "wbs": "1.1.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 2
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Alternative road system",
+   "wbs": "1.1.7",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 7
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 5
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 2
+    },
+    {
+     "resource": "Sheepfoot rolles",
+     "units": 1
+    },
+    {
+     "resource": "Concrete Mixer Truck",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Demolition",
+   "wbs": "1.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 2
+    },
+    {
+     "resource": "Crawler Excavator",
+     "units": 1
+    },
+    {
+     "resource": "Paler",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Clearing subbase and topsoil removal",
+   "wbs": "1.2.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Bulldozer D8T",
+     "units": 1
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Manhole covers",
+   "wbs": "1.2.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Placement formworks and concrete casting",
+   "wbs": "1.2.3.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Concrete Mixer Truck",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Culverts concrete aging",
+   "wbs": "1.2.3.2.2",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 19,
+   "name": "Road embankments",
+   "wbs": "1.2.4.1",
+   "duration": 17,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 10
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 6
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 2
+    },
+    {
+     "resource": "Sheepfoot rolles",
+     "units": 1
+    },
+    {
+     "resource": "Concrete Mixer Truck",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Sound barriers",
+   "wbs": "1.2.4.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Digging",
+   "wbs": "1.2.4.3.1",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 9
+    },
+    {
+     "resource": "Crawler Excavator",
+     "units": 2
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 6
+    },
+    {
+     "resource": "Sheepfoot rolles",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "Longitudinal drains (ditches)",
+   "wbs": "1.2.5.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    },
+    {
+     "resource": "Crawler Excavator",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Plinths excavation",
+   "wbs": "1.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 3
+    },
+    {
+     "resource": "Crawler Excavator",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "Pouring piles frameworks and drilling",
+   "wbs": "1.3.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 6
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Drilling Rid",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 1
+    },
+    {
+     "resource": "Concrete Mixer Truck",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Piles concrete aging",
+   "wbs": "1.3.3",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 27,
+   "name": "Making of plinths (pouring frameworks and concrete casting)",
+   "wbs": "1.3.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Concrete Mixer Truck",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Plinths concrete aging",
+   "wbs": "1.3.5",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 29,
+   "name": "Making of pylons (pouring frameworks and concrete casting)",
+   "wbs": "1.3.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Concrete Mixer Truck",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "Pylons concrete aging",
+   "wbs": "1.3.7",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 31,
+   "name": "Making of shoulders (pouring frameworks and concrete casting)",
+   "wbs": "1.3.8",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Concrete Mixer Truck",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "Shoulders concrete aging",
+   "wbs": "1.3.9",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 33,
+   "name": "Pouring prefabricated beam",
+   "wbs": "1.3.10",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "Making of slab (pouring frameworks and concrete casting)",
+   "wbs": "1.3.11",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 5
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Concrete Mixer Truck",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "Slab's concrete aging",
+   "wbs": "1.3.12",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 36,
+   "name": "Making of embankments",
+   "wbs": "1.3.13",
+   "duration": 12,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 5
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 3
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 1
+    },
+    {
+     "resource": "Sheepfoot rolles",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "Demolitions",
+   "wbs": "1.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 2
+    },
+    {
+     "resource": "Cold Milling Machine",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "Topsoil removal and clearing subbase",
+   "wbs": "1.4.2",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 1
+    },
+    {
+     "resource": "Bulldozer D8T",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "Embankments",
+   "wbs": "1.4.3.1",
+   "duration": 19,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 10
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 6
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 2
+    },
+    {
+     "resource": "Sheepfoot rolles",
+     "units": 1
+    },
+    {
+     "resource": "Concrete Mixer Truck",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "Sound barriers",
+   "wbs": "1.4.3.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "name": "Manhole covers",
+   "wbs": "1.4.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 2
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "name": "Catch water drains",
+   "wbs": "1.4.5.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 2
+    },
+    {
+     "resource": "Crawler Excavator",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "name": "Retaining walls (frameworks and concrete casting)",
+   "wbs": "1.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 5
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Concrete Mixer Truck",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "name": "Retaining walls concrete aging",
+   "wbs": "1.5.2",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 68,
+   "name": "Pouring prefabricated beams",
+   "wbs": "1.5.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "name": "Making of slabs (frameworks pouring and concrete casting)",
+   "wbs": "1.5.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 5
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "name": "Slabs concrete aging",
+   "wbs": "1.5.5",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 82,
+   "name": "Demolitions",
+   "wbs": "1.6.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 2
+    },
+    {
+     "resource": "Cold Milling Machine",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 83,
+   "name": "Topsoil removal and subbase clearing",
+   "wbs": "1.6.2",
+   "duration": 12,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 2
+    },
+    {
+     "resource": "Bulldozer D8T",
+     "units": 1
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "name": "Embankments",
+   "wbs": "1.6.3.1",
+   "duration": 42,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 10
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 6
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 2
+    },
+    {
+     "resource": "Sheepfoot rolles",
+     "units": 1
+    },
+    {
+     "resource": "Tank Truck",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "name": "Terracing",
+   "wbs": "1.6.3.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Crawler Excavator",
+     "units": 1
+    },
+    {
+     "resource": "Sheepfoot rolles",
+     "units": 1
+    },
+    {
+     "resource": "Tank Truck",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "name": "Carrying remaining soil",
+   "wbs": "1.6.3.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 10
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 6
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 2
+    },
+    {
+     "resource": "Sheepfoot rolles",
+     "units": 1
+    },
+    {
+     "resource": "Tank Truck",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "name": "Culverts",
+   "wbs": "1.6.4.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "name": "Catch water drains",
+   "wbs": "1.6.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 2
+    },
+    {
+     "resource": "Crawler Excavator",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "name": "Draining trenches",
+   "wbs": "1.6.5.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Crawler Excavator",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "Demolitions",
+   "wbs": "1.7.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 2
+    },
+    {
+     "resource": "Cold Milling Machine",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "name": "Topsoil removal and clearing subbase",
+   "wbs": "1.7.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 1
+    },
+    {
+     "resource": "Bulldozer D8T",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "Embankments",
+   "wbs": "1.7.3.1",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 10
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 6
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 2
+    },
+    {
+     "resource": "Sheepfoot rolles",
+     "units": 1
+    },
+    {
+     "resource": "Tank Truck",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "name": "Catch water drains",
+   "wbs": "1.7.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 2
+    },
+    {
+     "resource": "Crawler Excavator",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "name": "Demolitions",
+   "wbs": "1.8.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 2
+    },
+    {
+     "resource": "Cold Milling Machine",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "name": "Topsoil removal and clearing subbase",
+   "wbs": "1.8.2",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Bulldozer D8T",
+     "units": 1
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 2
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "name": "Terracing",
+   "wbs": "1.8.3.1.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Crawler Excavator",
+     "units": 1
+    },
+    {
+     "resource": "Sheepfoot rolles",
+     "units": 1
+    },
+    {
+     "resource": "Tank Truck",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "name": "Carrying remaining soil",
+   "wbs": "1.8.3.1.2",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 8
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 6
+    },
+    {
+     "resource": "Crawler Excavator",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "name": "Draining trenches",
+   "wbs": "1.8.4.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Crawler Excavator",
+     "units": 1
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "name": "Catch water drains",
+   "wbs": "1.8.4.2",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 2
+    },
+    {
+     "resource": "Crawler Excavator",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "name": "Paving",
+   "wbs": "1.9",
+   "duration": 30,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 7
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 5
+    },
+    {
+     "resource": "Paler",
+     "units": 1
+    },
+    {
+     "resource": "Smooth Roller",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 86,
+   "name": "Guardrails pouring",
+   "wbs": "1.10.1",
+   "duration": 27,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 4
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Pile Driver",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 87,
+   "name": "Coverage and shaping slopes",
+   "wbs": "1.10.2",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 5
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 2
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 2
+    },
+    {
+     "resource": "Pruning Machine",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 88,
+   "name": "Cascades pouring",
+   "wbs": "1.10.3",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 3
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 89,
+   "name": "Road signals pouring",
+   "wbs": "1.10.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 2
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Line Striper Machine",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 91,
+   "name": "Network connections removal",
+   "wbs": "1.11.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 2
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "name": "Containers removal",
+   "wbs": "1.11.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 2
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "name": "Rubbles removal",
+   "wbs": "1.11.3",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 2
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    },
+    {
+     "resource": "Wheel Loader",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "name": "Fences removal",
+   "wbs": "1.11.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourers",
+     "units": 2
+    },
+    {
+     "resource": "Truck IVECO Trakker",
+     "units": 1
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 1,
+   "succ": 2,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 3,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 4,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 5,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 8,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 17,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 25,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 31,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 36,
+   "succ": 58,
+   "lag": 0
+  },
+  {
+   "pred": 36,
+   "succ": 85,
+   "lag": 0
+  },
+  {
+   "pred": 41,
+   "succ": 42,
+   "lag": 0
+  },
+  {
+   "pred": 41,
+   "succ": 63,
+   "lag": 0
+  },
+  {
+   "pred": 42,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 62,
+   "lag": 0
+  },
+  {
+   "pred": 63,
+   "succ": 66,
+   "lag": 0
+  },
+  {
+   "pred": 62,
+   "succ": 66,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 67,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 68,
+   "lag": 0
+  },
+  {
+   "pred": 68,
+   "succ": 69,
+   "lag": 0
+  },
+  {
+   "pred": 69,
+   "succ": 70,
+   "lag": 0
+  },
+  {
+   "pred": 70,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 82,
+   "succ": 83,
+   "lag": 0
+  },
+  {
+   "pred": 83,
+   "succ": 75,
+   "lag": 0
+  },
+  {
+   "pred": 83,
+   "succ": 80,
+   "lag": 0
+  },
+  {
+   "pred": 75,
+   "succ": 73,
+   "lag": 0
+  },
+  {
+   "pred": 75,
+   "succ": 78,
+   "lag": 0
+  },
+  {
+   "pred": 75,
+   "succ": 77,
+   "lag": 0
+  },
+  {
+   "pred": 73,
+   "succ": 72,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 48,
+   "lag": 0
+  },
+  {
+   "pred": 80,
+   "succ": 48,
+   "lag": 0
+  },
+  {
+   "pred": 78,
+   "succ": 48,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 48,
+   "lag": 0
+  },
+  {
+   "pred": 48,
+   "succ": 49,
+   "lag": 0
+  },
+  {
+   "pred": 49,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 46,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 44,
+   "succ": 58,
+   "lag": 0
+  },
+  {
+   "pred": 58,
+   "succ": 59,
+   "lag": 0
+  },
+  {
+   "pred": 59,
+   "succ": 52,
+   "lag": 0
+  },
+  {
+   "pred": 52,
+   "succ": 51,
+   "lag": 0
+  },
+  {
+   "pred": 51,
+   "succ": 55,
+   "lag": 0
+  },
+  {
+   "pred": 55,
+   "succ": 56,
+   "lag": 0
+  },
+  {
+   "pred": 56,
+   "succ": 85,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 86,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 87,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 89,
+   "lag": 0
+  },
+  {
+   "pred": 86,
+   "succ": 91,
+   "lag": 0
+  },
+  {
+   "pred": 86,
+   "succ": 92,
+   "lag": 0
+  },
+  {
+   "pred": 87,
+   "succ": 88,
+   "lag": 0
+  },
+  {
+   "pred": 88,
+   "succ": 91,
+   "lag": 0
+  },
+  {
+   "pred": 88,
+   "succ": 92,
+   "lag": 0
+  },
+  {
+   "pred": 89,
+   "succ": 91,
+   "lag": 0
+  },
+  {
+   "pred": 89,
+   "succ": 92,
+   "lag": 0
+  },
+  {
+   "pred": 92,
+   "succ": 93,
+   "lag": 0
+  },
+  {
+   "pred": 93,
+   "succ": 94,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2012-04 Asti-Cuneo Highway.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

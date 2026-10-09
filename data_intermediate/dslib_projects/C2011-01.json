@@ -1,0 +1,3172 @@
+{
+ "code": "C2011-01",
+ "name": "Nursing Home Noordhinder",
+ "sector": "Construction (commercial building)",
+ "n_activities": 153,
+ "resources": [
+  {
+   "name": "Bekister",
+   "capacity": 10
+  },
+  {
+   "name": "Betoneerder",
+   "capacity": 4
+  },
+  {
+   "name": "Betonpomp",
+   "capacity": 2
+  },
+  {
+   "name": "Bronbemaling",
+   "capacity": 2
+  },
+  {
+   "name": "Grondwerker",
+   "capacity": 3
+  },
+  {
+   "name": "Handlanger",
+   "capacity": 20
+  },
+  {
+   "name": "Hydraulische Graafkraan",
+   "capacity": 2
+  },
+  {
+   "name": "Ijzervlechter",
+   "capacity": 10
+  },
+  {
+   "name": "Metser",
+   "capacity": 10
+  },
+  {
+   "name": "Monteerder",
+   "capacity": 4
+  },
+  {
+   "name": "Torenkraan",
+   "capacity": 2
+  },
+  {
+   "name": "Wals",
+   "capacity": 2
+  }
+ ],
+ "activities": [
+  {
+   "id": 1,
+   "name": "Opruimen struiken en bomen",
+   "wbs": "1.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Handlanger",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Uitbreken putten",
+   "wbs": "1.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Handlanger",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Uitbreken leidingen",
+   "wbs": "1.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Handlanger",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Verwijderen hydranten",
+   "wbs": "1.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Handlanger",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Verwijderen bestrating",
+   "wbs": "1.1.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Handlanger",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Aanvulling zand + andere",
+   "wbs": "1.1.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Handlanger",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Plaatsen verhardingsweg",
+   "wbs": "1.2",
+   "duration": 2,
+   "demands": []
+  },
+  {
+   "id": 9,
+   "name": "Installeren bronbemaling",
+   "wbs": "1.3.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Grondwerker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Gebruik bronbemaling",
+   "wbs": "1.3.2",
+   "duration": 410,
+   "demands": [
+    {
+     "resource": "Bronbemaling",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Verwijderen bronbemaling",
+   "wbs": "1.3.3",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Grondwerker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Graven verbindingsgang",
+   "wbs": "1.4.1",
+   "duration": 3,
+   "demands": []
+  },
+  {
+   "id": 14,
+   "name": "Plaatsen bekisting",
+   "wbs": "1.4.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Plaatsen wapening",
+   "wbs": "1.4.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Gieten beton",
+   "wbs": "1.4.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Uitharden beton",
+   "wbs": "1.4.5",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 18,
+   "name": "Plaatsen rooster",
+   "wbs": "1.4.6",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 1
+    },
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Plaatsen staalconstructie",
+   "wbs": "1.4.7",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 22,
+   "name": "Graven verbindingsgang",
+   "wbs": "1.5.1",
+   "duration": 3,
+   "demands": []
+  },
+  {
+   "id": 23,
+   "name": "Plaatsen bekisting",
+   "wbs": "1.5.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Plaatsen wapening",
+   "wbs": "1.5.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "Gieten beton",
+   "wbs": "1.5.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Uitharden beton",
+   "wbs": "1.5.5",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 27,
+   "name": "Plaatsen rooster",
+   "wbs": "1.5.6",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 1
+    },
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Plaatsen staalconstructie",
+   "wbs": "1.5.7",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 30,
+   "name": "Plaatsen aardingslus",
+   "wbs": "1.6",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Grondwerker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "Graven",
+   "wbs": "1.7.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Handlanger",
+     "units": 2
+    },
+    {
+     "resource": "Hydraulische Graafkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "Betonplaat op volle grond",
+   "wbs": "1.7.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 2
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "Metselen septische putten",
+   "wbs": "1.7.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Metser",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "Gieten beton",
+   "wbs": "1.7.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "Uitharden beton",
+   "wbs": "1.7.5",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 37,
+   "name": "Graven",
+   "wbs": "1.8.1",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "Handlanger",
+     "units": 2
+    },
+    {
+     "resource": "Hydraulische Graafkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "Opmetsen",
+   "wbs": "1.8.2",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Metser",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "Dichtbetonneren",
+   "wbs": "1.8.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "Uitharden",
+   "wbs": "1.8.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 42,
+   "name": "Uitgraven + plaatsen",
+   "wbs": "1.9.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Grondwerker",
+     "units": 1
+    },
+    {
+     "resource": "Hydraulische Graafkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "name": "Aanvullen",
+   "wbs": "1.9.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Grondwerker",
+     "units": 1
+    },
+    {
+     "resource": "Hydraulische Graafkraan",
+     "units": 1
+    },
+    {
+     "resource": "Wals",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "Uitgraven + plaatsen",
+   "wbs": "1.10.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Grondwerker",
+     "units": 2
+    },
+    {
+     "resource": "Hydraulische Graafkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "Aanvullen",
+   "wbs": "1.10.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Grondwerker",
+     "units": 3
+    },
+    {
+     "resource": "Hydraulische Graafkraan",
+     "units": 1
+    },
+    {
+     "resource": "Wals",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "name": "Aansluiten op  rioleringsstelsel",
+   "wbs": "1.10.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Handlanger",
+     "units": 2
+    },
+    {
+     "resource": "Hydraulische Graafkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "Aanlsuiten extra materiaal",
+   "wbs": "1.10.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "name": "Gieten betonnen inspectieputten",
+   "wbs": "1.11.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Handlanger",
+     "units": 4
+    },
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "name": "Uitharden",
+   "wbs": "1.11.2",
+   "duration": 30,
+   "demands": []
+  },
+  {
+   "id": 53,
+   "name": "Monteren kunststofputten",
+   "wbs": "1.12.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "name": "Gieten beton kunststofputten",
+   "wbs": "1.12.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "name": "Uitharden",
+   "wbs": "1.12.3",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 56,
+   "name": "Monteren putrand kader",
+   "wbs": "1.12.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "name": "Leggen PVC-buizen",
+   "wbs": "1.13",
+   "duration": 16,
+   "demands": [
+    {
+     "resource": "Handlanger",
+     "units": 3
+    },
+    {
+     "resource": "Hydraulische Graafkraan",
+     "units": 1
+    },
+    {
+     "resource": "Wals",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "name": "Monteren rooster- en afvoergoot",
+   "wbs": "1.14.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "name": "Gieten beton",
+   "wbs": "1.14.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "name": "Uitharden",
+   "wbs": "1.14.3",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 62,
+   "name": "Monteren ontvangtoestellen",
+   "wbs": "1.14.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "name": "Boren putfundering",
+   "wbs": "1.15.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Hydraulische Graafkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "name": "Wapenen beton",
+   "wbs": "1.15.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "name": "Betonneren valse putten",
+   "wbs": "1.15.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    },
+    {
+     "resource": "Betonpomp",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "name": "Uitharden",
+   "wbs": "1.15.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 68,
+   "name": "Boren putfundering",
+   "wbs": "1.16.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Hydraulische Graafkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "name": "Wapenen beton",
+   "wbs": "1.16.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "name": "Betonneren valse putten",
+   "wbs": "1.16.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    },
+    {
+     "resource": "Betonpomp",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "name": "Uitharden",
+   "wbs": "1.16.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 72,
+   "name": "Plaatsen bekisting",
+   "wbs": "1.17.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.17.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 1
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 74,
+   "name": "Gieten beton",
+   "wbs": "1.17.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "name": "Uitharden",
+   "wbs": "1.17.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 76,
+   "name": "Aanvullen gestabiliseerd zand",
+   "wbs": "1.18",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Grondwerker",
+     "units": 2
+    },
+    {
+     "resource": "Hydraulische Graafkraan",
+     "units": 1
+    },
+    {
+     "resource": "Wals",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "name": "Gieten mager beton",
+   "wbs": "1.19.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 2
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "name": "Uitharden",
+   "wbs": "1.19.2",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 79,
+   "name": "Plaatsen bekisting",
+   "wbs": "1.20.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.20.2",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 2
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "name": "Gieten beton",
+   "wbs": "1.20.3",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "name": "Uitharden",
+   "wbs": "1.20.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 83,
+   "name": "Aanlag PVC-folie onder draagvloer",
+   "wbs": "1.21",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Handlanger",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 84,
+   "name": "Bekisten",
+   "wbs": "1.22.1",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.22.2",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 10
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 86,
+   "name": "Betonneren funderingsplaat",
+   "wbs": "1.22.3",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 4
+    },
+    {
+     "resource": "Betonpomp",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 87,
+   "name": "Uitharden",
+   "wbs": "1.22.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 94,
+   "name": "Bekisten",
+   "wbs": "1.23.1",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.23.2",
+   "duration": 48,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 10
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 96,
+   "name": "Betonneren funderingsplaat",
+   "wbs": "1.23.3",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 4
+    },
+    {
+     "resource": "Betonpomp",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "name": "Uitharden",
+   "wbs": "1.23.4",
+   "duration": 28,
+   "demands": [
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 98,
+   "name": "Bekisten",
+   "wbs": "1.24.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 99,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.24.2",
+   "duration": 13,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 4
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 100,
+   "name": "Betonneren funderingsplaat",
+   "wbs": "1.24.3",
+   "duration": 11,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "name": "Uitharden",
+   "wbs": "1.24.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 102,
+   "name": "Plaatsen bekisting",
+   "wbs": "1.25.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.25.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 1
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 104,
+   "name": "Gieten beton",
+   "wbs": "1.25.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "name": "Uitharden",
+   "wbs": "1.25.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 109,
+   "name": "Plaatsen bekisting",
+   "wbs": "1.26.1",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 110,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.26.2",
+   "duration": 11,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 2
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 111,
+   "name": "Gieten beton",
+   "wbs": "1.26.3",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 112,
+   "name": "Uitharden",
+   "wbs": "1.26.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 113,
+   "name": "Plaatsen bekisting",
+   "wbs": "1.27.1",
+   "duration": 27,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 10
+    }
+   ]
+  },
+  {
+   "id": 114,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.27.2",
+   "duration": 13,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 10
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 115,
+   "name": "Gieten beton",
+   "wbs": "1.27.3",
+   "duration": 50,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 116,
+   "name": "Uitharden",
+   "wbs": "1.27.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 117,
+   "name": "Monteren prefabwand",
+   "wbs": "1.28.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 3
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 118,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.28.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 5
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 119,
+   "name": "Betonneren wand",
+   "wbs": "1.28.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 2
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 120,
+   "name": "Uitharden",
+   "wbs": "1.28.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 121,
+   "name": "Plaatsen bekisting",
+   "wbs": "1.29.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 122,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.29.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 2
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 123,
+   "name": "Gieten beton",
+   "wbs": "1.29.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 124,
+   "name": "Uitharden",
+   "wbs": "1.29.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 125,
+   "name": "Plaatsen waterkerende plaat",
+   "wbs": "1.30",
+   "duration": 11,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 126,
+   "name": "Plaatsen waterkerende wand",
+   "wbs": "1.31",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 127,
+   "name": "Binnenmetselwerk uit betonblokken",
+   "wbs": "1.32",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "Metser",
+     "units": 10
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 128,
+   "name": "Plaatsen verluchtingskoker",
+   "wbs": "1.33",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Metser",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 129,
+   "name": "Plaatsen waterdichte doorgangstukken",
+   "wbs": "1.34",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 130,
+   "name": "Monteren prefabwand",
+   "wbs": "1.35.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 131,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.35.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 4
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 132,
+   "name": "Betonneren wand",
+   "wbs": "1.35.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 133,
+   "name": "Uitharden",
+   "wbs": "1.35.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 139,
+   "name": "Plaatsen prefab balken",
+   "wbs": "1.36",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 4
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 140,
+   "name": "Welfsels plaatsen",
+   "wbs": "1.37.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 141,
+   "name": "Plaatsen wapening",
+   "wbs": "1.37.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 142,
+   "name": "Gieten druklaag",
+   "wbs": "1.37.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 143,
+   "name": "Uitharden",
+   "wbs": "1.37.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 144,
+   "name": "Plaatsen betonvloer met predal, breedplaat",
+   "wbs": "1.38",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 4
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 145,
+   "name": "Bekisten",
+   "wbs": "1.39.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 146,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.39.2",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 10
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 147,
+   "name": "Betonneren funderingsplaat",
+   "wbs": "1.39.3",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 2
+    },
+    {
+     "resource": "Betonpomp",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 148,
+   "name": "Uitharden",
+   "wbs": "1.39.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 149,
+   "name": "Plaatsen prefab kolommen",
+   "wbs": "1.40",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 4
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 150,
+   "name": "Plaatsen prefab kolom-wanden",
+   "wbs": "1.41",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 2
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 151,
+   "name": "Plaatsen bekisting",
+   "wbs": "1.42.1",
+   "duration": 27,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 152,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.42.2",
+   "duration": 11,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 2
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 153,
+   "name": "Gieten beton",
+   "wbs": "1.42.3",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 154,
+   "name": "Uitharden",
+   "wbs": "1.42.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 155,
+   "name": "Plaatsen omgekeerde betonbalken",
+   "wbs": "1.43",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 3
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 156,
+   "name": "Plaatsen bekisting",
+   "wbs": "1.44.1",
+   "duration": 25,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 157,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.44.2",
+   "duration": 14,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 2
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 158,
+   "name": "Gieten beton",
+   "wbs": "1.44.3",
+   "duration": 12,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 159,
+   "name": "Uitharden",
+   "wbs": "1.44.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 160,
+   "name": "Opmetsen tralieblok dragend",
+   "wbs": "1.45.1",
+   "duration": 16,
+   "demands": [
+    {
+     "resource": "Metser",
+     "units": 10
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 174,
+   "name": "Opmetsen tralieblok niet-dragend",
+   "wbs": "1.45.2",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "Metser",
+     "units": 4
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 161,
+   "name": "Plaatsen prefab muren",
+   "wbs": "1.45.3",
+   "duration": 13,
+   "demands": [
+    {
+     "resource": "Metser",
+     "units": 4
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 162,
+   "name": "Plaatsen bekisting",
+   "wbs": "1.46.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Bekister",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 163,
+   "name": "Plooien en plaatsen wapening",
+   "wbs": "1.46.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Ijzervlechter",
+     "units": 1
+    },
+    {
+     "resource": "Handlanger",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 164,
+   "name": "Gieten beton",
+   "wbs": "1.46.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Betoneerder",
+     "units": 1
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 165,
+   "name": "Uitharden",
+   "wbs": "1.46.4",
+   "duration": 28,
+   "demands": []
+  },
+  {
+   "id": 166,
+   "name": "Plaatsen prefab trappen",
+   "wbs": "1.47",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 2
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 167,
+   "name": "Metselen paramentmetselwerk",
+   "wbs": "1.48",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "Metser",
+     "units": 10
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 168,
+   "name": "Plaatsen spouwisolatie",
+   "wbs": "1.49",
+   "duration": 12,
+   "demands": [
+    {
+     "resource": "Metser",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 169,
+   "name": "Monteren constructieve dilatatievoegen",
+   "wbs": "1.50",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 177,
+   "name": "Plaatsen plinten",
+   "wbs": "1.51.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Metser",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 178,
+   "name": "Plaatsen dorpels",
+   "wbs": "1.51.2",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Metser",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 179,
+   "name": "Plaatsen dekstenen",
+   "wbs": "1.51.3",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Metser",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 180,
+   "name": "Plaatsen staalconstructie",
+   "wbs": "1.52",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "Monteerder",
+     "units": 2
+    },
+    {
+     "resource": "Torenkraan",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 181,
+   "name": "Plaatsen dak",
+   "wbs": "1.53",
+   "duration": 50,
+   "demands": []
+  },
+  {
+   "id": 182,
+   "name": "Verwijderen verhardingsweg",
+   "wbs": "1.54",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 183,
+   "name": "Plaatsen warmeluchtblazers",
+   "wbs": "1.55",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 184,
+   "name": "Plaatsen ontvochtigers",
+   "wbs": "1.56",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 185,
+   "name": "Uitvoeren afwerking",
+   "wbs": "1.57",
+   "duration": 25,
+   "demands": []
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 1,
+   "succ": 2,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 3,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 4,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 5,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 17,
+   "succ": 18,
+   "lag": -14
+  },
+  {
+   "pred": 18,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 25,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 27,
+   "lag": -14
+  },
+  {
+   "pred": 27,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 31,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 37,
+   "lag": -14
+  },
+  {
+   "pred": 37,
+   "succ": 38,
+   "lag": -4
+  },
+  {
+   "pred": 38,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 40,
+   "succ": 42,
+   "lag": -14
+  },
+  {
+   "pred": 42,
+   "succ": 43,
+   "lag": 0
+  },
+  {
+   "pred": 43,
+   "succ": 45,
+   "lag": 0
+  },
+  {
+   "pred": 45,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 46,
+   "succ": 47,
+   "lag": 0
+  },
+  {
+   "pred": 47,
+   "succ": 48,
+   "lag": 0
+  },
+  {
+   "pred": 48,
+   "succ": 50,
+   "lag": 0
+  },
+  {
+   "pred": 48,
+   "succ": 53,
+   "lag": 0
+  },
+  {
+   "pred": 50,
+   "succ": 51,
+   "lag": -2
+  },
+  {
+   "pred": 51,
+   "succ": 58,
+   "lag": -14
+  },
+  {
+   "pred": 53,
+   "succ": 54,
+   "lag": -2
+  },
+  {
+   "pred": 54,
+   "succ": 55,
+   "lag": 0
+  },
+  {
+   "pred": 55,
+   "succ": 56,
+   "lag": -14
+  },
+  {
+   "pred": 56,
+   "succ": 58,
+   "lag": 0
+  },
+  {
+   "pred": 58,
+   "succ": 59,
+   "lag": 0
+  },
+  {
+   "pred": 59,
+   "succ": 60,
+   "lag": 0
+  },
+  {
+   "pred": 60,
+   "succ": 61,
+   "lag": 0
+  },
+  {
+   "pred": 61,
+   "succ": 62,
+   "lag": -14
+  },
+  {
+   "pred": 62,
+   "succ": 64,
+   "lag": 0
+  },
+  {
+   "pred": 62,
+   "succ": 68,
+   "lag": 0
+  },
+  {
+   "pred": 62,
+   "succ": 72,
+   "lag": 0
+  },
+  {
+   "pred": 64,
+   "succ": 65,
+   "lag": -1
+  },
+  {
+   "pred": 65,
+   "succ": 66,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 67,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 76,
+   "lag": -14
+  },
+  {
+   "pred": 67,
+   "succ": 79,
+   "lag": -14
+  },
+  {
+   "pred": 68,
+   "succ": 69,
+   "lag": -1
+  },
+  {
+   "pred": 69,
+   "succ": 70,
+   "lag": 0
+  },
+  {
+   "pred": 70,
+   "succ": 71,
+   "lag": 0
+  },
+  {
+   "pred": 71,
+   "succ": 76,
+   "lag": -14
+  },
+  {
+   "pred": 71,
+   "succ": 79,
+   "lag": -14
+  },
+  {
+   "pred": 72,
+   "succ": 73,
+   "lag": 0
+  },
+  {
+   "pred": 73,
+   "succ": 74,
+   "lag": 0
+  },
+  {
+   "pred": 74,
+   "succ": 75,
+   "lag": 0
+  },
+  {
+   "pred": 75,
+   "succ": 76,
+   "lag": -14
+  },
+  {
+   "pred": 75,
+   "succ": 79,
+   "lag": -14
+  },
+  {
+   "pred": 76,
+   "succ": 77,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 78,
+   "lag": 0
+  },
+  {
+   "pred": 78,
+   "succ": 83,
+   "lag": -14
+  },
+  {
+   "pred": 79,
+   "succ": 80,
+   "lag": 0
+  },
+  {
+   "pred": 80,
+   "succ": 81,
+   "lag": 0
+  },
+  {
+   "pred": 81,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 82,
+   "succ": 83,
+   "lag": -14
+  },
+  {
+   "pred": 83,
+   "succ": 84,
+   "lag": 0
+  },
+  {
+   "pred": 83,
+   "succ": 94,
+   "lag": 0
+  },
+  {
+   "pred": 83,
+   "succ": 98,
+   "lag": 0
+  },
+  {
+   "pred": 83,
+   "succ": 102,
+   "lag": 0
+  },
+  {
+   "pred": 84,
+   "succ": 85,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 86,
+   "lag": 0
+  },
+  {
+   "pred": 86,
+   "succ": 87,
+   "lag": 0
+  },
+  {
+   "pred": 87,
+   "succ": 113,
+   "lag": -14
+  },
+  {
+   "pred": 87,
+   "succ": 117,
+   "lag": -14
+  },
+  {
+   "pred": 87,
+   "succ": 121,
+   "lag": -14
+  },
+  {
+   "pred": 87,
+   "succ": 125,
+   "lag": -14
+  },
+  {
+   "pred": 87,
+   "succ": 126,
+   "lag": -14
+  },
+  {
+   "pred": 94,
+   "succ": 95,
+   "lag": 0
+  },
+  {
+   "pred": 95,
+   "succ": 96,
+   "lag": 0
+  },
+  {
+   "pred": 96,
+   "succ": 97,
+   "lag": 0
+  },
+  {
+   "pred": 97,
+   "succ": 113,
+   "lag": -14
+  },
+  {
+   "pred": 97,
+   "succ": 117,
+   "lag": -14
+  },
+  {
+   "pred": 97,
+   "succ": 121,
+   "lag": -14
+  },
+  {
+   "pred": 97,
+   "succ": 125,
+   "lag": -14
+  },
+  {
+   "pred": 97,
+   "succ": 126,
+   "lag": -14
+  },
+  {
+   "pred": 98,
+   "succ": 99,
+   "lag": 0
+  },
+  {
+   "pred": 99,
+   "succ": 100,
+   "lag": 0
+  },
+  {
+   "pred": 100,
+   "succ": 101,
+   "lag": 0
+  },
+  {
+   "pred": 102,
+   "succ": 103,
+   "lag": 0
+  },
+  {
+   "pred": 102,
+   "succ": 113,
+   "lag": -14
+  },
+  {
+   "pred": 102,
+   "succ": 117,
+   "lag": -14
+  },
+  {
+   "pred": 102,
+   "succ": 121,
+   "lag": -14
+  },
+  {
+   "pred": 102,
+   "succ": 125,
+   "lag": -14
+  },
+  {
+   "pred": 102,
+   "succ": 126,
+   "lag": -14
+  },
+  {
+   "pred": 103,
+   "succ": 104,
+   "lag": 0
+  },
+  {
+   "pred": 104,
+   "succ": 105,
+   "lag": 0
+  },
+  {
+   "pred": 104,
+   "succ": 109,
+   "lag": 0
+  },
+  {
+   "pred": 105,
+   "succ": 113,
+   "lag": -14
+  },
+  {
+   "pred": 105,
+   "succ": 117,
+   "lag": -14
+  },
+  {
+   "pred": 105,
+   "succ": 121,
+   "lag": -14
+  },
+  {
+   "pred": 105,
+   "succ": 125,
+   "lag": -14
+  },
+  {
+   "pred": 105,
+   "succ": 126,
+   "lag": -14
+  },
+  {
+   "pred": 109,
+   "succ": 110,
+   "lag": 0
+  },
+  {
+   "pred": 110,
+   "succ": 111,
+   "lag": 0
+  },
+  {
+   "pred": 111,
+   "succ": 112,
+   "lag": 0
+  },
+  {
+   "pred": 112,
+   "succ": 113,
+   "lag": -14
+  },
+  {
+   "pred": 112,
+   "succ": 117,
+   "lag": -14
+  },
+  {
+   "pred": 112,
+   "succ": 121,
+   "lag": -14
+  },
+  {
+   "pred": 112,
+   "succ": 125,
+   "lag": -14
+  },
+  {
+   "pred": 112,
+   "succ": 126,
+   "lag": -14
+  },
+  {
+   "pred": 113,
+   "succ": 114,
+   "lag": 0
+  },
+  {
+   "pred": 114,
+   "succ": 115,
+   "lag": 0
+  },
+  {
+   "pred": 115,
+   "succ": 116,
+   "lag": 0
+  },
+  {
+   "pred": 116,
+   "succ": 127,
+   "lag": -14
+  },
+  {
+   "pred": 117,
+   "succ": 118,
+   "lag": 0
+  },
+  {
+   "pred": 118,
+   "succ": 119,
+   "lag": 0
+  },
+  {
+   "pred": 119,
+   "succ": 120,
+   "lag": 0
+  },
+  {
+   "pred": 120,
+   "succ": 127,
+   "lag": -14
+  },
+  {
+   "pred": 121,
+   "succ": 122,
+   "lag": 0
+  },
+  {
+   "pred": 122,
+   "succ": 123,
+   "lag": 0
+  },
+  {
+   "pred": 123,
+   "succ": 124,
+   "lag": 0
+  },
+  {
+   "pred": 124,
+   "succ": 127,
+   "lag": -14
+  },
+  {
+   "pred": 125,
+   "succ": 127,
+   "lag": 0
+  },
+  {
+   "pred": 126,
+   "succ": 127,
+   "lag": 0
+  },
+  {
+   "pred": 127,
+   "succ": 128,
+   "lag": 0
+  },
+  {
+   "pred": 127,
+   "succ": 129,
+   "lag": 0
+  },
+  {
+   "pred": 128,
+   "succ": 130,
+   "lag": 0
+  },
+  {
+   "pred": 129,
+   "succ": 130,
+   "lag": 0
+  },
+  {
+   "pred": 130,
+   "succ": 131,
+   "lag": 0
+  },
+  {
+   "pred": 131,
+   "succ": 132,
+   "lag": 0
+  },
+  {
+   "pred": 132,
+   "succ": 133,
+   "lag": 0
+  },
+  {
+   "pred": 133,
+   "succ": 11,
+   "lag": -14
+  },
+  {
+   "pred": 133,
+   "succ": 139,
+   "lag": -14
+  },
+  {
+   "pred": 139,
+   "succ": 140,
+   "lag": 0
+  },
+  {
+   "pred": 139,
+   "succ": 144,
+   "lag": 0
+  },
+  {
+   "pred": 140,
+   "succ": 141,
+   "lag": 0
+  },
+  {
+   "pred": 141,
+   "succ": 142,
+   "lag": 0
+  },
+  {
+   "pred": 142,
+   "succ": 143,
+   "lag": 0
+  },
+  {
+   "pred": 143,
+   "succ": 145,
+   "lag": -14
+  },
+  {
+   "pred": 143,
+   "succ": 149,
+   "lag": -14
+  },
+  {
+   "pred": 143,
+   "succ": 150,
+   "lag": -14
+  },
+  {
+   "pred": 144,
+   "succ": 145,
+   "lag": 0
+  },
+  {
+   "pred": 145,
+   "succ": 146,
+   "lag": 0
+  },
+  {
+   "pred": 146,
+   "succ": 147,
+   "lag": 0
+  },
+  {
+   "pred": 147,
+   "succ": 148,
+   "lag": 0
+  },
+  {
+   "pred": 148,
+   "succ": 149,
+   "lag": -14
+  },
+  {
+   "pred": 148,
+   "succ": 150,
+   "lag": -14
+  },
+  {
+   "pred": 149,
+   "succ": 151,
+   "lag": 0
+  },
+  {
+   "pred": 149,
+   "succ": 155,
+   "lag": 0
+  },
+  {
+   "pred": 150,
+   "succ": 151,
+   "lag": 0
+  },
+  {
+   "pred": 150,
+   "succ": 155,
+   "lag": 0
+  },
+  {
+   "pred": 151,
+   "succ": 152,
+   "lag": 0
+  },
+  {
+   "pred": 152,
+   "succ": 153,
+   "lag": 0
+  },
+  {
+   "pred": 153,
+   "succ": 154,
+   "lag": 0
+  },
+  {
+   "pred": 154,
+   "succ": 156,
+   "lag": -14
+  },
+  {
+   "pred": 155,
+   "succ": 156,
+   "lag": 0
+  },
+  {
+   "pred": 156,
+   "succ": 157,
+   "lag": 0
+  },
+  {
+   "pred": 157,
+   "succ": 158,
+   "lag": 0
+  },
+  {
+   "pred": 158,
+   "succ": 159,
+   "lag": 0
+  },
+  {
+   "pred": 159,
+   "succ": 160,
+   "lag": -14
+  },
+  {
+   "pred": 160,
+   "succ": 174,
+   "lag": 0
+  },
+  {
+   "pred": 174,
+   "succ": 161,
+   "lag": 0
+  },
+  {
+   "pred": 161,
+   "succ": 162,
+   "lag": 0
+  },
+  {
+   "pred": 162,
+   "succ": 163,
+   "lag": 0
+  },
+  {
+   "pred": 163,
+   "succ": 164,
+   "lag": 0
+  },
+  {
+   "pred": 164,
+   "succ": 165,
+   "lag": 0
+  },
+  {
+   "pred": 165,
+   "succ": 166,
+   "lag": -14
+  },
+  {
+   "pred": 165,
+   "succ": 167,
+   "lag": -14
+  },
+  {
+   "pred": 165,
+   "succ": 168,
+   "lag": -14
+  },
+  {
+   "pred": 165,
+   "succ": 169,
+   "lag": -14
+  },
+  {
+   "pred": 166,
+   "succ": 177,
+   "lag": 0
+  },
+  {
+   "pred": 166,
+   "succ": 178,
+   "lag": 0
+  },
+  {
+   "pred": 166,
+   "succ": 179,
+   "lag": 0
+  },
+  {
+   "pred": 166,
+   "succ": 180,
+   "lag": 0
+  },
+  {
+   "pred": 166,
+   "succ": 181,
+   "lag": 0
+  },
+  {
+   "pred": 167,
+   "succ": 177,
+   "lag": 0
+  },
+  {
+   "pred": 167,
+   "succ": 178,
+   "lag": 0
+  },
+  {
+   "pred": 167,
+   "succ": 179,
+   "lag": 0
+  },
+  {
+   "pred": 167,
+   "succ": 180,
+   "lag": 0
+  },
+  {
+   "pred": 167,
+   "succ": 181,
+   "lag": 0
+  },
+  {
+   "pred": 168,
+   "succ": 177,
+   "lag": 0
+  },
+  {
+   "pred": 168,
+   "succ": 178,
+   "lag": 0
+  },
+  {
+   "pred": 168,
+   "succ": 179,
+   "lag": 0
+  },
+  {
+   "pred": 168,
+   "succ": 180,
+   "lag": 0
+  },
+  {
+   "pred": 168,
+   "succ": 181,
+   "lag": 0
+  },
+  {
+   "pred": 169,
+   "succ": 177,
+   "lag": 0
+  },
+  {
+   "pred": 169,
+   "succ": 178,
+   "lag": 0
+  },
+  {
+   "pred": 169,
+   "succ": 179,
+   "lag": 0
+  },
+  {
+   "pred": 169,
+   "succ": 180,
+   "lag": 0
+  },
+  {
+   "pred": 169,
+   "succ": 181,
+   "lag": 0
+  },
+  {
+   "pred": 177,
+   "succ": 182,
+   "lag": 0
+  },
+  {
+   "pred": 177,
+   "succ": 183,
+   "lag": 0
+  },
+  {
+   "pred": 177,
+   "succ": 184,
+   "lag": 0
+  },
+  {
+   "pred": 178,
+   "succ": 182,
+   "lag": 0
+  },
+  {
+   "pred": 178,
+   "succ": 183,
+   "lag": 0
+  },
+  {
+   "pred": 178,
+   "succ": 184,
+   "lag": 0
+  },
+  {
+   "pred": 179,
+   "succ": 182,
+   "lag": 0
+  },
+  {
+   "pred": 179,
+   "succ": 183,
+   "lag": 0
+  },
+  {
+   "pred": 179,
+   "succ": 184,
+   "lag": 0
+  },
+  {
+   "pred": 180,
+   "succ": 182,
+   "lag": 0
+  },
+  {
+   "pred": 180,
+   "succ": 183,
+   "lag": 0
+  },
+  {
+   "pred": 180,
+   "succ": 184,
+   "lag": 0
+  },
+  {
+   "pred": 181,
+   "succ": 182,
+   "lag": 0
+  },
+  {
+   "pred": 181,
+   "succ": 183,
+   "lag": 0
+  },
+  {
+   "pred": 181,
+   "succ": 184,
+   "lag": 0
+  },
+  {
+   "pred": 182,
+   "succ": 185,
+   "lag": 0
+  },
+  {
+   "pred": 183,
+   "succ": 185,
+   "lag": 0
+  },
+  {
+   "pred": 184,
+   "succ": 185,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2011-01 Nursing Home Noordhinder.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

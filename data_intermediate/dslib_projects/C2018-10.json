@@ -1,0 +1,778 @@
+{
+ "code": "C2018-10",
+ "name": "Fontein",
+ "sector": "Construction (Civil)",
+ "n_activities": 42,
+ "resources": [
+  {
+   "name": "people",
+   "capacity": 6
+  }
+ ],
+ "activities": [
+  {
+   "id": 1,
+   "name": "Opmaak gedetailleerde uitvoeringsstudie",
+   "wbs": "1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Goedkeuring van de uitvoeringsstudie en de stalen",
+   "wbs": "1.2",
+   "duration": 3,
+   "demands": []
+  },
+  {
+   "id": 3,
+   "name": "Productie prefab betonelementen",
+   "wbs": "1.3",
+   "duration": 60,
+   "demands": []
+  },
+  {
+   "id": 4,
+   "name": "Productie prefab cisterne",
+   "wbs": "1.4",
+   "duration": 12,
+   "demands": []
+  },
+  {
+   "id": 5,
+   "name": "Productie elektrische kast",
+   "wbs": "1.5",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Productie spuitarmaturen",
+   "wbs": "1.6",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Bouwrijp maken van perceel: wegnemen van hinderende elemente",
+   "wbs": "1.7",
+   "duration": 2,
+   "demands": []
+  },
+  {
+   "id": 8,
+   "name": "Controle aanwezigheid grondwater",
+   "wbs": "1.8",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Graven van bouwput cisterne",
+   "wbs": "1.9",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Plaatsen en aanvullen van cisterne + overloop",
+   "wbs": "1.10",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Realiseren van opzetelement",
+   "wbs": "1.11",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Plaatsen van toegangsluik",
+   "wbs": "1.12",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "fundering",
+   "wbs": "1.13",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Zandcement rond funderingen",
+   "wbs": "1.14",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Plaatsen EPDM",
+   "wbs": "1.15",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Opmetselen van funderingen",
+   "wbs": "1.16",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Realiseren van funderingen voor spuitmonden",
+   "wbs": "1.17",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Aanvullen van fonteinveld met gebroken betonpuin (1)",
+   "wbs": "1.18",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Sokkel voor sokkel kunstwerk",
+   "wbs": "1.19",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Plaatsen van prefab betonelementen",
+   "wbs": "1.20",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "Onderling verankeren van prefab betonelementen",
+   "wbs": "1.21",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "Aanvullen van fonteinveld met gebroken betonpuin (2)",
+   "wbs": "1.22",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "Voorbereidingende werken polibeton",
+   "wbs": "1.23",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Realiseren van polybeton",
+   "wbs": "1.24",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "Plaatsen van prefabsokkel voor kunstwerk",
+   "wbs": "1.25",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Boren van doorvoeren door kelderwand",
+   "wbs": "1.26",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Plaatsen van technieken in technisch lokaal",
+   "wbs": "1.27",
+   "duration": 19,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Plaatsen van alle leidingen tussen kelder en fontein",
+   "wbs": "1.28",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Plaatsen van kabels in ondergrond: windmeter",
+   "wbs": "1.29",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "Plaatsen van kabels in ondergrond: voedingskabel",
+   "wbs": "1.30",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "Omhullen van leidingen met zandcement",
+   "wbs": "1.31",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "Plaatsen van drainageleidingen",
+   "wbs": "1.32",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "Plaatsen en aansluiten van spuitmonden",
+   "wbs": "1.33",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "Plaatsen van afvoerleidingen",
+   "wbs": "1.34",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "Plaatsen van afvoergoten",
+   "wbs": "1.35",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "Plaatsen van inrichting in spuitmonden",
+   "wbs": "1.36",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "name": "Elektrische keuring installatie",
+   "wbs": "1.37",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "Vullen van cisterne",
+   "wbs": "1.38",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "Spoelen van leidingen",
+   "wbs": "1.39",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "Opstart",
+   "wbs": "1.40",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "Opleiding personeel gemeente",
+   "wbs": "1.41",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "Voorlopige oplevering",
+   "wbs": "1.42",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "people",
+     "units": 1
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 1,
+   "succ": 2,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 3,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 4,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 5,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 8,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 17,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 25,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 31,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 36,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 37,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 40,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 41,
+   "succ": 42,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2018-10 Fontein.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

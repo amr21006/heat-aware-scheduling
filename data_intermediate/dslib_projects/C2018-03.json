@@ -1,0 +1,403 @@
+{
+ "code": "C2018-03",
+ "name": "Castelein",
+ "sector": "Construction (Industrial)",
+ "n_activities": 20,
+ "resources": [
+  {
+   "name": "Assembly crane",
+   "capacity": 1
+  },
+  {
+   "name": "Concrete pump and mixer",
+   "capacity": 1
+  },
+  {
+   "name": "Labour",
+   "capacity": 10
+  },
+  {
+   "name": "Other labour",
+   "capacity": 8
+  },
+  {
+   "name": "Pole machine",
+   "capacity": 1
+  },
+  {
+   "name": "Scissor lift",
+   "capacity": 1
+  },
+  {
+   "name": "Telehandler",
+   "capacity": 1
+  },
+  {
+   "name": "X-crane",
+   "capacity": 1
+  }
+ ],
+ "activities": [
+  {
+   "id": 1,
+   "name": "Contract Asignment",
+   "wbs": "1.1",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 2,
+   "name": "Construction Permit",
+   "wbs": "1.2",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 3,
+   "name": "Study",
+   "wbs": "1.3",
+   "duration": 16,
+   "demands": []
+  },
+  {
+   "id": 4,
+   "name": "Design of plan",
+   "wbs": "1.4",
+   "duration": 21,
+   "demands": []
+  },
+  {
+   "id": 5,
+   "name": "Approval of plan",
+   "wbs": "1.5",
+   "duration": 12,
+   "demands": []
+  },
+  {
+   "id": 6,
+   "name": "Design of production parts",
+   "wbs": "1.6",
+   "duration": 20,
+   "demands": []
+  },
+  {
+   "id": 7,
+   "name": "Fabrication",
+   "wbs": "1.7",
+   "duration": 20,
+   "demands": []
+  },
+  {
+   "id": 8,
+   "name": "Preparation of erea",
+   "wbs": "1.8",
+   "duration": 19,
+   "demands": []
+  },
+  {
+   "id": 9,
+   "name": "Pile Foundation",
+   "wbs": "1.9",
+   "duration": 14,
+   "demands": [
+    {
+     "resource": "Labour",
+     "units": 4
+    },
+    {
+     "resource": "Pole machine",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Foundation",
+   "wbs": "1.10",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "Labour",
+     "units": 5
+    },
+    {
+     "resource": "X-crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Assembly",
+   "wbs": "1.11",
+   "duration": 26,
+   "demands": [
+    {
+     "resource": "Labour",
+     "units": 10
+    },
+    {
+     "resource": "Assembly crane",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Finishing walls",
+   "wbs": "1.12",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Labour",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Roof",
+   "wbs": "1.13",
+   "duration": 21,
+   "demands": [
+    {
+     "resource": "Labour",
+     "units": 8
+    },
+    {
+     "resource": "Scissor lift",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Floor",
+   "wbs": "1.14",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Labour",
+     "units": 10
+    },
+    {
+     "resource": "Telehandler",
+     "units": 1
+    },
+    {
+     "resource": "Concrete pump and mixer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Gates",
+   "wbs": "1.15",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "Labour",
+     "units": 4
+    },
+    {
+     "resource": "Scissor lift",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Masonry",
+   "wbs": "1.16",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Labour",
+     "units": 6
+    },
+    {
+     "resource": "Telehandler",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Exterior Joinery",
+   "wbs": "1.17",
+   "duration": 11,
+   "demands": [
+    {
+     "resource": "Labour",
+     "units": 6
+    },
+    {
+     "resource": "Scissor lift",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Drying floor and installing racks",
+   "wbs": "1.18",
+   "duration": 21,
+   "demands": [
+    {
+     "resource": "Labour",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "MEP",
+   "wbs": "1.19",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "Other labour",
+     "units": 8
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "End of project",
+   "wbs": "1.20",
+   "duration": 0,
+   "demands": []
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 1,
+   "succ": 2,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 3,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 4,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 5,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 8,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 17,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 20,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2018-03 Castelein.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

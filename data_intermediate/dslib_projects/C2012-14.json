@@ -1,0 +1,1031 @@
+{
+ "code": "C2012-14",
+ "name": "Sluiskil Tunnel",
+ "sector": "Construction (civil)",
+ "n_activities": 49,
+ "resources": [
+  {
+   "name": "Construction Engineer",
+   "capacity": 4
+  },
+  {
+   "name": "Crane",
+   "capacity": 4
+  },
+  {
+   "name": "Electric engineer designer",
+   "capacity": 2
+  },
+  {
+   "name": "Electrician",
+   "capacity": 10
+  },
+  {
+   "name": "Manpower",
+   "capacity": 100
+  },
+  {
+   "name": "Road workers",
+   "capacity": 20
+  },
+  {
+   "name": "Truck driver",
+   "capacity": 4
+  },
+  {
+   "name": "Tunnel drill",
+   "capacity": 1
+  }
+ ],
+ "activities": [
+  {
+   "id": 1,
+   "name": "Drawing a relocation plan",
+   "wbs": "1.1.1",
+   "duration": 14,
+   "demands": []
+  },
+  {
+   "id": 2,
+   "name": "switching off all electricity and adapting the cables to other temporary networks",
+   "wbs": "1.1.2",
+   "duration": 12,
+   "demands": [
+    {
+     "resource": "Electrician",
+     "units": 6
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "allocating cables type A",
+   "wbs": "1.1.3",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 10
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "allocating cables type B",
+   "wbs": "1.1.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 10
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Checking if all cables are properly located",
+   "wbs": "1.1.5",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Electric engineer designer",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Drawing two concepts",
+   "wbs": "1.2.1",
+   "duration": 35,
+   "demands": []
+  },
+  {
+   "id": 7,
+   "name": "approval of either one of the concepts",
+   "wbs": "1.2.2",
+   "duration": 15,
+   "demands": []
+  },
+  {
+   "id": 8,
+   "name": "drawing the final design",
+   "wbs": "1.2.3",
+   "duration": 40,
+   "demands": [
+    {
+     "resource": "Construction Engineer",
+     "units": 2
+    },
+    {
+     "resource": "Electric engineer designer",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "testing different materials due to the clay type of the Westerschelde",
+   "wbs": "1.3.1",
+   "duration": 30,
+   "demands": [
+    {
+     "resource": "Construction Engineer",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Drawing a test design",
+   "wbs": "1.3.2",
+   "duration": 80,
+   "demands": []
+  },
+  {
+   "id": 11,
+   "name": "approve the design",
+   "wbs": "1.3.3",
+   "duration": 15,
+   "demands": []
+  },
+  {
+   "id": 12,
+   "name": "Drawing and finishing the final design",
+   "wbs": "1.3.4",
+   "duration": 55,
+   "demands": []
+  },
+  {
+   "id": 13,
+   "name": "Setting up all equipment",
+   "wbs": "1.4.1",
+   "duration": 22,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 20
+    },
+    {
+     "resource": "Truck driver",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Constructing driveway A",
+   "wbs": "1.4.2",
+   "duration": 45,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 60
+    },
+    {
+     "resource": "Road workers",
+     "units": 20
+    },
+    {
+     "resource": "Construction Engineer",
+     "units": 4
+    },
+    {
+     "resource": "Crane",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Constructing driveway B",
+   "wbs": "1.4.3",
+   "duration": 38,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 50
+    },
+    {
+     "resource": "Road workers",
+     "units": 20
+    },
+    {
+     "resource": "Construction Engineer",
+     "units": 4
+    },
+    {
+     "resource": "Crane",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "constructing the administrative office",
+   "wbs": "1.4.4",
+   "duration": 36,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 100
+    },
+    {
+     "resource": "Construction Engineer",
+     "units": 2
+    },
+    {
+     "resource": "Crane",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "constructing the entrances",
+   "wbs": "1.4.5",
+   "duration": 58,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 100
+    },
+    {
+     "resource": "Construction Engineer",
+     "units": 2
+    },
+    {
+     "resource": "Crane",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "installing all electrics",
+   "wbs": "1.4.6",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Electrician",
+     "units": 10
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "installing safety devices",
+   "wbs": "1.4.7",
+   "duration": 38,
+   "demands": [
+    {
+     "resource": "Electrician",
+     "units": 10
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Clearing all equipment from the site",
+   "wbs": "1.4.8",
+   "duration": 17,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 20
+    },
+    {
+     "resource": "Truck driver",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "setting up all equipment",
+   "wbs": "1.5.1",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 20
+    },
+    {
+     "resource": "Truck driver",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "Constructing tunnel road a",
+   "wbs": "1.5.2",
+   "duration": 74,
+   "demands": [
+    {
+     "resource": "Construction Engineer",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "constructing tunnel road b",
+   "wbs": "1.5.3",
+   "duration": 74,
+   "demands": [
+    {
+     "resource": "Construction Engineer",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "installing all safety tunnels",
+   "wbs": "1.5.4",
+   "duration": 54,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 50
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "final check",
+   "wbs": "1.5.5",
+   "duration": 21,
+   "demands": []
+  },
+  {
+   "id": 26,
+   "name": "clearing all equipment from the site",
+   "wbs": "1.5.6",
+   "duration": 11,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 20
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Mounting and constructing the tunnel drull machine on site",
+   "wbs": "1.6.1",
+   "duration": 40,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 20
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Drilling the first tunnel pipe",
+   "wbs": "1.6.2",
+   "duration": 120,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 80
+    },
+    {
+     "resource": "Tunnel drill",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Constructing the first tunnel pipe",
+   "wbs": "1.6.3",
+   "duration": 115,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 50
+    },
+    {
+     "resource": "Electrician",
+     "units": 10
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "De-mounting tunnel drill and installing it fot the construction of the second tunnel pipe",
+   "wbs": "1.6.4",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 20
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "Drilling the second tunnel pipe",
+   "wbs": "1.6.5",
+   "duration": 55,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 80
+    },
+    {
+     "resource": "Tunnel drill",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "constructing the second tunnel pipe",
+   "wbs": "1.6.6",
+   "duration": 55,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 50
+    },
+    {
+     "resource": "Electrician",
+     "units": 10
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "clearing all equipment from the site",
+   "wbs": "1.6.7",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 20
+    },
+    {
+     "resource": "Truck driver",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "Setting up all equipment",
+   "wbs": "1.7.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "Truck driver",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "constructing road A",
+   "wbs": "1.7.2",
+   "duration": 84,
+   "demands": [
+    {
+     "resource": "Road workers",
+     "units": 20
+    },
+    {
+     "resource": "Construction Engineer",
+     "units": 4
+    },
+    {
+     "resource": "Crane",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "Constructing road B",
+   "wbs": "1.7.3",
+   "duration": 82,
+   "demands": [
+    {
+     "resource": "Road workers",
+     "units": 10
+    },
+    {
+     "resource": "Construction Engineer",
+     "units": 4
+    },
+    {
+     "resource": "Crane",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "name": "Constructing emergency strips side A",
+   "wbs": "1.7.4",
+   "duration": 67,
+   "demands": [
+    {
+     "resource": "Road workers",
+     "units": 10
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "Constructing an emergency side strip side B",
+   "wbs": "1.7.5",
+   "duration": 66,
+   "demands": [
+    {
+     "resource": "Road workers",
+     "units": 10
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "painting road lines road A",
+   "wbs": "1.7.6",
+   "duration": 22,
+   "demands": [
+    {
+     "resource": "Road workers",
+     "units": 10
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "painting road lines road B",
+   "wbs": "1.7.7",
+   "duration": 21,
+   "demands": [
+    {
+     "resource": "Road workers",
+     "units": 10
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "clearing all equipment from the site",
+   "wbs": "1.7.8",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Truck driver",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "Setting up all equipment",
+   "wbs": "1.8.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 10
+    },
+    {
+     "resource": "Truck driver",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "name": "checking all electronics tunnel A",
+   "wbs": "1.8.2",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "Electrician",
+     "units": 2
+    },
+    {
+     "resource": "Electric engineer designer",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "name": "Checking electronics tunnel B",
+   "wbs": "1.8.3",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "Electrician",
+     "units": 2
+    },
+    {
+     "resource": "Electric engineer designer",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "Checking all sprinkle systems tunnel A",
+   "wbs": "1.8.4",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "Electrician",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "checking all sprinkle systems tunnel B",
+   "wbs": "1.8.5",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "Electrician",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "name": "checking all safety tunnels",
+   "wbs": "1.8.6",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Electrician",
+     "units": 2
+    },
+    {
+     "resource": "Construction Engineer",
+     "units": 2
+    },
+    {
+     "resource": "Electric engineer designer",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "clearing all equipment from the site",
+   "wbs": "1.8.7",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Manpower",
+     "units": 10
+    },
+    {
+     "resource": "Truck driver",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "name": "END",
+   "wbs": "1.9",
+   "duration": 0,
+   "demands": []
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 1,
+   "succ": 3,
+   "lag": 0
+  },
+  {
+   "pred": 1,
+   "succ": 4,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 5,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 5,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 8,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 17,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 25,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 49,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 31,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 36,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 37,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 42,
+   "lag": 0
+  },
+  {
+   "pred": 40,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 40,
+   "succ": 47,
+   "lag": 0
+  },
+  {
+   "pred": 41,
+   "succ": 49,
+   "lag": 0
+  },
+  {
+   "pred": 42,
+   "succ": 43,
+   "lag": 0
+  },
+  {
+   "pred": 42,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 43,
+   "succ": 45,
+   "lag": 0
+  },
+  {
+   "pred": 44,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 45,
+   "succ": 47,
+   "lag": 0
+  },
+  {
+   "pred": 46,
+   "succ": 47,
+   "lag": 0
+  },
+  {
+   "pred": 47,
+   "succ": 48,
+   "lag": 0
+  },
+  {
+   "pred": 48,
+   "succ": 49,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2012-14 Sluiskil Tunnel.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

@@ -115,6 +115,7 @@ SCHEDULE_LOCATIONS = {
     "FL_Orlando": (28.54, -81.38),
     "GA_Atlanta": (33.75, -84.39),
     "AZ_Phoenix": (33.45, -112.07),
+    "IL_Chicago": (41.88, -87.63),     # moderate-climate location
 }
 HIGH_RISK_QUANTILE = 0.80   # day is "high-risk" if risk score >= this quantile
 

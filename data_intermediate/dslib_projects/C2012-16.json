@@ -1,0 +1,2204 @@
+{
+ "code": "C2012-16",
+ "name": "Metal Extraction",
+ "sector": "Construction (industrial)",
+ "n_activities": 86,
+ "resources": [
+  {
+   "name": "1 Manitu 6t",
+   "capacity": 2
+  },
+  {
+   "name": "2 Hand lift truck",
+   "capacity": 2
+  },
+  {
+   "name": "3 Fork lift 6t",
+   "capacity": 1
+  },
+  {
+   "name": "4 Telescope lifting platform",
+   "capacity": 1
+  },
+  {
+   "name": "5 Scherenhubbuhne",
+   "capacity": 1
+  },
+  {
+   "name": "Construction",
+   "capacity": 8
+  }
+ ],
+ "activities": [
+  {
+   "id": 1,
+   "name": "Foundation UG",
+   "wbs": "1.1",
+   "duration": 5,
+   "demands": []
+  },
+  {
+   "id": 2,
+   "name": "Additional part foundation for aspiration filters",
+   "wbs": "1.2",
+   "duration": 4,
+   "demands": []
+  },
+  {
+   "id": 3,
+   "name": "Drying foundation UG",
+   "wbs": "1.3",
+   "duration": 4,
+   "demands": []
+  },
+  {
+   "id": 4,
+   "name": "Drying foundation for aspiration filters",
+   "wbs": "1.4",
+   "duration": 4,
+   "demands": []
+  },
+  {
+   "id": 5,
+   "name": "Wall whole for conveyor 1.060",
+   "wbs": "1.5",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 6,
+   "name": "Wall wholes for explosion-flapps filters",
+   "wbs": "1.6",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 7,
+   "name": "Closing wall wholes",
+   "wbs": "1.7",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 8,
+   "name": "Roof whole for Aspiration 1",
+   "wbs": "1.8",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Roof whole for Aspiration 2",
+   "wbs": "1.9",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Closing roof  wholes",
+   "wbs": "1.10",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Electric cable for central cabinet",
+   "wbs": "1.11",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Electric cable for aspiration",
+   "wbs": "1.12",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Electric cable for windsifter",
+   "wbs": "1.13",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Electric cable for UC",
+   "wbs": "1.14",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Electric cable for UG's",
+   "wbs": "1.15",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Air pressure for service works",
+   "wbs": "1.16",
+   "duration": 3,
+   "demands": []
+  },
+  {
+   "id": 17,
+   "name": "Air pressure for filter cleaning",
+   "wbs": "1.17",
+   "duration": 2,
+   "demands": []
+  },
+  {
+   "id": 18,
+   "name": "Boxes for particular product",
+   "wbs": "1.18",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 19,
+   "name": "Drying boxes for particular product",
+   "wbs": "1.19",
+   "duration": 4,
+   "demands": []
+  },
+  {
+   "id": 20,
+   "name": "Tranformer",
+   "wbs": "1.20",
+   "duration": 3,
+   "demands": []
+  },
+  {
+   "id": 21,
+   "name": "Low-Voltage Distribution System (NSHV)",
+   "wbs": "1.21",
+   "duration": 3,
+   "demands": []
+  },
+  {
+   "id": 22,
+   "name": "UC 150, M-875",
+   "wbs": "1.22",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 4
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "UG 208 MSL, M-766",
+   "wbs": "1.23",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 4
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "UG 208 MSL, M-832",
+   "wbs": "1.24",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 4
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "UG 208 MSL, M-872",
+   "wbs": "1.25",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 4
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Steel constructions for ascending conveyor UC",
+   "wbs": "1.26",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "2 Hand lift truck",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Steel constructions for lifting electric overband magnet",
+   "wbs": "1.27",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "2 Hand lift truck",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Steel constructions for lifting overband magnet",
+   "wbs": "1.28",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "2 Hand lift truck",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Steel constructions for fine screen",
+   "wbs": "1.29",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "2 Hand lift truck",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "Steel constructions for windsifter",
+   "wbs": "1.30",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "2 Hand lift truck",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "Steel constructions for lifting overband magnet",
+   "wbs": "1.31",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "2 Hand lift truck",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "Steel constructions for eddy current separator",
+   "wbs": "1.32",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "2 Hand lift truck",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "Railings around Ugs",
+   "wbs": "1.33",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "Steel construction for output conveyors from Ugs",
+   "wbs": "1.34",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "2 Hand lift truck",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "Ascending conveyor (UC)",
+   "wbs": "1.35",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "Ascending conveyor for electric overband magnet",
+   "wbs": "1.36",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "name": "Depletion conveyor for electric overband magnet",
+   "wbs": "1.37",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "Ascending conveyor for drum screen",
+   "wbs": "1.38",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "Drum screen",
+   "wbs": "1.39",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "Steel construction for drum screen",
+   "wbs": "1.40",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "2 Hand lift truck",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "Depletion conveyor under drum screen",
+   "wbs": "1.41",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "Depletion conveyor under drum screen",
+   "wbs": "1.42",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "name": "Ascending conveyor from drum screen to magnet-fine screen",
+   "wbs": "1.43",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "name": "Depletion conveyor for overband magnet",
+   "wbs": "1.44",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "Ascending conveyor to fine screen",
+   "wbs": "1.45",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "Depletion conveyor fraction 10-30 mm",
+   "wbs": "1.46",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "name": "Depletion conveyor fraction 0-10 mm",
+   "wbs": "1.47",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "Depletion conveyor under fine screen towards 10-30 mm",
+   "wbs": "1.48",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "name": "Ascending conveyor towards windsifeter",
+   "wbs": "1.49",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "name": "Depletion conveyor under windsifter - heavy fraction",
+   "wbs": "1.50",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "name": "Ascending conveyor with light fraction under windsifter",
+   "wbs": "1.51",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "name": "Ascending conveyor onto changing (direction) conveyor 1.170",
+   "wbs": "1.52",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "name": "Changing direction conveyor over UG M-872",
+   "wbs": "1.53",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "name": "Changing direction conveyor over UG M-766/M-832",
+   "wbs": "1.54",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "name": "Giving through conveyor with cleaner onto conveyor 1.230",
+   "wbs": "1.55",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "name": "Ascending conveyor towards magnets 1.240",
+   "wbs": "1.56",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "name": "Depletion conveyor iron",
+   "wbs": "1.57",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "name": "Ascending conveyor towards eddy current separator",
+   "wbs": "1.58",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "name": "Depletion conveyor non-iron",
+   "wbs": "1.59",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "name": "Depletion conveyor SRF",
+   "wbs": "1.60",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "name": "Depletion conveyor SRF",
+   "wbs": "1.61",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "name": "Electric overband magnet",
+   "wbs": "1.62",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "name": "Overband magnet",
+   "wbs": "1.63",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "name": "Trisomat-fine screen",
+   "wbs": "1.64",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 3
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "name": "Overband magnet",
+   "wbs": "1.65",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 2
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "name": "Eddy current separator",
+   "wbs": "1.66",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Construction",
+     "units": 1
+    },
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "name": "Loading viration channel for eddy current",
+   "wbs": "1.67",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "name": "Windsifter",
+   "wbs": "1.68",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "name": "Ascending conveyor - windsifter",
+   "wbs": "1.69",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "name": "Connection windsifter part",
+   "wbs": "1.70",
+   "duration": 2,
+   "demands": []
+  },
+  {
+   "id": 71,
+   "name": "Steel construction for UC",
+   "wbs": "1.71",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "2 Hand lift truck",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "name": "Hopper for UC",
+   "wbs": "1.72",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "name": "FE-chutes",
+   "wbs": "1.73",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 74,
+   "name": "NE-chutes",
+   "wbs": "1.74",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "1 Manitu 6t",
+     "units": 1
+    },
+    {
+     "resource": "3 Fork lift 6t",
+     "units": 1
+    },
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "name": "Connection UG 2008 MSL M= 872",
+   "wbs": "1.75",
+   "duration": 3,
+   "demands": []
+  },
+  {
+   "id": 76,
+   "name": "a",
+   "wbs": "1.76",
+   "duration": 3,
+   "demands": []
+  },
+  {
+   "id": 77,
+   "name": "Connection UG 2008 MSL M= 766",
+   "wbs": "1.77",
+   "duration": 3,
+   "demands": []
+  },
+  {
+   "id": 78,
+   "name": "Aspiration UG",
+   "wbs": "1.78",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "name": "Aspiration rest",
+   "wbs": "1.79",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "name": "Filter ECO-VAR",
+   "wbs": "1.80",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "4 Telescope lifting platform",
+     "units": 1
+    },
+    {
+     "resource": "5 Scherenhubbuhne",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "name": "Connection aspiration system",
+   "wbs": "1.81",
+   "duration": 3,
+   "demands": []
+  },
+  {
+   "id": 82,
+   "name": "Electrical installation",
+   "wbs": "1.82",
+   "duration": 5,
+   "demands": []
+  },
+  {
+   "id": 83,
+   "name": "Test installation cold",
+   "wbs": "1.83",
+   "duration": 5,
+   "demands": []
+  },
+  {
+   "id": 84,
+   "name": "Test installation with material",
+   "wbs": "1.84",
+   "duration": 5,
+   "demands": []
+  },
+  {
+   "id": 85,
+   "name": "Installation of central cabinet",
+   "wbs": "1.85",
+   "duration": 4,
+   "demands": []
+  },
+  {
+   "id": 86,
+   "name": "Electrical cables for Trafo and NSHV from power grid",
+   "wbs": "1.86",
+   "duration": 4,
+   "demands": []
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 1,
+   "succ": 3,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 4,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 54,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 78,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 79,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 80,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 81,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 81,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 81,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 83,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 70,
+   "lag": 0
+  },
+  {
+   "pred": 17,
+   "succ": 81,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 84,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 25,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 75,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 76,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 77,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 62,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 43,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 45,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 47,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 68,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 58,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 65,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 58,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 66,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 67,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 1,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 55,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 71,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 72,
+   "lag": 0
+  },
+  {
+   "pred": 36,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 37,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 42,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 43,
+   "lag": 0
+  },
+  {
+   "pred": 40,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 41,
+   "succ": 49,
+   "lag": 0
+  },
+  {
+   "pred": 42,
+   "succ": 49,
+   "lag": 0
+  },
+  {
+   "pred": 43,
+   "succ": 63,
+   "lag": 0
+  },
+  {
+   "pred": 44,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 45,
+   "succ": 63,
+   "lag": 0
+  },
+  {
+   "pred": 46,
+   "succ": 64,
+   "lag": 0
+  },
+  {
+   "pred": 47,
+   "succ": 48,
+   "lag": 0
+  },
+  {
+   "pred": 48,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 49,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 50,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 51,
+   "succ": 50,
+   "lag": 0
+  },
+  {
+   "pred": 52,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 53,
+   "succ": 52,
+   "lag": 0
+  },
+  {
+   "pred": 54,
+   "succ": 53,
+   "lag": 0
+  },
+  {
+   "pred": 55,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 56,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 57,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 58,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 59,
+   "succ": 60,
+   "lag": 0
+  },
+  {
+   "pred": 59,
+   "succ": 61,
+   "lag": 0
+  },
+  {
+   "pred": 60,
+   "succ": 73,
+   "lag": 0
+  },
+  {
+   "pred": 60,
+   "succ": 74,
+   "lag": 0
+  },
+  {
+   "pred": 61,
+   "succ": 73,
+   "lag": 0
+  },
+  {
+   "pred": 61,
+   "succ": 74,
+   "lag": 0
+  },
+  {
+   "pred": 62,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 62,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 63,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 64,
+   "succ": 45,
+   "lag": 0
+  },
+  {
+   "pred": 65,
+   "succ": 56,
+   "lag": 0
+  },
+  {
+   "pred": 65,
+   "succ": 57,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 59,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 59,
+   "lag": 0
+  },
+  {
+   "pred": 68,
+   "succ": 49,
+   "lag": 0
+  },
+  {
+   "pred": 68,
+   "succ": 69,
+   "lag": 0
+  },
+  {
+   "pred": 69,
+   "succ": 51,
+   "lag": 0
+  },
+  {
+   "pred": 70,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 71,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 73,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 74,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 75,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 76,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 78,
+   "succ": 8,
+   "lag": 0
+  },
+  {
+   "pred": 79,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 79,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 80,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 80,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 81,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 82,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 82,
+   "succ": 83,
+   "lag": 0
+  },
+  {
+   "pred": 83,
+   "succ": 84,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 2,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 5,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 31,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 86,
+   "lag": 0
+  },
+  {
+   "pred": 86,
+   "succ": 20,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2012-16 Metal Extraction.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

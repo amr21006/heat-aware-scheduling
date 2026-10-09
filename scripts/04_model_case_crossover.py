@@ -10,7 +10,7 @@ Outputs:
   outputs/tables/table04_casecrossover.{csv,md}
   outputs/tables/table04_distance_sensitivity.csv
   outputs/tables/table04_negative_controls.csv
-  outputs/tables/fig03_exposure_response.csv      (data for Figure 3)
+  outputs/tables/fig03_exposure_response.csv      (exposure-response curve)
   outputs/tables/verification03_association.json
 """
 from __future__ import annotations

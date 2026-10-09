@@ -1,0 +1,795 @@
+{
+ "code": "C2025-01",
+ "name": "Water Intake and Canal Rehabilitation",
+ "sector": "Construction (Civil)",
+ "n_activities": 45,
+ "resources": [
+  {
+   "name": "carpenter",
+   "capacity": 4
+  },
+  {
+   "name": "mason",
+   "capacity": 6
+  },
+  {
+   "name": "painter",
+   "capacity": 3
+  },
+  {
+   "name": "steel worker",
+   "capacity": 6
+  },
+  {
+   "name": "team subcontractor",
+   "capacity": 12
+  }
+ ],
+ "activities": [
+  {
+   "id": 2,
+   "name": "CARTEL DE IDENTIFICACION DE LA OBRA (2.50mx1.80m)",
+   "wbs": "1.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "ALQUILER DEL LOCAL PARA LA OBRA",
+   "wbs": "1.1.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "TRAZO NIVEL Y REPLANTEO",
+   "wbs": "1.2.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "EXCAVACION MANUAL PARA ESTRUCTURA EN TERRENO NORMAL",
+   "wbs": "1.2.2.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "EXCAVACION EN ROCA FIJA",
+   "wbs": "1.2.2.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "NIVELACION INTERIOR Y APISONADO MANUAL",
+   "wbs": "1.2.2.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "ELIMINACION DE MATERIAL EXCEDENTE",
+   "wbs": "1.2.2.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "ENCOFRADO Y DESENCOFRADO",
+   "wbs": "1.2.3.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "CONCRETO EN COLCHON DISIPADOR f'c=210 kg/cm2",
+   "wbs": "1.2.3.2",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "CONCRETO EN MUROS f'c=175 kg/cm2",
+   "wbs": "1.2.3.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "CONCRETO CIPLOPEO EN BARRAJE FIJO f'c=175 kg/cm2 + 30 DE P. M",
+   "wbs": "1.2.3.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "ACERO FY= 4200 KG/CM2",
+   "wbs": "1.2.3.5",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "JUNTAS DE WATERSTOP 6\"",
+   "wbs": "1.2.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "CURADO DE CONCRETO",
+   "wbs": "1.2.5.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "TARRAJEO CON IMPERMEABILIZANTES",
+   "wbs": "1.2.6.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "REJILLA METALICA 0.30m x 0.25m",
+   "wbs": "1.2.7.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "COMPUERTA METALICA 1.45 m x 0.60 m",
+   "wbs": "1.2.7.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "TRAZO, NIVELACION Y REPLANTEO",
+   "wbs": "1.3.1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "EXCAVACION MANUAL PARA ESTRUCTURA EN TERRENO NORMAL",
+   "wbs": "1.3.2.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "NIVELACION INTERIOR Y APISONADO MANUAL",
+   "wbs": "1.3.2.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "ELIMINACION DE MATERIAL EXCEDENTE",
+   "wbs": "1.3.2.3",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "ENCOFRADO Y DESENCOFRADO",
+   "wbs": "1.3.3.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "CONCRETO CICLOPEO FS=175KG/CM2   + 30 % PM.",
+   "wbs": "1.3.3.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "name": "CONCRETO EN MUROS f'c=175 kg/cm2",
+   "wbs": "1.3.3.3",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "ACERO FY= 4200 KG/CM2",
+   "wbs": "1.3.3.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "JUNTAS DE WATERSTOP 6\"",
+   "wbs": "1.3.4.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "CURADO DE CONCRETO",
+   "wbs": "1.3.5.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "name": "TARRAJEO CON IMPERMEABILIZANTES",
+   "wbs": "1.3.6.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "COMPUERTA METALICA 0.50m x 0.50m,h=0.95 m",
+   "wbs": "1.3.7.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "name": "LIMPIEZA Y DESBROCE DEL TERRENO",
+   "wbs": "1.4.1.1",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "name": "TRAZO, NIVELACION Y REPLANTEO",
+   "wbs": "1.4.1.2",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "name": "EXCAVACION DE ZANJA EN MATERIAL SUELTO",
+   "wbs": "1.4.2.1",
+   "duration": 30,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "name": "REFINE Y COMPACTACION EN ZANJAS",
+   "wbs": "1.4.2.2",
+   "duration": 22,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "name": "ELIMINACION DE MATERIAL EXCEDENTE",
+   "wbs": "1.4.2.3",
+   "duration": 22,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "name": "ENCOFRADO Y DESENCOFRADO",
+   "wbs": "1.4.3.1",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "name": "CONCRETO EN MUROS f'c=175 kg/cm2",
+   "wbs": "1.4.3.2",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "name": "TARRAJEO CON IMPERMEABILIZANTES",
+   "wbs": "1.4.4.1",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "name": "JUNTA ASFALTICA",
+   "wbs": "1.4.5.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "name": "CURADO DE CONCRETO",
+   "wbs": "1.4.6.1",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "name": "EQUIPO DE SEGURIDAD INDIVIDUAL",
+   "wbs": "1.4.7.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "name": "CAPACITACION EN SEGURIDAD Y SALUD",
+   "wbs": "1.4.7.2",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "name": "FLETE DE TRANSPORTE TERRESTRE",
+   "wbs": "1.4.8.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "name": "FLETE RURAL (TRANSPORTE CON ACEMILAS)",
+   "wbs": "1.4.8.2",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "name": "LIMPIEZA FINAL",
+   "wbs": "1.4.9.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "name": "PLACA RECORDATORIA",
+   "wbs": "1.4.9.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 2,
+   "succ": 3,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 8,
+   "lag": -1
+  },
+  {
+   "pred": 6,
+   "succ": 65,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 9,
+   "lag": -2
+  },
+  {
+   "pred": 9,
+   "succ": 10,
+   "lag": -2
+  },
+  {
+   "pred": 9,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 17,
+   "lag": -3
+  },
+  {
+   "pred": 13,
+   "succ": 14,
+   "lag": -5
+  },
+  {
+   "pred": 14,
+   "succ": 15,
+   "lag": -2
+  },
+  {
+   "pred": 14,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 21,
+   "lag": -7
+  },
+  {
+   "pred": 14,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 16,
+   "lag": -3
+  },
+  {
+   "pred": 17,
+   "succ": 13,
+   "lag": -2
+  },
+  {
+   "pred": 23,
+   "succ": 25,
+   "lag": -2
+  },
+  {
+   "pred": 25,
+   "succ": 26,
+   "lag": -2
+  },
+  {
+   "pred": 29,
+   "succ": 31,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 49,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 32,
+   "lag": -4
+  },
+  {
+   "pred": 31,
+   "succ": 33,
+   "lag": -2
+  },
+  {
+   "pred": 31,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 36,
+   "lag": -2
+  },
+  {
+   "pred": 36,
+   "succ": 37,
+   "lag": -2
+  },
+  {
+   "pred": 36,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 37,
+   "succ": 42,
+   "lag": 0
+  },
+  {
+   "pred": 37,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 35,
+   "lag": -2
+  },
+  {
+   "pred": 44,
+   "succ": 46,
+   "lag": -2
+  },
+  {
+   "pred": 49,
+   "succ": 50,
+   "lag": -5
+  },
+  {
+   "pred": 50,
+   "succ": 52,
+   "lag": 0
+  },
+  {
+   "pred": 52,
+   "succ": 53,
+   "lag": -20
+  },
+  {
+   "pred": 52,
+   "succ": 54,
+   "lag": -20
+  },
+  {
+   "pred": 53,
+   "succ": 56,
+   "lag": -18
+  },
+  {
+   "pred": 54,
+   "succ": 72,
+   "lag": -7
+  },
+  {
+   "pred": 56,
+   "succ": 57,
+   "lag": -20
+  },
+  {
+   "pred": 57,
+   "succ": 59,
+   "lag": -20
+  },
+  {
+   "pred": 57,
+   "succ": 61,
+   "lag": -5
+  },
+  {
+   "pred": 57,
+   "succ": 63,
+   "lag": -21
+  },
+  {
+   "pred": 66,
+   "succ": 68,
+   "lag": 0
+  },
+  {
+   "pred": 68,
+   "succ": 69,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 71,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2025-01 Water Intake and Canal Rehabilitation.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 1,
+  "demands_clipped_to_capacity": 0
+ }
+}

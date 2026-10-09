@@ -6,7 +6,7 @@ Outputs:
   data_intermediate/environmental_heat_cases.csv   (primary outcome, 605)
   data_intermediate/burn_secondary_cases.csv       (excluded burns; secondary)
   data_intermediate/nonheat_construction.csv        (negative-control pool)
-  outputs/tables/table01_filtering.{csv,md}         (Table 1 / Table A)
+  outputs/tables/table01_filtering.{csv,md}
   outputs/tables/diag_month_distribution.csv
   outputs/tables/diag_state_distribution.csv
   outputs/tables/diag_naics_distribution.csv
@@ -155,7 +155,7 @@ def main() -> int:
     nonheat.to_csv(config.DATA_INTERMEDIATE / "nonheat_construction.csv", index=False)
     amput.to_csv(config.DATA_INTERMEDIATE / "nonheat_amputation_cases.csv", index=False)
 
-    # --- Table 1 / Table A: filtering counts ---
+    # --- filtering counts ---
     table1 = pd.DataFrame([
         ["All OSHA severe-injury records", n_total],
         ["Construction NAICS 23", n_constr],

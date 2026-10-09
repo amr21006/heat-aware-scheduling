@@ -32,7 +32,7 @@ HIGH_RISK_THRESHOLD = 0.5
 HOT_DAY_C = 32.2
 
 LOC_STATE = {"TX_Austin": "Texas", "FL_Orlando": "Florida",
-             "GA_Atlanta": "Georgia", "AZ_Phoenix": "Arizona"}
+             "GA_Atlanta": "Georgia", "AZ_Phoenix": "Arizona", "IL_Chicago": "Illinois"}
 
 
 def screening_risk(hi_c):

@@ -1,0 +1,314 @@
+{
+ "code": "C2018-06",
+ "name": "Camera network",
+ "sector": "Construction (civil)",
+ "n_activities": 16,
+ "resources": [
+  {
+   "name": "Resource 2",
+   "capacity": 4
+  },
+  {
+   "name": "Resource1",
+   "capacity": 5
+  }
+ ],
+ "activities": [
+  {
+   "id": 17,
+   "name": "Draw up a technical file",
+   "wbs": "1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Resource1",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Kick-off meeting",
+   "wbs": "1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Resource1",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Coordination meeting and working session",
+   "wbs": "1.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Resource1",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Drilling holes",
+   "wbs": "1.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Resource 2",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Construction cable ways",
+   "wbs": "1.5",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Resource 2",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Cabling",
+   "wbs": "1.6",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Resource 2",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Cabinet delivery and installation",
+   "wbs": "1.7",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Resource 2",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Connecting the cabinet to the data network of Infrabel via fibre optics",
+   "wbs": "1.8",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Resource 2",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Equipping the cabinet with patch panels and switches",
+   "wbs": "1.9",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Resource 2",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Connecting the camera cables to the patch panel in the cabinet",
+   "wbs": "1.10",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Resource 2",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Measurements of the cables",
+   "wbs": "1.11",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Resource 2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Delivery and unpacking the cameras",
+   "wbs": "1.12",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Resource 2",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Inspection of the cameras",
+   "wbs": "1.13",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Resource 2",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Inserting and connecting the camera",
+   "wbs": "1.14",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Resource 2",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Camera programming and testing",
+   "wbs": "1.15",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Resource 2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Drawing an as-built plan of the installation and the delivery of the project",
+   "wbs": "1.16",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Resource 2",
+     "units": 1
+    },
+    {
+     "resource": "Resource1",
+     "units": 1
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 17,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 3,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 4,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 5,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 8,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 16,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2018-06 Camera network.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

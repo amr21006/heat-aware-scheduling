@@ -1,0 +1,1348 @@
+{
+ "code": "C2025-24",
+ "name": "Construssion De Cerco",
+ "sector": "Construction (Civil)",
+ "n_activities": 77,
+ "resources": [
+  {
+   "name": "carpenter",
+   "capacity": 8
+  },
+  {
+   "name": "mason",
+   "capacity": 16
+  },
+  {
+   "name": "painter",
+   "capacity": 3
+  },
+  {
+   "name": "plumber",
+   "capacity": 7
+  },
+  {
+   "name": "steel worker",
+   "capacity": 6
+  },
+  {
+   "name": "team subcontractor",
+   "capacity": 12
+  }
+ ],
+ "activities": [
+  {
+   "id": 6,
+   "name": "OFICINA, ALMACEN Y CASETA D/GUARDIANIA",
+   "wbs": "1.2.1.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "CARTEL DE IDENTIFICACION DE OBRA 3.60mX2.40m",
+   "wbs": "1.2.1.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "CERCO PROVISIONAL MALLA ARP\u00cdLLERA",
+   "wbs": "1.2.1.1.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "AGUA PARA LA CONSTRUSSION",
+   "wbs": "1.2.1.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "ENERGIA ELECTRICA PARA LA CONSTRUSSION",
+   "wbs": "1.2.1.1.5",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "TRANSPORTE DE EQUIPO Y HERRAMIENTAS",
+   "wbs": "1.2.1.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "TRAZO, NIVELACION Y REPLANTEO",
+   "wbs": "1.2.1.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "ELABORACION DEL PLAN DE SEGURIDAD Y SALUD EN EL TRABAJO",
+   "wbs": "1.2.1.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "SERVICIOS HIGIENICOS PARA LA OBRA-BA\u00d1OS QUIMICOS",
+   "wbs": "1.2.1.2.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "EQUIPO DE PROTESSION INDIVIDUAL",
+   "wbs": "1.2.1.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "EQUIPOS DE PROTESSION COLECTIVA",
+   "wbs": "1.2.1.3.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "SE\u00d1ALIZACION TEMPORAL DE SEGURIDAD",
+   "wbs": "1.2.1.3.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "LAVADERO DE MANOS PORTATIL",
+   "wbs": "1.2.1.4.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "ELABORACION PLAN DE VIGILANCIA, PREVENCION Y CONTROL COVID-19 EN EL TRABAJO",
+   "wbs": "1.2.1.4.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "EQUIPOS COMPLEMENTARIOS DE PROTESSION INDIVIDUAL - COVID 19",
+   "wbs": "1.2.1.4.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "EQUIPOS COMPLEMENTARIOS DE PROTESSION COLECTIVA - COVID 19",
+   "wbs": "1.2.1.4.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "LIMPIEZA PERMANENTE Y DESINFESSI\u00d3N",
+   "wbs": "1.2.1.4.2.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "SERVICIOS COMPLEMENTARIOS EXAMEN PRUEBA COVID-19",
+   "wbs": "1.2.1.4.2.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "MANEJO DE RESIDUOS SOLIDOS BIO CONTAMINANTES FRENTE A COVID-19",
+   "wbs": "1.2.1.4.2.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "ELABORACION DE PLAN DE MITIGACION DE IMPACTO AMBIENTAL",
+   "wbs": "1.2.1.4.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "EXCAVACION DE ZANJAS PARA SARDINEL (MANUAL)",
+   "wbs": "1.2.2.1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "ACARREO MANUAL DE DESMONTE",
+   "wbs": "1.2.2.1.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "ELIMINACION DE DESMONTE Y DESPERDICIOS",
+   "wbs": "1.2.2.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "ENCOFRADO PARA SARDINEL",
+   "wbs": "1.2.2.2.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "SARDINEL DE CONCRETO f'c=175 kg/cm2",
+   "wbs": "1.2.2.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "FABRICACION E INSTALACION DE CERCO PERIMETRICO, INCLUYE PINTADO",
+   "wbs": "1.2.2.3.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "PUERTA METALICA INC.  COLOCACION Y PINTADO",
+   "wbs": "1.2.2.3.2",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "name": "PINTURA ESMALTE EN SARDINEL DE CONCRETO",
+   "wbs": "1.2.2.4.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "JUNTAS ASFALTICAS CON TECKNOPORT E=1\"",
+   "wbs": "1.2.2.4.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "DEMOLICION DE CONCRETO EN PISOS Y BANCAS",
+   "wbs": "1.2.3.1.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "name": "ELIMINACION DE MATERIAL EXCEDENTE PROVENIENTE DE DEMOLICIONES",
+   "wbs": "1.2.3.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "name": "EXCAVACION MANUAL EN TERRENO NORMAL",
+   "wbs": "1.2.3.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "name": "PERFILADO Y COMPACTADO DE LA SUB RASANTE",
+   "wbs": "1.2.3.2.2",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "name": "CONFORMACION DE BASE GRANULAR H=0.10m SECTOR ADOQUINADO",
+   "wbs": "1.2.3.2.3",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "name": "ACARREO DE MATERIAL EXCEDENTE PROVENIENTE DE EXCAVACION",
+   "wbs": "1.2.3.2.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "name": "ELIMINACION MATERIAL EXCEDENTE DM = 5 KMS.",
+   "wbs": "1.2.3.2.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "name": "ENCOFRADO PARA SARDINEL",
+   "wbs": "1.2.3.3.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "name": "SARDINEL DE CONCRETO f'c=175 kg/cm2",
+   "wbs": "1.2.3.3.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "name": "ACARREO DE MATERIAL DE ADOQUIN",
+   "wbs": "1.2.3.4.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "name": "CAMA DE ARENA PARA ADOQUINES",
+   "wbs": "1.2.3.4.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "name": "ADOQUIN DE CONCRETO E=6CM",
+   "wbs": "1.2.3.4.3",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "name": "COMPACTACI\u00d3N FINAL Y SELLADO DE JUNTAS PARA ADOQUINADO",
+   "wbs": "1.2.3.4.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "name": "BARRIDO FINAL DE SUPERFICIE ADOQUINADA",
+   "wbs": "1.2.3.4.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "name": "RAMPA DE CONCRETO 175 kg/cm2 e=6\" PULIDO BRU\u00d1ADO",
+   "wbs": "1.2.3.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "name": "ENCOFRADO Y DESENCOFRADO PARA RAMPA",
+   "wbs": "1.2.3.5.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "name": "RESANE DE VEREDAS EXISTENTES (FILOS)",
+   "wbs": "1.2.3.6.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "name": "TARRAJEO DE MUROS DE CONCRETO",
+   "wbs": "1.2.3.6.2",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "name": "COBERTURA CON PLANCHA DE POLICARBONATO DE 6mm, EN PERGOLA",
+   "wbs": "1.2.4.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "name": "MONUMENTO EN FIBRA DE VIDRIO DE ESCULTOR",
+   "wbs": "1.2.5.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 76,
+   "name": "MONUMENTO EN FIBRA DE VIDRIO DE PELEA DE TOROS",
+   "wbs": "1.2.5.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "name": "RESTAURACION DE ESCULTURA DE FIBRA DE VIDRIO",
+   "wbs": "1.2.5.1.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "name": "EXCAVACION DE CIMIENTOS CORRIDOS",
+   "wbs": "1.2.5.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "name": "CIMIENTOS CONCRETO f'c=175 kg/cm2",
+   "wbs": "1.2.5.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "name": "BLOQUE DE SILLAR CON LOGO (CERRO COLORADO CUNA DEL SILLAR Y ESCUDO)",
+   "wbs": "1.2.5.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 83,
+   "name": "ENCHAPE CON SILLAR BLANCO",
+   "wbs": "1.2.6.1",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 84,
+   "name": "ENCHAPE CON PIEDRA TIPO LAJA",
+   "wbs": "1.2.6.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "name": "LETRAS FORJADAS DE METAL (32 LETRAS POR CADA PORTAL)",
+   "wbs": "1.2.6.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 86,
+   "name": "PINTURA BARNIZ PARA PIEDRA LAJA",
+   "wbs": "1.2.6.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 88,
+   "name": "COLOCACION DE MALLA GALVANIZADA 3/8\" N\u00ba 22,",
+   "wbs": "1.2.7.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 90,
+   "name": "PINTURA LATEX 2 MANOS COLUMNAS Y MUROS",
+   "wbs": "1.2.8.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 91,
+   "name": "PINTURAS ESMALTE EN BANCAS DE CONCRETO",
+   "wbs": "1.2.8.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "name": "PINTURA ESMALTE EN BANCAS METALICAS",
+   "wbs": "1.2.8.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "name": "PINTURA ESMALTE EN BARANDAS METALICAS",
+   "wbs": "1.2.8.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "name": "PINTURA ESMALTE EN CARPINTERIA METALICA - POSTE METALICO EXISTENTE",
+   "wbs": "1.2.8.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "name": "PINTURA BARNIZ EN BANCAS DE MADERA",
+   "wbs": "1.2.8.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "name": "EXCAVACION DE CIMIENTOS CORRIDOS",
+   "wbs": "1.2.9.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 98,
+   "name": "CIMIENTOS CONCRETO f'c=175 kg/cm2",
+   "wbs": "1.2.9.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 99,
+   "name": "GIMNASIO BIOSALUDABLE",
+   "wbs": "1.2.9.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "name": "EXCAVACION DE CIMIENTOS CORRIDOS",
+   "wbs": "1.2.10.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 102,
+   "name": "CIMIENTOS CONCRETO f'c=175 kg/cm2",
+   "wbs": "1.2.10.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "name": "TACHO DE BASURA EN FIBRA DE VIDRIO",
+   "wbs": "1.2.10.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "name": "LUMINARIA CON PANEL SOLAR",
+   "wbs": "1.2.11.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 106,
+   "name": "COLUMNAS METALICA FoGo 3\"",
+   "wbs": "1.2.11.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 108,
+   "name": "REPOSICION DE GRASS EXISTENTE",
+   "wbs": "1.2.12.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 109,
+   "name": "MANTENIMIENTO DE PERGOLA Y LISTONES DE ASIENTOS DE MADERA",
+   "wbs": "1.2.12.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 110,
+   "name": "CAMBIO DE BOMBA DE AGUA, Y MANTENIMIENTO AL SISTEMA",
+   "wbs": "1.2.12.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 111,
+   "name": "LIMPIEZA FINAL DE OBRA",
+   "wbs": "1.2.12.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 6,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 8,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 13,
+   "lag": -1
+  },
+  {
+   "pred": 6,
+   "succ": 14,
+   "lag": -1
+  },
+  {
+   "pred": 6,
+   "succ": 15,
+   "lag": -1
+  },
+  {
+   "pred": 6,
+   "succ": 17,
+   "lag": -1
+  },
+  {
+   "pred": 6,
+   "succ": 18,
+   "lag": -1
+  },
+  {
+   "pred": 6,
+   "succ": 19,
+   "lag": -1
+  },
+  {
+   "pred": 6,
+   "succ": 22,
+   "lag": -1
+  },
+  {
+   "pred": 6,
+   "succ": 24,
+   "lag": -1
+  },
+  {
+   "pred": 6,
+   "succ": 25,
+   "lag": -1
+  },
+  {
+   "pred": 6,
+   "succ": 26,
+   "lag": -1
+  },
+  {
+   "pred": 6,
+   "succ": 27,
+   "lag": -1
+  },
+  {
+   "pred": 6,
+   "succ": 31,
+   "lag": -1
+  },
+  {
+   "pred": 13,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 48,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 41,
+   "succ": 42,
+   "lag": 0
+  },
+  {
+   "pred": 48,
+   "succ": 49,
+   "lag": 0
+  },
+  {
+   "pred": 48,
+   "succ": 51,
+   "lag": 0
+  },
+  {
+   "pred": 51,
+   "succ": 52,
+   "lag": 0
+  },
+  {
+   "pred": 52,
+   "succ": 53,
+   "lag": 0
+  },
+  {
+   "pred": 52,
+   "succ": 54,
+   "lag": 0
+  },
+  {
+   "pred": 53,
+   "succ": 84,
+   "lag": 0
+  },
+  {
+   "pred": 53,
+   "succ": 106,
+   "lag": 0
+  },
+  {
+   "pred": 54,
+   "succ": 55,
+   "lag": 0
+  },
+  {
+   "pred": 55,
+   "succ": 57,
+   "lag": 0
+  },
+  {
+   "pred": 57,
+   "succ": 58,
+   "lag": 0
+  },
+  {
+   "pred": 58,
+   "succ": 60,
+   "lag": 0
+  },
+  {
+   "pred": 60,
+   "succ": 61,
+   "lag": 0
+  },
+  {
+   "pred": 61,
+   "succ": 62,
+   "lag": -3
+  },
+  {
+   "pred": 61,
+   "succ": 63,
+   "lag": 0
+  },
+  {
+   "pred": 61,
+   "succ": 64,
+   "lag": 0
+  },
+  {
+   "pred": 61,
+   "succ": 66,
+   "lag": 0
+  },
+  {
+   "pred": 61,
+   "succ": 67,
+   "lag": 0
+  },
+  {
+   "pred": 62,
+   "succ": 72,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 69,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 70,
+   "lag": 0
+  },
+  {
+   "pred": 69,
+   "succ": 90,
+   "lag": 0
+  },
+  {
+   "pred": 70,
+   "succ": 45,
+   "lag": 0
+  },
+  {
+   "pred": 75,
+   "succ": 76,
+   "lag": 0
+  },
+  {
+   "pred": 76,
+   "succ": 77,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 79,
+   "lag": 0
+  },
+  {
+   "pred": 79,
+   "succ": 80,
+   "lag": 0
+  },
+  {
+   "pred": 80,
+   "succ": 81,
+   "lag": 0
+  },
+  {
+   "pred": 83,
+   "succ": 75,
+   "lag": 0
+  },
+  {
+   "pred": 83,
+   "succ": 85,
+   "lag": 0
+  },
+  {
+   "pred": 83,
+   "succ": 86,
+   "lag": 0
+  },
+  {
+   "pred": 83,
+   "succ": 88,
+   "lag": 0
+  },
+  {
+   "pred": 84,
+   "succ": 83,
+   "lag": 0
+  },
+  {
+   "pred": 88,
+   "succ": 97,
+   "lag": 0
+  },
+  {
+   "pred": 90,
+   "succ": 91,
+   "lag": -4
+  },
+  {
+   "pred": 90,
+   "succ": 93,
+   "lag": -4
+  },
+  {
+   "pred": 90,
+   "succ": 94,
+   "lag": -4
+  },
+  {
+   "pred": 90,
+   "succ": 95,
+   "lag": -4
+  },
+  {
+   "pred": 91,
+   "succ": 92,
+   "lag": 0
+  },
+  {
+   "pred": 92,
+   "succ": 108,
+   "lag": 0
+  },
+  {
+   "pred": 95,
+   "succ": 108,
+   "lag": 0
+  },
+  {
+   "pred": 97,
+   "succ": 98,
+   "lag": 0
+  },
+  {
+   "pred": 97,
+   "succ": 101,
+   "lag": 0
+  },
+  {
+   "pred": 98,
+   "succ": 99,
+   "lag": 0
+  },
+  {
+   "pred": 101,
+   "succ": 102,
+   "lag": 0
+  },
+  {
+   "pred": 102,
+   "succ": 103,
+   "lag": 0
+  },
+  {
+   "pred": 106,
+   "succ": 105,
+   "lag": 0
+  },
+  {
+   "pred": 106,
+   "succ": 110,
+   "lag": 0
+  },
+  {
+   "pred": 108,
+   "succ": 111,
+   "lag": 0
+  },
+  {
+   "pred": 110,
+   "succ": 109,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2025-24  CONSTRUSSION DE CERCO.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

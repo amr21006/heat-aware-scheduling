@@ -1,0 +1,2618 @@
+{
+ "code": "C2025-13",
+ "name": "University Library Construction",
+ "sector": "Construction (institutional building)",
+ "n_activities": 151,
+ "resources": [
+  {
+   "name": "carpenter",
+   "capacity": 8
+  },
+  {
+   "name": "foreman",
+   "capacity": 1
+  },
+  {
+   "name": "mason",
+   "capacity": 16
+  },
+  {
+   "name": "painter",
+   "capacity": 3
+  },
+  {
+   "name": "plasterer",
+   "capacity": 9
+  },
+  {
+   "name": "plumber",
+   "capacity": 7
+  },
+  {
+   "name": "steel worker",
+   "capacity": 6
+  },
+  {
+   "name": "team subcontractor",
+   "capacity": 12
+  },
+  {
+   "name": "welder",
+   "capacity": 8
+  }
+ ],
+ "activities": [
+  {
+   "id": 5,
+   "name": "ALMACEN Y GUARDIANIA",
+   "wbs": "1.1.1.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "CARTEL DE OBRA CON BANNER DE GIGANTOGRAFIA Y BASTIDORES DE MADERA DE 1.50 X 2.10 M SEGUN DISE\u00d1O",
+   "wbs": "1.1.1.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "INSTALACION DE CERCO PROVISIONAL DE TELA SINTETICA ALREDEDOR DE LA OBRA",
+   "wbs": "1.1.1.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "TRANSPORTE DE MATERIALES A CAMPUS UNIVERSITARIO UNDAR",
+   "wbs": "1.1.1.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "DEMOLICI\u00d3N DE MUROS DE LADRILLO EXISTENTE",
+   "wbs": "1.1.2.1.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "DEMOLICI\u00d3N DE PISO CER\u00c1MICO EXISTENTE",
+   "wbs": "1.1.2.1.2",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "DEMOLICI\u00d3N DE CONTRAZOCALO DE CONCRETO PULIDO H=0.10 CM EXISTENTE",
+   "wbs": "1.1.2.1.3",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "DESMONTAJE DE TABIQUE DRYWALL EXISTENTE",
+   "wbs": "1.1.2.2.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "DESMONTAJE DE PUERTAS DE MADERA EXISTENTES",
+   "wbs": "1.1.2.2.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "DESMONTAJE DE VENTANAS  EXISTENTES",
+   "wbs": "1.1.2.2.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "DESMONTAJES DE BARANDAS MET\u00c1LICAS EXISTENTES",
+   "wbs": "1.1.2.2.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "DESMONTAJES DE LUMINARIAS EXISTENTES",
+   "wbs": "1.1.2.2.5",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "REMOCI\u00d3N Y TRASLADO DE MUEBLES, ESTANTES Y REPISAS EXISTENTES (DENTRO DE LA INSTITUCI\u00d3N)",
+   "wbs": "1.1.2.2.6",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "ACARREO INTERNO, MATERIAL PROCEDENTE DE DEMOLICIONES",
+   "wbs": "1.1.2.3.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "ELIMINACI\u00d3N DE MATERIAL PROVENIENTE DE DEMOLICIONES",
+   "wbs": "1.1.2.3.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "PICADO Y RESANE DE MUROS PARA EMPODRADO DE TUBERIAS",
+   "wbs": "1.1.2.4.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "LIMPIEZA DE ZONA A INTERVENIR",
+   "wbs": "1.1.2.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "TRAZO NIVELES Y REPLANTEO PRELIMINAR",
+   "wbs": "1.1.2.5.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "EQUIPOS DE PROTESSION INDIVIDUAL",
+   "wbs": "1.1.3.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "EQUIPOS DE PROTESSION COLECTIVA",
+   "wbs": "1.1.3.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "SE\u00d1ALIZACION TEMPORAL DE SEGURIDAD",
+   "wbs": "1.1.3.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "RECURSOS PARA RESPUESTA ANTE EMERGENCIA EN SEGURIDAD Y SALUD DURANTE EL TRABAJO",
+   "wbs": "1.1.3.1.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "ELABORACI\u00d3N DEL PLAN PARA LA VIGILANCIA, PREVENCI\u00d3N Y CONTROL DE COVID-19 EN EL TRABAJO",
+   "wbs": "1.1.3.2.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "LIMPIEZA Y DESINFESSI\u00d3N EN OBRA",
+   "wbs": "1.1.3.2.2.1",
+   "duration": 45,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "SENSIBILAZACI\u00d3N DE LA PREVENCI\u00d3N DEL CONTAGIO COVID-19 EN OBRA",
+   "wbs": "1.1.3.2.2.2",
+   "duration": 45,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "name": "PROTESSI\u00d3N DEL PERSONAL DE LA OBRA-COVID-19",
+   "wbs": "1.1.3.2.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "EVALUACI\u00d3N DE DESCARTE",
+   "wbs": "1.1.3.2.4.1",
+   "duration": 45,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "IDENTIFICACI\u00d3N DE SINTOMATOLOGIA COVID-19",
+   "wbs": "1.1.3.2.4.2",
+   "duration": 45,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "name": "PANELES INFORMATIVOS COVID-19",
+   "wbs": "1.1.3.2.4.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "SERVICIO DE TRASLADO DEL PERSONAL HASTA LA OBRA",
+   "wbs": "1.1.3.2.4.4",
+   "duration": 45,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "name": "SERVICIO DE ALIMENTACI\u00d3N AL PERSONAL",
+   "wbs": "1.1.3.2.4.5",
+   "duration": 50,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "name": "ZONA DE CONTROL PREVIO",
+   "wbs": "1.1.3.2.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "name": "ZONA DE CONTROL DE DESINFESSI\u00d3N",
+   "wbs": "1.1.3.2.5.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "name": "ZONA CONTROL DE VESTUARIO",
+   "wbs": "1.1.3.2.5.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "name": "ZONA DE TRABAJO",
+   "wbs": "1.1.3.2.5.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "name": "ZONAS DOTADAS DE AGUA, JABON, PAPEL SECANTE Y SOLUCI\u00d3N HIDROALCOH\u00d3LICA AL 70%",
+   "wbs": "1.1.3.2.6.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "name": "CONTENEDOR DE DESECHOS",
+   "wbs": "1.1.3.2.6.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "name": "EQUIPAMIENTO DE PROFESIONAL DE SEGURIDAD Y SALUD",
+   "wbs": "1.1.3.2.7.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "name": "MURO DE SOGA LADRILLO KING-KONG 18 HUECOS DE ARCILLA - MEZCLA C: A 1:5",
+   "wbs": "1.2.1.1",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "name": "TABIQUERIA ACUSTICA CON LANA ROCA E=6 MM, DRYWALL UNA CARA ESTRUCTURA METALICA CON PLACA DE FIBROCEMENTO INC. MASILLADO",
+   "wbs": "1.2.2.1",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "name": "TABIQUERIA FLOTANTE DECORATICO DE DRYWALL ESTRUCTURA METALICA CON PLACA DE FIBROCEMENTO ACABADO DE LAMINADO DE 8MM NOGAL MONTREAL 19.2 CM X 128.5 CM",
+   "wbs": "1.2.3.1",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "name": "TARRAJEO EN INTERIORES CON CEMENTO-ARENA 1:5",
+   "wbs": "1.2.4.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "name": "TARRAJEO EN EXTERIORES CON CEMENTO-ARENA 1:5",
+   "wbs": "1.2.4.2",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "name": "VESTIDURA DE DERRAMES CON CEMENTO ARENA 1:5 - ANCHO 0.15 M.",
+   "wbs": "1.2.4.3",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "name": "FALSO CIELO RASO HORIZONTAL DE DRYWALL ESTRUCTURA METALICA CON PLACA DE FIBROCEMENTO INC. MASILLADO",
+   "wbs": "1.2.5.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "name": "FALSO CIELO RASO FLOTANTE DECORATICO DE DRYWALL ESTRUCTURA METALICA CON PLACA DE FIBROCEMENTO ACABADO LAMINADO DE 8MM NOGAL MONTREAL 19.2 CM X 128.5 CM",
+   "wbs": "1.2.5.2",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "name": "FALSO CIELO RASO HORIZONTAL ACUSTICO CON LANA ROCA E=6MM,  DRYWALL ESTRUCTURA METALICA CON PLACA DE FIBROCEMENTO INC. MAS",
+   "wbs": "1.2.6.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "name": "PREPARACI\u00d3N DE SUPERFICIE PARA INSTALACI\u00d3N DE NUEVO PISO",
+   "wbs": "1.2.7.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "name": "PISO FLOTANTE LAMINADO DE 8MM NOGAL MONTREAL 19.2 CM X 128.5 CM",
+   "wbs": "1.2.7.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "name": "PISO DE PORCELANATO ESMALTADO LINE STONE DE 60 CM X 60 CM",
+   "wbs": "1.2.7.3",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "name": "PISO DE PORCELANATO ESMALTADO BEIGE NANO DE 60 CM X 60 CM",
+   "wbs": "1.2.7.4",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "name": "CONTRAZOCALO LAMINADO DE 8MM NOGAL MONTREAL H=5.8CM",
+   "wbs": "1.2.8.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 83,
+   "name": "CONTRAZOCALO DE PORCELANATO ESMALTADO LINE STONE DE H=10 CM",
+   "wbs": "1.2.8.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 84,
+   "name": "CONTRAZOCALO DE PORCELANATO ESMALTADO BEIGE NANO DE H=10 CM",
+   "wbs": "1.2.8.3",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 87,
+   "name": "PUERTA DE MADERA CEDRO O SIMILAR APANELADA DE 1.00 X 2.10 M SEGUN DETALLE TIPO P1",
+   "wbs": "1.2.9.1.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 88,
+   "name": "PUERTA DE MADERA  CEDRO O SIMILAR APANELADA DE 0.90 X 2.10 M SEGUN DETALLE TIPO P2",
+   "wbs": "1.2.9.1.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "foreman",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 89,
+   "name": "PUERTA  ACUSTICA DE MADERA CEDRO O SIMILAR DE 0.87 X 2.10 M SEGUN DETALLE TIPO P3",
+   "wbs": "1.2.9.1.3",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 90,
+   "name": "COLOCACION DE PUERTA DE MADERA",
+   "wbs": "1.2.9.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "name": "VENTANA CORREDIZA APILABLE DE ALUMINIO DE 1.20 X 1.04 M SEGUN DETALLE TIPO V3",
+   "wbs": "1.2.10.1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "name": "COLOCACION DE VENTANAS",
+   "wbs": "1.2.10.1.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 96,
+   "name": "CHAPA SIN MANIJAS DE ACERO INOXIDABLE SATINADO",
+   "wbs": "1.2.10.2.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "name": "MANILL\u00d3N DOBLE DE ACERO INOXIDABLE L = 50CM (ESPESOR 1 1/4)",
+   "wbs": "1.2.10.2.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 98,
+   "name": "BISAGRA ALUMINIZADA CAPUCHICA DE 3 1/2 X 3 1/2",
+   "wbs": "1.2.10.2.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 99,
+   "name": "BISAGRA INVISIBLE DE PIVOTE 180\u00b0",
+   "wbs": "1.2.10.2.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "name": "VIDRIO TEMPLADO INCOLORO DE 6 MM",
+   "wbs": "1.2.11.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 104,
+   "name": "PINTURA LATEX EN MUROS INTERIORES DE COLOR",
+   "wbs": "1.2.12.1.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "name": "PINTURA EN DERRAMES, ANCHO =0.15M CON LATEX",
+   "wbs": "1.2.12.1.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 107,
+   "name": "PINTURA LATEX EN MUROS EXTERIORES DE COLOR",
+   "wbs": "1.2.12.2.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 109,
+   "name": "PINTURA EN  CIELORRASO SOBRE  COLOR BLANCO",
+   "wbs": "1.2.12.3.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 110,
+   "name": "PINTURA EN FALSO CIELORRASO SOBRE PLACA DE FIBROCEMENTO COLOR BLANCO",
+   "wbs": "1.2.12.3.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 113,
+   "name": "CONCRETO EN DINTELES f'c=175 kg/cm2",
+   "wbs": "1.2.13.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 114,
+   "name": "ENCOFRADO Y DESENCOFRADO NORMAL EN DINTELES",
+   "wbs": "1.2.13.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "foreman",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 115,
+   "name": "ACERO EN DINTELES F'Y=4,200 KG/CM2 GRADO 60",
+   "wbs": "1.2.13.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 116,
+   "name": "TABLERO DE ATENCI\u00d3N EMPOTRADO DE MELAMINA DE 18MM 1.20 M X 0.45 M COLOR SENDA",
+   "wbs": "1.2.13.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 117,
+   "name": "LIMPIEZA GENERAL FINAL",
+   "wbs": "1.2.13.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 120,
+   "name": "SALIDA DE TECHO - CENTRO DE LUZ (TIPO DOWNLIGHT)",
+   "wbs": "1.3.1.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 121,
+   "name": "SALIDA DE TECHO - CENTRO DE LUZ (LAMPARA COLGANTE TIPO E27)",
+   "wbs": "1.3.1.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 122,
+   "name": "SALIDA DE TECHO - CENTRO DE LUZ (TIPO PANEL LED)",
+   "wbs": "1.3.1.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 123,
+   "name": "SALIDA DE PARED - LUCES DE EMERGENCIA",
+   "wbs": "1.3.1.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 125,
+   "name": "SALIDA DE PARED P/INTERRUPTOR SIMPLE, CAJA RECTANGULAR",
+   "wbs": "1.3.2.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 126,
+   "name": "SALIDA DE PARED P/INTERRUPTOR DOBLE, CAJA RECTANGULAR",
+   "wbs": "1.3.2.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 127,
+   "name": "SALIDAD P/TOMACORR. BIPOLAR DOBLE, C/TOMA TIERRA, CAJA RECT. PARED",
+   "wbs": "1.3.2.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 128,
+   "name": "TOMA USB + TOMA UNIPERSONAL 2P + T LIVING LIGHT, C/TOMA TIERRA, CAJA RECT. PARED",
+   "wbs": "1.3.2.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 130,
+   "name": "TUBERIA DE PVC - SAP P./INST. ELECTRICA DE 20 MM. DIAMETRO",
+   "wbs": "1.3.3.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 131,
+   "name": "TUBERIA DE PVC - SAP P./INST. ELECTRICA DE 40 MM. DIAMETRO",
+   "wbs": "1.3.3.2",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 133,
+   "name": "CONDUCTOR DE N2XOH - 2 x 4mm2 + 1 x 4mm2 (T)",
+   "wbs": "1.3.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 134,
+   "name": "CONDUCTOR DE Cu. LSOH 2 x 2.5mm2",
+   "wbs": "1.3.4.2",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 135,
+   "name": "CONDUCTOR DE Cu. LSOH 2 x 2.5mm2 + 1 x 2.5mm2 (T)",
+   "wbs": "1.3.4.3",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 137,
+   "name": "TABLEROS DISTRIBUCION CAJA METALICA CON 14 POLOS",
+   "wbs": "1.3.5.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 138,
+   "name": "INTERRUPTOR THERMOMAGNETICO MONOFASICO 2 x 32 A",
+   "wbs": "1.3.5.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 139,
+   "name": "INTERRUPTOR THERMOMAGNETICO MONOFASICO 2 x 15 A",
+   "wbs": "1.3.5.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 140,
+   "name": "INTERRUPTOR DIFERENCIAL MONOFASICO 2 x 25 A 30m A",
+   "wbs": "1.3.5.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 141,
+   "name": "INTERRUPTOR DIFERENCIAL MONOFASICO 2 x 40 A 30m A",
+   "wbs": "1.3.5.5",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 143,
+   "name": "SUMINISTRO E INSTALACI\u00d3N DE LUMINARIA DOWNLIGHT LED CIRCULAR 30W BLANCO - EMPOTRADA",
+   "wbs": "1.3.6.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 144,
+   "name": "SUMINISTRO E INSTALACI\u00d3N DE FOCO LED 15W E27 LUZ BLANCA",
+   "wbs": "1.3.6.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 145,
+   "name": "SUMINISTRO E INSTALACI\u00d3N DE LUMINARIA DOWNLIGHT LED RECTANGULAR 24W BLANCO - ADOSADA",
+   "wbs": "1.3.6.3",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 146,
+   "name": "SUMINISTRO E INSTALACI\u00d3N DE LUMINARIA LED RECTANGULAR 6 W BLANCO - ADOSADA",
+   "wbs": "1.3.6.4",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 147,
+   "name": "SUMINISTRO E INSTALACI\u00d3N DE PANEL LED RECTANGULAR 40 W BLANCO - EMPOTRADO",
+   "wbs": "1.3.6.5",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 148,
+   "name": "SUMINISTRO E INSTALACI\u00d3N DE LAMPARA DE EMERGENCIA LED 70 lm - ADOSADO PARED",
+   "wbs": "1.3.6.6",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 150,
+   "name": "EXCAVACION DE HOYO DE 0.80x0.80x2.50 m TIERRA NORMAL",
+   "wbs": "1.3.7.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 151,
+   "name": "POZO A TIERRA DE 6.5 OHMIOS",
+   "wbs": "1.3.7.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 152,
+   "name": "CONDUCTOR DE COBRE DESNUDO DE D=16 MM",
+   "wbs": "1.3.7.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 154,
+   "name": "PRUEBAS DE AISLAMIENTO",
+   "wbs": "1.3.8.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 155,
+   "name": "PRUEBAS DE RESISTIVIDAD DE PUESTA A TIERRA",
+   "wbs": "1.3.8.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "foreman",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 156,
+   "name": "PRUEBAS DE CONTINUIDAD DE INSTALACIONES INTERIORES",
+   "wbs": "1.3.8.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 157,
+   "name": "PRUEBAS Y BALANCEO DE CARGA",
+   "wbs": "1.3.8.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 160,
+   "name": "SALIDA PARA SENSORES DE HUMO",
+   "wbs": "1.3.9.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 161,
+   "name": "SALIDA PARA PULSADOR DE ALARMA CONTRAINCENDIOS",
+   "wbs": "1.3.9.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 162,
+   "name": "SALIDA PARA SIRENA DE ALARMA",
+   "wbs": "1.3.9.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 164,
+   "name": "TUBERIA DE PVC - SAP P./INST. ELECTRICA DE 20 MM. DIAMETRO",
+   "wbs": "1.3.9.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 166,
+   "name": "CONDUCTOR DE Cu. LSOH 2 x 2.5mm2",
+   "wbs": "1.3.9.3.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 167,
+   "name": "COND. DE COBRE FPL-P DE 2x16 AWG",
+   "wbs": "1.3.9.3.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 168,
+   "name": "COND. DE COBRE CFM DE 2x16 AWG",
+   "wbs": "1.3.9.3.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 170,
+   "name": "SUMINISTRO E INSTALACI\u00d3N DE ANUNCIADOR REMOTO DE EMERGENCIA (ESTACION MANUAL)",
+   "wbs": "1.3.9.4.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 171,
+   "name": "SUMINISTRO E INSTALACI\u00d3N DE SIRENA ESTROBO",
+   "wbs": "1.3.9.4.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 172,
+   "name": "SUMINISTRO E INSTALACI\u00d3N DE DETECTORES DE HUMO",
+   "wbs": "1.3.9.4.3",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 173,
+   "name": "SUMINISTRO E INSTALACI\u00d3N DE PANEL DE CONTROL DE ALARMA",
+   "wbs": "1.3.9.4.4",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 175,
+   "name": "PRUEBAS DE FUNCIONAMIENTO DEL SISTEMA",
+   "wbs": "1.3.9.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 178,
+   "name": "SALIDA PARA CONDENSADOR INC. INSTALACION",
+   "wbs": "1.3.10.1.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 179,
+   "name": "SALIDA PARA VAPORIZADOR INC. INSTALACION",
+   "wbs": "1.3.10.1.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 180,
+   "name": "SALIDA PARA TERMOSTATO INC. INSTALACION",
+   "wbs": "1.3.10.1.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 182,
+   "name": "TUBERIA DE PVC - SAP P./INST. ELECTRICA DE 40 MM. DIAMETRO",
+   "wbs": "1.3.10.2.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "foreman",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 183,
+   "name": "TUBERIA DE PVC - SAP P./INST. ELECTRICA DE 20 MM. DIAMETRO",
+   "wbs": "1.3.10.2.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 185,
+   "name": "CONDUCTOR DE Cu. LSOH 2 x 2.5mm2",
+   "wbs": "1.3.10.3.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 186,
+   "name": "CONDUCTOR DE N2XOH - 3 x 4mm2 + 1 x 4mm2 (N)",
+   "wbs": "1.3.10.3.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 187,
+   "name": "CONDUCTOR COMUNICACI\u00d3N 2 X 16 AWG SHIELDED",
+   "wbs": "1.3.10.3.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 189,
+   "name": "TABLEROS DISTRIBUCION CAJA METALICA CON 14 POLOS",
+   "wbs": "1.3.10.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 190,
+   "name": "INTERRUPTOR THERMOMAGNETICO TRIFASICO 3 x 32 A",
+   "wbs": "1.3.10.4.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 191,
+   "name": "INTERRUPTOR DIFERENCIAL TETRAPOLAR 4 x 40 A 30m A",
+   "wbs": "1.3.10.4.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 195,
+   "name": "TUBERIA DE COBRE TIPO L 6.35 mm - 1/4 (INST.MEC.)",
+   "wbs": "1.4.1.1.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 196,
+   "name": "TUBERIA DE COBRE TIPO L 9.52 mm - 3/8 (INST.MEC.)",
+   "wbs": "1.4.1.1.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 197,
+   "name": "TUBERIA DE COBRE TIPO L 12.70 mm - 1/2 (INST.MEC.)",
+   "wbs": "1.4.1.1.3",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 198,
+   "name": "TUBERIA DE COBRE TIPO L 15.88 mm - 5/8 (INST.MEC.)",
+   "wbs": "1.4.1.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 199,
+   "name": "TUBERIA DE COBRE TIPO L 19.05 mm - 3/4 (INST.MEC.)",
+   "wbs": "1.4.1.1.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 200,
+   "name": "ASSESORIOS PARA RED DE REFRIGERACI\u00d3N (CODOS, REDUSSIONES, BRANCH)",
+   "wbs": "1.4.1.1.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 201,
+   "name": "CANALETA DECORATIVA PARA TUBER\u00cdAS DE AIRE ACONDICIONADO BLANCO 65X50 MM",
+   "wbs": "1.4.1.1.7",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 204,
+   "name": "EQUIPO CONDENSADOR (76400 BTU/h, 572 KWA-380V-3F-60HZ)",
+   "wbs": "1.4.1.2.1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 206,
+   "name": "EQUIPO TIPO CASSETTE DE 4 VIAS 12000 BTU/h INCLUYE CONTROL REMOTO",
+   "wbs": "1.4.1.2.2.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 207,
+   "name": "EQUIPO TIPO CASSETTE CIRCULAR 360\u00b0 18000 BTU/h  INCLUYE CONTROL REMOTO",
+   "wbs": "1.4.1.2.2.2",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 209,
+   "name": "MONTAJE E INSTALACION DE EQUIPO CONDENSADOR VRV",
+   "wbs": "1.4.1.3.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 210,
+   "name": "MONTAJE E INSTALACION DE EQUIPOS EVAPORADORES VRV",
+   "wbs": "1.4.1.3.2",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 211,
+   "name": "FABRICACI\u00d3N DE SOPORTE MET\u00c1LICO PARA CONDENSADOR VRV",
+   "wbs": "1.4.1.3.3",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 212,
+   "name": "CABLEADO DE COMUNICACI\u00d3N - CONDENSADOR A EVAPORADORES",
+   "wbs": "1.4.1.3.4",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 214,
+   "name": "GAS REFRIGERANTE ECOLOGICO R410A",
+   "wbs": "1.4.1.4.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 215,
+   "name": "TERMOSTATO DIGITAL",
+   "wbs": "1.4.1.4.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 216,
+   "name": "PULSADOR ON/OFF",
+   "wbs": "1.4.1.4.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 217,
+   "name": "PRUEBAS DE UNIDADES CONDENSADORAS VRV",
+   "wbs": "1.4.1.4.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 218,
+   "name": "PRUEBAS DE EQUIPOS DE UNIDADES INTERIORES",
+   "wbs": "1.4.1.4.5",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 221,
+   "name": "SE\u00d1AL AUTOADHESIVAS FOTOLUMINICENTES",
+   "wbs": "1.5.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 223,
+   "name": "SUMINISTRO Y COLOCACI\u00d3N DE EXTINTOR",
+   "wbs": "1.5.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 224,
+   "name": "SUMINISTRO Y COLOCACI\u00d3N DE BOTIQUIN PRIMEROS AUXILIOS",
+   "wbs": "1.5.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 5,
+   "succ": 6,
+   "lag": -1
+  },
+  {
+   "pred": 5,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 62,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 45,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 59,
+   "lag": 0
+  },
+  {
+   "pred": 40,
+   "succ": 48,
+   "lag": -45
+  },
+  {
+   "pred": 40,
+   "succ": 51,
+   "lag": -45
+  },
+  {
+   "pred": 41,
+   "succ": 43,
+   "lag": -45
+  },
+  {
+   "pred": 41,
+   "succ": 47,
+   "lag": -43
+  },
+  {
+   "pred": 45,
+   "succ": 46,
+   "lag": -44
+  },
+  {
+   "pred": 48,
+   "succ": 49,
+   "lag": -45
+  },
+  {
+   "pred": 51,
+   "succ": 52,
+   "lag": -1
+  },
+  {
+   "pred": 51,
+   "succ": 53,
+   "lag": -1
+  },
+  {
+   "pred": 51,
+   "succ": 54,
+   "lag": -1
+  },
+  {
+   "pred": 51,
+   "succ": 56,
+   "lag": -1
+  },
+  {
+   "pred": 51,
+   "succ": 57,
+   "lag": -1
+  },
+  {
+   "pred": 62,
+   "succ": 64,
+   "lag": -10
+  },
+  {
+   "pred": 62,
+   "succ": 68,
+   "lag": 0
+  },
+  {
+   "pred": 62,
+   "succ": 77,
+   "lag": 0
+  },
+  {
+   "pred": 64,
+   "succ": 66,
+   "lag": -13
+  },
+  {
+   "pred": 64,
+   "succ": 75,
+   "lag": 0
+  },
+  {
+   "pred": 64,
+   "succ": 125,
+   "lag": 0
+  },
+  {
+   "pred": 64,
+   "succ": 126,
+   "lag": 0
+  },
+  {
+   "pred": 64,
+   "succ": 127,
+   "lag": 0
+  },
+  {
+   "pred": 64,
+   "succ": 128,
+   "lag": 0
+  },
+  {
+   "pred": 64,
+   "succ": 130,
+   "lag": 0
+  },
+  {
+   "pred": 64,
+   "succ": 131,
+   "lag": 0
+  },
+  {
+   "pred": 64,
+   "succ": 164,
+   "lag": 0
+  },
+  {
+   "pred": 64,
+   "succ": 182,
+   "lag": -15
+  },
+  {
+   "pred": 64,
+   "succ": 183,
+   "lag": -15
+  },
+  {
+   "pred": 64,
+   "succ": 206,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 104,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 105,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 107,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 109,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 110,
+   "lag": 0
+  },
+  {
+   "pred": 68,
+   "succ": 69,
+   "lag": -6
+  },
+  {
+   "pred": 68,
+   "succ": 70,
+   "lag": -6
+  },
+  {
+   "pred": 68,
+   "succ": 72,
+   "lag": 0
+  },
+  {
+   "pred": 68,
+   "succ": 73,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 120,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 121,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 122,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 123,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 160,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 161,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 162,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 178,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 179,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 180,
+   "lag": 0
+  },
+  {
+   "pred": 75,
+   "succ": 143,
+   "lag": 0
+  },
+  {
+   "pred": 75,
+   "succ": 144,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 113,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 114,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 115,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 116,
+   "lag": 0
+  },
+  {
+   "pred": 78,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 78,
+   "succ": 83,
+   "lag": 0
+  },
+  {
+   "pred": 78,
+   "succ": 84,
+   "lag": 0
+  },
+  {
+   "pred": 78,
+   "succ": 87,
+   "lag": 0
+  },
+  {
+   "pred": 78,
+   "succ": 88,
+   "lag": 0
+  },
+  {
+   "pred": 78,
+   "succ": 89,
+   "lag": 0
+  },
+  {
+   "pred": 78,
+   "succ": 90,
+   "lag": 0
+  },
+  {
+   "pred": 87,
+   "succ": 93,
+   "lag": 0
+  },
+  {
+   "pred": 87,
+   "succ": 94,
+   "lag": 0
+  },
+  {
+   "pred": 87,
+   "succ": 96,
+   "lag": 0
+  },
+  {
+   "pred": 87,
+   "succ": 97,
+   "lag": 0
+  },
+  {
+   "pred": 87,
+   "succ": 98,
+   "lag": 0
+  },
+  {
+   "pred": 87,
+   "succ": 99,
+   "lag": 0
+  },
+  {
+   "pred": 93,
+   "succ": 101,
+   "lag": 0
+  },
+  {
+   "pred": 104,
+   "succ": 78,
+   "lag": 0
+  },
+  {
+   "pred": 104,
+   "succ": 79,
+   "lag": 0
+  },
+  {
+   "pred": 104,
+   "succ": 80,
+   "lag": 0
+  },
+  {
+   "pred": 125,
+   "succ": 137,
+   "lag": 0
+  },
+  {
+   "pred": 133,
+   "succ": 134,
+   "lag": -1
+  },
+  {
+   "pred": 133,
+   "succ": 135,
+   "lag": -1
+  },
+  {
+   "pred": 135,
+   "succ": 138,
+   "lag": 0
+  },
+  {
+   "pred": 135,
+   "succ": 139,
+   "lag": 0
+  },
+  {
+   "pred": 135,
+   "succ": 140,
+   "lag": 0
+  },
+  {
+   "pred": 135,
+   "succ": 141,
+   "lag": 0
+  },
+  {
+   "pred": 137,
+   "succ": 133,
+   "lag": 0
+  },
+  {
+   "pred": 137,
+   "succ": 166,
+   "lag": 0
+  },
+  {
+   "pred": 137,
+   "succ": 167,
+   "lag": 0
+  },
+  {
+   "pred": 137,
+   "succ": 168,
+   "lag": 0
+  },
+  {
+   "pred": 143,
+   "succ": 170,
+   "lag": 0
+  },
+  {
+   "pred": 143,
+   "succ": 171,
+   "lag": 0
+  },
+  {
+   "pred": 143,
+   "succ": 172,
+   "lag": 0
+  },
+  {
+   "pred": 143,
+   "succ": 173,
+   "lag": 0
+  },
+  {
+   "pred": 144,
+   "succ": 145,
+   "lag": 0
+  },
+  {
+   "pred": 144,
+   "succ": 146,
+   "lag": 0
+  },
+  {
+   "pred": 144,
+   "succ": 147,
+   "lag": 0
+  },
+  {
+   "pred": 147,
+   "succ": 148,
+   "lag": 0
+  },
+  {
+   "pred": 148,
+   "succ": 150,
+   "lag": 0
+  },
+  {
+   "pred": 150,
+   "succ": 151,
+   "lag": 0
+  },
+  {
+   "pred": 150,
+   "succ": 152,
+   "lag": 0
+  },
+  {
+   "pred": 151,
+   "succ": 154,
+   "lag": 0
+  },
+  {
+   "pred": 154,
+   "succ": 155,
+   "lag": -1
+  },
+  {
+   "pred": 154,
+   "succ": 156,
+   "lag": -1
+  },
+  {
+   "pred": 154,
+   "succ": 157,
+   "lag": -1
+  },
+  {
+   "pred": 157,
+   "succ": 221,
+   "lag": 0
+  },
+  {
+   "pred": 157,
+   "succ": 223,
+   "lag": 0
+  },
+  {
+   "pred": 157,
+   "succ": 224,
+   "lag": 0
+  },
+  {
+   "pred": 166,
+   "succ": 185,
+   "lag": 0
+  },
+  {
+   "pred": 166,
+   "succ": 186,
+   "lag": 0
+  },
+  {
+   "pred": 166,
+   "succ": 187,
+   "lag": 0
+  },
+  {
+   "pred": 173,
+   "succ": 175,
+   "lag": 0
+  },
+  {
+   "pred": 185,
+   "succ": 189,
+   "lag": 0
+  },
+  {
+   "pred": 185,
+   "succ": 190,
+   "lag": 0
+  },
+  {
+   "pred": 185,
+   "succ": 191,
+   "lag": 0
+  },
+  {
+   "pred": 195,
+   "succ": 196,
+   "lag": -4
+  },
+  {
+   "pred": 195,
+   "succ": 197,
+   "lag": -4
+  },
+  {
+   "pred": 195,
+   "succ": 198,
+   "lag": -4
+  },
+  {
+   "pred": 195,
+   "succ": 199,
+   "lag": -4
+  },
+  {
+   "pred": 195,
+   "succ": 200,
+   "lag": -4
+  },
+  {
+   "pred": 195,
+   "succ": 201,
+   "lag": -4
+  },
+  {
+   "pred": 196,
+   "succ": 204,
+   "lag": -4
+  },
+  {
+   "pred": 204,
+   "succ": 214,
+   "lag": 0
+  },
+  {
+   "pred": 204,
+   "succ": 215,
+   "lag": 0
+  },
+  {
+   "pred": 204,
+   "succ": 216,
+   "lag": 0
+  },
+  {
+   "pred": 204,
+   "succ": 217,
+   "lag": 0
+  },
+  {
+   "pred": 204,
+   "succ": 218,
+   "lag": 0
+  },
+  {
+   "pred": 206,
+   "succ": 207,
+   "lag": -6
+  },
+  {
+   "pred": 206,
+   "succ": 209,
+   "lag": -6
+  },
+  {
+   "pred": 209,
+   "succ": 210,
+   "lag": 0
+  },
+  {
+   "pred": 209,
+   "succ": 211,
+   "lag": 0
+  },
+  {
+   "pred": 209,
+   "succ": 212,
+   "lag": 0
+  },
+  {
+   "pred": 212,
+   "succ": 195,
+   "lag": 0
+  },
+  {
+   "pred": 224,
+   "succ": 117,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2025-13 University Library Construction.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

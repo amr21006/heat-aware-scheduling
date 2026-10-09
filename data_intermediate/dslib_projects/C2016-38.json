@@ -1,0 +1,649 @@
+{
+ "code": "C2016-38",
+ "name": "Passive house construction",
+ "sector": "Construction (residential building)",
+ "n_activities": 29,
+ "resources": [
+  {
+   "name": "Bathroom/kitchen installer",
+   "capacity": 2
+  },
+  {
+   "name": "Electrician",
+   "capacity": 1
+  },
+  {
+   "name": "Excavation/fundation crew",
+   "capacity": 4
+  },
+  {
+   "name": "Floor/Sills worker",
+   "capacity": 2
+  },
+  {
+   "name": "Joiner (jointing/doors/windows)",
+   "capacity": 2
+  },
+  {
+   "name": "Masonry",
+   "capacity": 4
+  },
+  {
+   "name": "Plastering",
+   "capacity": 2
+  },
+  {
+   "name": "Plumber",
+   "capacity": 1
+  },
+  {
+   "name": "Roof worker",
+   "capacity": 3
+  }
+ ],
+ "activities": [
+  {
+   "id": 1,
+   "name": "Organization construction site",
+   "wbs": "1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Excavation/fundation crew",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Excavation",
+   "wbs": "1.2",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "Excavation/fundation crew",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Fundation",
+   "wbs": "1.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Excavation/fundation crew",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Floor basement",
+   "wbs": "1.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Masonry",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "masonry basement",
+   "wbs": "1.5",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Masonry",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Sewage",
+   "wbs": "1.6",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Excavation/fundation crew",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Pier and beam/joist basement",
+   "wbs": "1.7",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Masonry",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Masonry ground level + first level",
+   "wbs": "1.8",
+   "duration": 28,
+   "demands": [
+    {
+     "resource": "Masonry",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Sills",
+   "wbs": "1.9",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Floor/Sills worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Roof construction",
+   "wbs": "1.10",
+   "duration": 12,
+   "demands": [
+    {
+     "resource": "Roof worker",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Gutter instalment",
+   "wbs": "1.11",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Inner joinery",
+   "wbs": "1.12",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Joiner (jointing/doors/windows)",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Ventilation provisions",
+   "wbs": "1.13",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "plumbing",
+   "wbs": "1.14",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "electricity",
+   "wbs": "1.15",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Outer doors and windows",
+   "wbs": "1.16",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Joiner (jointing/doors/windows)",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Inner window sills",
+   "wbs": "1.17",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Floor/Sills worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Plastering",
+   "wbs": "1.18",
+   "duration": 13,
+   "demands": [
+    {
+     "resource": "Plastering",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Floor insulation",
+   "wbs": "1.19",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Floor/Sills worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Screed",
+   "wbs": "1.20",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Floor/Sills worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "Tiling floor (basement + ground level)",
+   "wbs": "1.21",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "Floor/Sills worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "Llaminated floor (First level)",
+   "wbs": "1.22",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Joiner (jointing/doors/windows)",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "Wooden staircase placement",
+   "wbs": "1.23",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Joiner (jointing/doors/windows)",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Central heating, Sanitary",
+   "wbs": "1.24",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "Finish electricity",
+   "wbs": "1.25",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Pointing the wall",
+   "wbs": "1.26",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "Masonry",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Inner doors",
+   "wbs": "1.27",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "Joiner (jointing/doors/windows)",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Bathroom installment",
+   "wbs": "1.28",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Bathroom/kitchen installer",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Kitchen installment",
+   "wbs": "1.29",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Bathroom/kitchen installer",
+     "units": 2
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 1,
+   "succ": 2,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 3,
+   "lag": 2
+  },
+  {
+   "pred": 3,
+   "succ": 4,
+   "lag": 1
+  },
+  {
+   "pred": 4,
+   "succ": 5,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 8,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 26,
+   "lag": 14
+  },
+  {
+   "pred": 9,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 17,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 21,
+   "lag": 7
+  },
+  {
+   "pred": 20,
+   "succ": 22,
+   "lag": 20
+  },
+  {
+   "pred": 20,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 25,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 29,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2016-38 Passive house construction.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

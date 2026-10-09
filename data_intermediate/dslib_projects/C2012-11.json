@@ -1,0 +1,586 @@
+{
+ "code": "C2012-11",
+ "name": "MIVB SeSaMe",
+ "sector": "Construction (civil)",
+ "n_activities": 24,
+ "resources": [
+  {
+   "name": "Labourer",
+   "capacity": 7
+  },
+  {
+   "name": "informatician",
+   "capacity": 1
+  }
+ ],
+ "activities": [
+  {
+   "id": 1,
+   "name": "Start",
+   "wbs": "1.1",
+   "duration": 0,
+   "demands": []
+  },
+  {
+   "id": 2,
+   "name": "Left Entry gates",
+   "wbs": "1.2.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourer",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Left Exit Gates",
+   "wbs": "1.2.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Middle Entry Gates",
+   "wbs": "1.2.1.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Labourer",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Middle Exit gates",
+   "wbs": "1.2.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourer",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Higher capacity middle entry gates",
+   "wbs": "1.2.1.5",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Labourer",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Right Entry gates",
+   "wbs": "1.2.1.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Right Exit Gates",
+   "wbs": "1.2.1.7",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourer",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "STD-G install",
+   "wbs": "1.2.2.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "Labourer",
+     "units": 7
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "SAS-G install",
+   "wbs": "1.2.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourer",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Annulation System",
+   "wbs": "1.2.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "informatician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Validation System",
+   "wbs": "1.2.3.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "informatician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Service Entry",
+   "wbs": "1.2.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourer",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Special Switches",
+   "wbs": "1.2.4.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Partitions",
+   "wbs": "1.2.4.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourer",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Positioning Cables",
+   "wbs": "1.2.4.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Alarm buttons",
+   "wbs": "1.2.4.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Labourer",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "gate configuration",
+   "wbs": "1.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "informatician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "door configuration",
+   "wbs": "1.3.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "informatician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "setup and testing",
+   "wbs": "1.3.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "informatician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "gate security control",
+   "wbs": "1.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "informatician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "door security control",
+   "wbs": "1.4.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "informatician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "commissioning",
+   "wbs": "1.4.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "informatician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "The end",
+   "wbs": "1.5",
+   "duration": 0,
+   "demands": []
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 1,
+   "succ": 2,
+   "lag": 0
+  },
+  {
+   "pred": 1,
+   "succ": 3,
+   "lag": 0
+  },
+  {
+   "pred": 1,
+   "succ": 4,
+   "lag": 0
+  },
+  {
+   "pred": 1,
+   "succ": 5,
+   "lag": 0
+  },
+  {
+   "pred": 1,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 1,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 1,
+   "succ": 8,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 14,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 17,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 25,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 25,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 31,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 31,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 31,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2012-11 MIVB SeSaMe.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

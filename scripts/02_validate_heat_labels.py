@@ -3,9 +3,9 @@
 
 Two deliverables:
   (A) A frozen, seed-reproducible STRATIFIED SAMPLE FRAME for human dual review,
-      written with empty reviewer columns and the OSHA narrative
+      written with empty rater columns and the OSHA narrative
       (data_intermediate/label_review_sample.csv). This is the artifact two human
-      reviewers fill in; Cohen's kappa is then computed on their adjudication.
+      raters fill in; Cohen's kappa is then computed on their adjudication.
   (B) An INDEPENDENT AUTOMATED NARRATIVE CLASSIFIER used as a reproducible proxy
       for manual review NOW, so the rule-based OSHA-coded label can be quantified
       (precision / recall / F1 / Cohen's kappa) before human review is available.
@@ -164,22 +164,22 @@ def main() -> int:
         sample_parts.append(part)
         log.info(f"  sampled {take:>3}/{n} from {stratum} (pool={len(pool)})")
     sample = pd.concat(sample_parts, ignore_index=True)
-    # reviewer columns (empty — to be filled by two human reviewers)
+    # rater columns (empty — to be filled by two human raters)
     sample["reviewer1_label"] = ""
     sample["reviewer2_label"] = ""
     sample["adjudicated_label"] = ""
     sample.to_csv(config.DATA_INTERMEDIATE / "label_review_sample.csv", index=False)
     log.info(f"Wrote human-review sample frame: {len(sample)} records "
-             "(reviewer columns empty; for dual manual adjudication).")
+             "(rater columns empty; for dual manual adjudication).")
 
-    # ---------- sample-level proxy metrics (narrative as stand-in reviewer) ----------
+    # ---------- sample-level proxy metrics (narrative as stand-in rater) ----------
     s_rule = (sample["coded_label"] == "heat").astype(int).to_numpy()
     s_narr = (sample["narr_label"] == "heat").astype(int).to_numpy()
     kappa_s = cohen_kappa_score(s_rule, s_narr)
     ps, rs, f1s, _ = precision_recall_fscore_support(
         s_narr, s_rule, average="binary", zero_division=0)
 
-    # ---------- Table 2 ----------
+    # ---------- label-validation table ----------
     table2 = pd.DataFrame([
         ["Primary environmental-heat cases (OSHA-coded)", n_h, "—"],
         ["Narrative-confirmed environmental heat", f"{n_confirm} ({narr_confirm_rate:.1%})", "—"],
@@ -224,10 +224,10 @@ def main() -> int:
         "kappa_target_met": bool(kappa_pop >= 0.75),
         "precision_vs_burns_target_met": bool(precision_vs_burns >= 0.85),
         "note": ("Automated narrative classifier is a reproducible PROXY for the "
-                 "two-reviewer manual adjudication required by the plan. The frozen "
+                 "two-rater manual adjudication required by the plan. The frozen "
                  "sample frame (label_review_sample.csv) is provided for human review; "
-                 "final kappa should be recomputed from reviewer columns. The key "
-                 "reviewer concern (burns mixed into the environmental-heat label) is "
+                 "final kappa should be recomputed from rater columns. The key "
+                 "concern (burns mixed into the environmental-heat label) is "
                  "quantified by precision_against_burns."),
     }
     common.save_json(verification, "verification04_labeling")

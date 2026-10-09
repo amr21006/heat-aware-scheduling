@@ -26,7 +26,7 @@ warnings.filterwarnings("ignore")
 log = common.setup_logger("10_heat_attribution")
 
 # ---------------------------------------------------------------------------
-# Rule set (reported verbatim in the supplementary material)
+# Rule set
 # ---------------------------------------------------------------------------
 HEAT_MECHANISM = [
     r"heat stress", r"heat exhaustion", r"heat stroke", r"heatstroke", r"heat syncope",

@@ -1,0 +1,2320 @@
+{
+ "code": "C2011-02",
+ "name": "Social Housing Kortrijk",
+ "sector": "Construction (residential building)",
+ "n_activities": 113,
+ "resources": [
+  {
+   "name": "Arbeiders",
+   "capacity": 8
+  },
+  {
+   "name": "KRAAN",
+   "capacity": 2
+  }
+ ],
+ "activities": [
+  {
+   "id": 2,
+   "name": "Afbraakwerken",
+   "wbs": "1.1.1",
+   "duration": 25,
+   "demands": []
+  },
+  {
+   "id": 3,
+   "name": "Bronbemaling",
+   "wbs": "1.1.2",
+   "duration": 100,
+   "demands": []
+  },
+  {
+   "id": 7,
+   "name": "Grondwerken",
+   "wbs": "1.1.3.1.1",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 9,
+   "name": "Funderingsbalken",
+   "wbs": "1.1.3.1.2.1",
+   "duration": 14,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "paalkoppen",
+   "wbs": "1.1.3.1.2.2",
+   "duration": 14,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "plaatfundering",
+   "wbs": "1.1.3.1.2.3",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "liftput",
+   "wbs": "1.1.3.1.2.4",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Landmeter",
+   "wbs": "1.1.3.1.3.1.1",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 16,
+   "name": "aftekenen muren",
+   "wbs": "1.1.3.1.3.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Kimmen",
+   "wbs": "1.1.3.1.3.1.3",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Lijmen",
+   "wbs": "1.1.3.1.3.1.4",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Bekisten betonbalken",
+   "wbs": "1.1.3.1.3.1.5",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Schoren en doka's",
+   "wbs": "1.1.3.1.3.1.6",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "Plaatsen betonwanden",
+   "wbs": "1.1.3.1.3.1.7",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "Predallen",
+   "wbs": "1.1.3.1.3.1.8",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "Terrassen en luifels",
+   "wbs": "1.1.3.1.3.1.9",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Vlechten wapening",
+   "wbs": "1.1.3.1.3.1.10",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "storten vloerplaat",
+   "wbs": "1.1.3.1.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Landmeter",
+   "wbs": "1.1.3.1.4.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "aftekenen muren",
+   "wbs": "1.1.3.1.4.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Kimmen",
+   "wbs": "1.1.3.1.4.4",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "Lijmen",
+   "wbs": "1.1.3.1.4.5",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    },
+    {
+     "resource": "KRAAN",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "Bekisten betonbalken",
+   "wbs": "1.1.3.1.4.6",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "Schoren en doka's",
+   "wbs": "1.1.3.1.4.7",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "Plaatsen betonwanden",
+   "wbs": "1.1.3.1.4.8",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "Predallen",
+   "wbs": "1.1.3.1.4.9",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "Terrassen en luifels",
+   "wbs": "1.1.3.1.4.10",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "Vlechten wapening",
+   "wbs": "1.1.3.1.4.11",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "storten vloerplaat",
+   "wbs": "1.1.3.1.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "Landmeter",
+   "wbs": "1.1.3.1.5.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "aftekenen muren",
+   "wbs": "1.1.3.1.5.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "Kimmen",
+   "wbs": "1.1.3.1.5.4",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "Lijmen",
+   "wbs": "1.1.3.1.5.5",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "name": "Bekisten betonbalken",
+   "wbs": "1.1.3.1.5.6",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "name": "Schoren en doka's",
+   "wbs": "1.1.3.1.5.7",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "Plaatsen betonwanden",
+   "wbs": "1.1.3.1.5.8",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "Predallen",
+   "wbs": "1.1.3.1.5.9",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "name": "Terrassen en luifels",
+   "wbs": "1.1.3.1.5.10",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "Vlechten wapening",
+   "wbs": "1.1.3.1.5.11",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "name": "storten vloerplaat",
+   "wbs": "1.1.3.1.6.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "name": "Landmeter",
+   "wbs": "1.1.3.1.6.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "name": "aftekenen muren",
+   "wbs": "1.1.3.1.6.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "name": "Kimmen",
+   "wbs": "1.1.3.1.6.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "name": "Lijmen",
+   "wbs": "1.1.3.1.6.5",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "name": "Bekisten betonbalken",
+   "wbs": "1.1.3.1.6.6",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "name": "Schoren en doka's",
+   "wbs": "1.1.3.1.6.7",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "name": "Plaatsen betonwanden",
+   "wbs": "1.1.3.1.6.8",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "name": "Predallen",
+   "wbs": "1.1.3.1.6.9",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "name": "Terrassen en luifels",
+   "wbs": "1.1.3.1.6.10",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "name": "Vlechten wapening",
+   "wbs": "1.1.3.1.6.11",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "name": "storten vloerplaat",
+   "wbs": "1.1.3.1.7.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "name": "Landmeter",
+   "wbs": "1.1.3.1.7.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "name": "aftekenen muren",
+   "wbs": "1.1.3.1.7.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "name": "Kimmen",
+   "wbs": "1.1.3.1.7.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "name": "Lijmen",
+   "wbs": "1.1.3.1.7.5",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "name": "Bekisten betonbalken",
+   "wbs": "1.1.3.1.7.6",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "name": "Schoren en doka's",
+   "wbs": "1.1.3.1.7.7",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "name": "Plaatsen betonwanden",
+   "wbs": "1.1.3.1.7.8",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "name": "Predallen",
+   "wbs": "1.1.3.1.7.9",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "name": "Terrassen en luifels",
+   "wbs": "1.1.3.1.7.10",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "name": "Vlechten wapening",
+   "wbs": "1.1.3.1.7.11",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "name": "Dakwerken",
+   "wbs": "1.1.3.1.8",
+   "duration": 14,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 74,
+   "name": "Gevelbekleding",
+   "wbs": "1.1.3.1.9",
+   "duration": 22,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "name": "Grondwerken",
+   "wbs": "1.1.4.1.1",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 79,
+   "name": "Funderingsbalken",
+   "wbs": "1.1.4.1.2.1",
+   "duration": 14,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "name": "paalkoppen",
+   "wbs": "1.1.4.1.2.2",
+   "duration": 14,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "name": "plaatfundering",
+   "wbs": "1.1.4.1.2.3",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "name": "liftput",
+   "wbs": "1.1.4.1.2.4",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "name": "Landmeter",
+   "wbs": "1.1.4.1.3.1.1",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 86,
+   "name": "aftekenen muren",
+   "wbs": "1.1.4.1.3.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 87,
+   "name": "Kimmen",
+   "wbs": "1.1.4.1.3.1.3",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 88,
+   "name": "Lijmen",
+   "wbs": "1.1.4.1.3.1.4",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 89,
+   "name": "Bekisten betonbalken",
+   "wbs": "1.1.4.1.3.1.5",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 90,
+   "name": "Schoren en doka's",
+   "wbs": "1.1.4.1.3.1.6",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 91,
+   "name": "Plaatsen betonwanden",
+   "wbs": "1.1.4.1.3.1.7",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "name": "Predallen",
+   "wbs": "1.1.4.1.3.1.8",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "name": "Terrassen en luifels",
+   "wbs": "1.1.4.1.3.1.9",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "name": "Vlechten wapening",
+   "wbs": "1.1.4.1.3.1.10",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 96,
+   "name": "storten vloerplaat",
+   "wbs": "1.1.4.1.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "name": "Landmeter",
+   "wbs": "1.1.4.1.4.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 98,
+   "name": "aftekenen muren",
+   "wbs": "1.1.4.1.4.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 99,
+   "name": "Kimmen",
+   "wbs": "1.1.4.1.4.4",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 100,
+   "name": "Lijmen",
+   "wbs": "1.1.4.1.4.5",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "name": "Bekisten betonbalken",
+   "wbs": "1.1.4.1.4.6",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 102,
+   "name": "Schoren en doka's",
+   "wbs": "1.1.4.1.4.7",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "name": "Plaatsen betonwanden",
+   "wbs": "1.1.4.1.4.8",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 104,
+   "name": "Predallen",
+   "wbs": "1.1.4.1.4.9",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "name": "Terrassen en luifels",
+   "wbs": "1.1.4.1.4.10",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 106,
+   "name": "Vlechten wapening",
+   "wbs": "1.1.4.1.4.11",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 108,
+   "name": "storten vloerplaat",
+   "wbs": "1.1.4.1.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 109,
+   "name": "Landmeter",
+   "wbs": "1.1.4.1.5.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 110,
+   "name": "aftekenen muren",
+   "wbs": "1.1.4.1.5.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 111,
+   "name": "Kimmen",
+   "wbs": "1.1.4.1.5.4",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 112,
+   "name": "Lijmen",
+   "wbs": "1.1.4.1.5.5",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 113,
+   "name": "Bekisten betonbalken",
+   "wbs": "1.1.4.1.5.6",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 114,
+   "name": "Schoren en doka's",
+   "wbs": "1.1.4.1.5.7",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 115,
+   "name": "Plaatsen betonwanden",
+   "wbs": "1.1.4.1.5.8",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 116,
+   "name": "Predallen",
+   "wbs": "1.1.4.1.5.9",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 117,
+   "name": "Terrassen en luifels",
+   "wbs": "1.1.4.1.5.10",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 118,
+   "name": "Vlechten wapening",
+   "wbs": "1.1.4.1.5.11",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 120,
+   "name": "storten vloerplaat",
+   "wbs": "1.1.4.1.6.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 121,
+   "name": "Landmeter",
+   "wbs": "1.1.4.1.6.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 122,
+   "name": "aftekenen muren",
+   "wbs": "1.1.4.1.6.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 123,
+   "name": "Kimmen",
+   "wbs": "1.1.4.1.6.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 124,
+   "name": "Lijmen",
+   "wbs": "1.1.4.1.6.5",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 125,
+   "name": "Bekisten betonbalken",
+   "wbs": "1.1.4.1.6.6",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 126,
+   "name": "Schoren en doka's",
+   "wbs": "1.1.4.1.6.7",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 127,
+   "name": "Plaatsen betonwanden",
+   "wbs": "1.1.4.1.6.8",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 128,
+   "name": "Predallen",
+   "wbs": "1.1.4.1.6.9",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 129,
+   "name": "Terrassen en luifels",
+   "wbs": "1.1.4.1.6.10",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 130,
+   "name": "Vlechten wapening",
+   "wbs": "1.1.4.1.6.11",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    },
+    {
+     "resource": "Arbeiders",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 131,
+   "name": "Dakwerken",
+   "wbs": "1.1.4.2",
+   "duration": 14,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 132,
+   "name": "Gevelbekleding",
+   "wbs": "1.1.4.3",
+   "duration": 22,
+   "demands": [
+    {
+     "resource": "KRAAN",
+     "units": 1
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 2,
+   "succ": 3,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 11,
+   "lag": -9
+  },
+  {
+   "pred": 7,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 77,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 17,
+   "succ": 18,
+   "lag": -6
+  },
+  {
+   "pred": 18,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 30,
+   "lag": -6
+  },
+  {
+   "pred": 30,
+   "succ": 31,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 36,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 40,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 41,
+   "succ": 42,
+   "lag": -6
+  },
+  {
+   "pred": 42,
+   "succ": 43,
+   "lag": 0
+  },
+  {
+   "pred": 42,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 42,
+   "succ": 45,
+   "lag": 0
+  },
+  {
+   "pred": 43,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 44,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 45,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 46,
+   "succ": 47,
+   "lag": 0
+  },
+  {
+   "pred": 47,
+   "succ": 48,
+   "lag": 0
+  },
+  {
+   "pred": 48,
+   "succ": 50,
+   "lag": 0
+  },
+  {
+   "pred": 50,
+   "succ": 51,
+   "lag": 0
+  },
+  {
+   "pred": 51,
+   "succ": 52,
+   "lag": 0
+  },
+  {
+   "pred": 52,
+   "succ": 53,
+   "lag": 0
+  },
+  {
+   "pred": 53,
+   "succ": 54,
+   "lag": -1
+  },
+  {
+   "pred": 54,
+   "succ": 55,
+   "lag": 0
+  },
+  {
+   "pred": 54,
+   "succ": 56,
+   "lag": 0
+  },
+  {
+   "pred": 54,
+   "succ": 57,
+   "lag": 0
+  },
+  {
+   "pred": 55,
+   "succ": 58,
+   "lag": 0
+  },
+  {
+   "pred": 56,
+   "succ": 58,
+   "lag": 0
+  },
+  {
+   "pred": 57,
+   "succ": 58,
+   "lag": 0
+  },
+  {
+   "pred": 58,
+   "succ": 59,
+   "lag": 0
+  },
+  {
+   "pred": 59,
+   "succ": 60,
+   "lag": 0
+  },
+  {
+   "pred": 60,
+   "succ": 62,
+   "lag": 0
+  },
+  {
+   "pred": 62,
+   "succ": 63,
+   "lag": 0
+  },
+  {
+   "pred": 63,
+   "succ": 64,
+   "lag": 0
+  },
+  {
+   "pred": 64,
+   "succ": 65,
+   "lag": 0
+  },
+  {
+   "pred": 65,
+   "succ": 66,
+   "lag": -1
+  },
+  {
+   "pred": 66,
+   "succ": 67,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 68,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 69,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 70,
+   "lag": 0
+  },
+  {
+   "pred": 68,
+   "succ": 70,
+   "lag": 0
+  },
+  {
+   "pred": 69,
+   "succ": 70,
+   "lag": 0
+  },
+  {
+   "pred": 70,
+   "succ": 71,
+   "lag": 0
+  },
+  {
+   "pred": 71,
+   "succ": 72,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 73,
+   "lag": 0
+  },
+  {
+   "pred": 73,
+   "succ": 74,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 79,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 80,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 79,
+   "succ": 81,
+   "lag": 0
+  },
+  {
+   "pred": 80,
+   "succ": 81,
+   "lag": 0
+  },
+  {
+   "pred": 81,
+   "succ": 85,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 86,
+   "lag": 0
+  },
+  {
+   "pred": 86,
+   "succ": 87,
+   "lag": 0
+  },
+  {
+   "pred": 87,
+   "succ": 88,
+   "lag": -6
+  },
+  {
+   "pred": 88,
+   "succ": 89,
+   "lag": 0
+  },
+  {
+   "pred": 88,
+   "succ": 90,
+   "lag": 0
+  },
+  {
+   "pred": 88,
+   "succ": 91,
+   "lag": 0
+  },
+  {
+   "pred": 89,
+   "succ": 92,
+   "lag": 0
+  },
+  {
+   "pred": 90,
+   "succ": 92,
+   "lag": 0
+  },
+  {
+   "pred": 91,
+   "succ": 92,
+   "lag": 0
+  },
+  {
+   "pred": 92,
+   "succ": 93,
+   "lag": 0
+  },
+  {
+   "pred": 93,
+   "succ": 94,
+   "lag": 0
+  },
+  {
+   "pred": 94,
+   "succ": 96,
+   "lag": 0
+  },
+  {
+   "pred": 96,
+   "succ": 97,
+   "lag": 0
+  },
+  {
+   "pred": 97,
+   "succ": 98,
+   "lag": 0
+  },
+  {
+   "pred": 98,
+   "succ": 99,
+   "lag": 0
+  },
+  {
+   "pred": 99,
+   "succ": 100,
+   "lag": -6
+  },
+  {
+   "pred": 100,
+   "succ": 101,
+   "lag": 0
+  },
+  {
+   "pred": 100,
+   "succ": 102,
+   "lag": 0
+  },
+  {
+   "pred": 100,
+   "succ": 103,
+   "lag": 0
+  },
+  {
+   "pred": 101,
+   "succ": 104,
+   "lag": 0
+  },
+  {
+   "pred": 102,
+   "succ": 104,
+   "lag": 0
+  },
+  {
+   "pred": 103,
+   "succ": 104,
+   "lag": 0
+  },
+  {
+   "pred": 104,
+   "succ": 105,
+   "lag": 0
+  },
+  {
+   "pred": 105,
+   "succ": 106,
+   "lag": 0
+  },
+  {
+   "pred": 106,
+   "succ": 108,
+   "lag": 0
+  },
+  {
+   "pred": 108,
+   "succ": 109,
+   "lag": 0
+  },
+  {
+   "pred": 109,
+   "succ": 110,
+   "lag": 0
+  },
+  {
+   "pred": 110,
+   "succ": 111,
+   "lag": 0
+  },
+  {
+   "pred": 111,
+   "succ": 112,
+   "lag": -6
+  },
+  {
+   "pred": 112,
+   "succ": 113,
+   "lag": 0
+  },
+  {
+   "pred": 112,
+   "succ": 114,
+   "lag": 0
+  },
+  {
+   "pred": 112,
+   "succ": 115,
+   "lag": 0
+  },
+  {
+   "pred": 113,
+   "succ": 116,
+   "lag": 0
+  },
+  {
+   "pred": 114,
+   "succ": 116,
+   "lag": 0
+  },
+  {
+   "pred": 115,
+   "succ": 116,
+   "lag": 0
+  },
+  {
+   "pred": 116,
+   "succ": 117,
+   "lag": 0
+  },
+  {
+   "pred": 117,
+   "succ": 118,
+   "lag": 0
+  },
+  {
+   "pred": 118,
+   "succ": 120,
+   "lag": 0
+  },
+  {
+   "pred": 120,
+   "succ": 121,
+   "lag": 0
+  },
+  {
+   "pred": 121,
+   "succ": 122,
+   "lag": 0
+  },
+  {
+   "pred": 122,
+   "succ": 123,
+   "lag": 0
+  },
+  {
+   "pred": 123,
+   "succ": 124,
+   "lag": -1
+  },
+  {
+   "pred": 124,
+   "succ": 125,
+   "lag": 0
+  },
+  {
+   "pred": 124,
+   "succ": 126,
+   "lag": 0
+  },
+  {
+   "pred": 124,
+   "succ": 127,
+   "lag": 0
+  },
+  {
+   "pred": 125,
+   "succ": 128,
+   "lag": 0
+  },
+  {
+   "pred": 126,
+   "succ": 128,
+   "lag": 0
+  },
+  {
+   "pred": 127,
+   "succ": 128,
+   "lag": 0
+  },
+  {
+   "pred": 128,
+   "succ": 129,
+   "lag": 0
+  },
+  {
+   "pred": 129,
+   "succ": 130,
+   "lag": 0
+  },
+  {
+   "pred": 130,
+   "succ": 131,
+   "lag": 0
+  },
+  {
+   "pred": 131,
+   "succ": 73,
+   "lag": 0
+  },
+  {
+   "pred": 131,
+   "succ": 132,
+   "lag": 0
+  },
+  {
+   "pred": 132,
+   "succ": 74,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2011-02 Social Housing Kortrijk.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

@@ -1,0 +1,804 @@
+{
+ "code": "C2025-22",
+ "name": "Sanitary Sewer Network Infrastructure",
+ "sector": "Construction (Civil)",
+ "n_activities": 45,
+ "resources": [
+  {
+   "name": "carpenter",
+   "capacity": 3
+  },
+  {
+   "name": "mason",
+   "capacity": 2
+  },
+  {
+   "name": "painter",
+   "capacity": 6
+  },
+  {
+   "name": "plumber",
+   "capacity": 2
+  },
+  {
+   "name": "steel worker",
+   "capacity": 3
+  },
+  {
+   "name": "team subcontractor",
+   "capacity": 7
+  }
+ ],
+ "activities": [
+  {
+   "id": 3,
+   "name": "Cartel de Identificacion de la Obra 2.40x3.60m.",
+   "wbs": "1.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Caseta para Almacen, Oficina y Guardiania",
+   "wbs": "1.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Movilizaci\u00f3n y Desmovilizaci\u00f3n de Equipos y Herramientas",
+   "wbs": "1.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Elaboracion e Implementacio\u00f3n del Plan de Seguridad y Salud en el Trabajo",
+   "wbs": "1.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Equipo de ProteSSion Individual",
+   "wbs": "1.2.2",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Cinta Plastica Se\u00f1alizadora para Limite de Seguridad",
+   "wbs": "1.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Capacitaci\u00f3n en Seguiridad y Salud Ocupacional",
+   "wbs": "1.2.4",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Recursos para Respuestas ante Emergencias en Seguridad y Salud Durante el Trabajo",
+   "wbs": "1.2.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Trazo, Nivelacion y Replanteo",
+   "wbs": "1.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Demolici\u00f3n de Buz\u00f3n Existente",
+   "wbs": "1.3.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Trasvase de Aguas Servidas Durante el Trabajo",
+   "wbs": "1.4.1",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Evacuaci\u00f3n de Agua de Napa Freatica",
+   "wbs": "1.4.2",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "Corte de Terreno Natural con Maquinaria",
+   "wbs": "1.5.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "Excavaci\u00f3n de Zanjas con maquinaria para red Alcantarillado",
+   "wbs": "1.5.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Entibado Metalico de Zanjas",
+   "wbs": "1.5.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Suministro y Colocaci\u00f3n de Capa de Over e=0.30m",
+   "wbs": "1.5.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Suministro y Colocaci\u00f3n Capa de Hormig\u00f3n e=0.20 m",
+   "wbs": "1.5.3.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Suminsitro y Colocaci\u00f3n de Cama de Arena Gruesa e=0.20m,",
+   "wbs": "1.5.3.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Suministro y Colocaci\u00f3n de cama de Arena Para ProteSSion de Tuberia sobre Clave del Tubo",
+   "wbs": "1.5.3.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "Relleno con Material Propio",
+   "wbs": "1.5.3.5",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "Colocaci\u00f3n de Capa de Over e=0.40m",
+   "wbs": "1.5.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "Relleno con Hormig\u00f3n E=0.30 m en Buzones",
+   "wbs": "1.5.4.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "Colocaci\u00f3n de Capa de Afirmado Mejorado compactado e=0.30 m en Fondo de Buzones",
+   "wbs": "1.5.4.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "Eliminaci\u00f3n de Material Excedente a 2.5 Km",
+   "wbs": "1.5.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "Solado 1:10 (Cemento Tipo V) p/Buz\u00f3n",
+   "wbs": "1.6.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "Concreto f'c= 210 kg/cm2 - en Buzones cemento tipo V",
+   "wbs": "1.7.1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "Acero de Refuerzo f'c=4200kg/cm2.",
+   "wbs": "1.7.1.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "name": "Encofrado y Desencofrado Metalico para Buzones",
+   "wbs": "1.7.1.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "Concreto 210 kg/m2 - en losa Inferior de Buzones - Cemento Tipo V",
+   "wbs": "1.7.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "Acero de Refuerzo f'c=4200kg/cm2.",
+   "wbs": "1.7.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "name": "Encofrado y Desencofrado de Losa",
+   "wbs": "1.7.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "name": "Concreto 210 kg/m2 - en Media Ca\u00f1a de Buzones - Cemento Tipo V",
+   "wbs": "1.7.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "name": "Tarrajeo de Media Ca\u00f1a",
+   "wbs": "1.7.3.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "name": "Concreto 210 kg/m2 - en Losa Superior de Buzones - Cemento Tipo V",
+   "wbs": "1.7.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "name": "Acero de Refuerzo f'c=4200kg/cm2.",
+   "wbs": "1.7.4.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "name": "Encofrado y Desencofrado de Losa Superior",
+   "wbs": "1.7.4.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "name": "Suministro E instalaci\u00f3n de Tapa de Buz\u00f3n - Concreto reforzado D=0.6 m",
+   "wbs": "1.7.4.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "name": "Tubos para Alcantarillado Sanitario - Junta Segura, Norma NTP ISO 4435-2014 DN 200 mm SN 8",
+   "wbs": "1.8.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "name": "Instalaci\u00f3n de Tuberia P.V.C. P/Desag\u00fce DN 200 mm",
+   "wbs": "1.8.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "name": "Prueba Hidr\u00e1ulica Para Tuberia de Desague de 200 MM mm",
+   "wbs": "1.8.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "name": "Instalaci\u00f3n de v\u00e1lvula de compuerta",
+   "wbs": "1.9.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "name": "Empalme a Red Existente de Red Nueva y Buz\u00f3n,",
+   "wbs": "1.10.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "name": "Dado de Concreto Para Empalme En Buzon de 1x1x1.2",
+   "wbs": "1.10.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "name": "Resane de Veredas",
+   "wbs": "1.11.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "name": "Limpieza Final",
+   "wbs": "1.11.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 3,
+   "succ": 4,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 5,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 7,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 8,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 9,
+   "lag": -10
+  },
+  {
+   "pred": 9,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 13,
+   "lag": -10
+  },
+  {
+   "pred": 13,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 42,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 57,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 41,
+   "succ": 49,
+   "lag": 0
+  },
+  {
+   "pred": 42,
+   "succ": 43,
+   "lag": 0
+  },
+  {
+   "pred": 43,
+   "succ": 41,
+   "lag": -1
+  },
+  {
+   "pred": 45,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 46,
+   "succ": 47,
+   "lag": 0
+  },
+  {
+   "pred": 47,
+   "succ": 45,
+   "lag": 0
+  },
+  {
+   "pred": 49,
+   "succ": 50,
+   "lag": 0
+  },
+  {
+   "pred": 50,
+   "succ": 53,
+   "lag": 0
+  },
+  {
+   "pred": 52,
+   "succ": 55,
+   "lag": 0
+  },
+  {
+   "pred": 53,
+   "succ": 54,
+   "lag": 0
+  },
+  {
+   "pred": 54,
+   "succ": 52,
+   "lag": 0
+  },
+  {
+   "pred": 55,
+   "succ": 67,
+   "lag": 0
+  },
+  {
+   "pred": 57,
+   "succ": 58,
+   "lag": 0
+  },
+  {
+   "pred": 58,
+   "succ": 59,
+   "lag": 0
+  },
+  {
+   "pred": 58,
+   "succ": 61,
+   "lag": 0
+  },
+  {
+   "pred": 58,
+   "succ": 63,
+   "lag": 0
+  },
+  {
+   "pred": 63,
+   "succ": 64,
+   "lag": 0
+  },
+  {
+   "pred": 64,
+   "succ": 66,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2025-22 Sanitary Sewer Network Infrastructure.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

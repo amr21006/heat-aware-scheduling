@@ -1,0 +1,916 @@
+{
+ "code": "C2011-12",
+ "name": "Claeys-Verhelst Premises",
+ "sector": "Construction (commercial building)",
+ "n_activities": 49,
+ "resources": [
+  {
+   "name": "chapen",
+   "capacity": 3
+  },
+  {
+   "name": "electrician",
+   "capacity": 4
+  },
+  {
+   "name": "flooring",
+   "capacity": 4
+  },
+  {
+   "name": "furniture",
+   "capacity": 5
+  },
+  {
+   "name": "heating",
+   "capacity": 2
+  },
+  {
+   "name": "mason",
+   "capacity": 4
+  },
+  {
+   "name": "painter",
+   "capacity": 6
+  },
+  {
+   "name": "plumber",
+   "capacity": 4
+  },
+  {
+   "name": "roofing",
+   "capacity": 4
+  },
+  {
+   "name": "stucco",
+   "capacity": 4
+  },
+  {
+   "name": "team VDW",
+   "capacity": 8
+  },
+  {
+   "name": "windows",
+   "capacity": 3
+  }
+ ],
+ "activities": [
+  {
+   "id": 2,
+   "name": "building permit",
+   "wbs": "1.1.1",
+   "duration": 60,
+   "demands": []
+  },
+  {
+   "id": 3,
+   "name": "hire contractor",
+   "wbs": "1.1.2",
+   "duration": 20,
+   "demands": []
+  },
+  {
+   "id": 4,
+   "name": "temporary offices",
+   "wbs": "1.1.3",
+   "duration": 20,
+   "demands": []
+  },
+  {
+   "id": 5,
+   "name": "temporary facilities",
+   "wbs": "1.1.4",
+   "duration": 60,
+   "demands": []
+  },
+  {
+   "id": 16,
+   "name": "preparation contractor",
+   "wbs": "1.1.5",
+   "duration": 60,
+   "demands": []
+  },
+  {
+   "id": 6,
+   "name": "demolition",
+   "wbs": "1.1.6",
+   "duration": 30,
+   "demands": [
+    {
+     "resource": "team VDW",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "excavation",
+   "wbs": "1.2.1",
+   "duration": 14,
+   "demands": [
+    {
+     "resource": "team VDW",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "name": "soil analyses",
+   "wbs": "1.2.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team VDW",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "foundation beam",
+   "wbs": "1.2.3",
+   "duration": 25,
+   "demands": [
+    {
+     "resource": "team VDW",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "placing sewerage",
+   "wbs": "1.2.4",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "team VDW",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "foundation plate",
+   "wbs": "1.2.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team VDW",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "steelframe I",
+   "wbs": "1.3.1",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "team VDW",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "concrete vaults I",
+   "wbs": "1.3.2",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "team VDW",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "steelframe II",
+   "wbs": "1.3.3",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "team VDW",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "concrete volt II",
+   "wbs": "1.3.4",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "team VDW",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "facades",
+   "wbs": "1.4.1",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "team VDW",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "outside windows",
+   "wbs": "1.4.2",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "windows",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "name": "roof",
+   "wbs": "1.4.3",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "roofing",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "v0 polierbeton",
+   "wbs": "1.5.1",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "team VDW",
+     "units": 5
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "v0 sanitary",
+   "wbs": "1.5.2",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "v0 -masonry",
+   "wbs": "1.5.3",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "name": "v0 heating",
+   "wbs": "1.5.4",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "heating",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "v0 electricity",
+   "wbs": "1.5.5",
+   "duration": 25,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "v0 floors",
+   "wbs": "1.5.6",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "flooring",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "construction leave",
+   "wbs": "1.6.1",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 52,
+   "name": "vI sanitary",
+   "wbs": "1.7.1",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "vI masonry",
+   "wbs": "1.7.2",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "v1screed",
+   "wbs": "1.7.3",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "chapen",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "name": "v1 heating",
+   "wbs": "1.7.4",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "heating",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "name": "vI electricity",
+   "wbs": "1.7.5",
+   "duration": 25,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "name": "v1 drying screed",
+   "wbs": "1.7.6",
+   "duration": 5,
+   "demands": []
+  },
+  {
+   "id": 57,
+   "name": "v1flooring",
+   "wbs": "1.7.7",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "flooring",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "name": "v2 sanitary",
+   "wbs": "1.8.1",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "name": "v2 masonry",
+   "wbs": "1.8.2",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "name": "v2 screed",
+   "wbs": "1.8.3",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "chapen",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "name": "v2 heating",
+   "wbs": "1.8.4",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "name": "v2 electricity",
+   "wbs": "1.8.5",
+   "duration": 25,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "name": "v2 drying screed",
+   "wbs": "1.8.6",
+   "duration": 5,
+   "demands": []
+  },
+  {
+   "id": 58,
+   "name": "v2 flooring",
+   "wbs": "1.8.7",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "flooring",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "stucco",
+   "wbs": "1.9.1",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "stucco",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "drywall",
+   "wbs": "1.9.2",
+   "duration": 25,
+   "demands": []
+  },
+  {
+   "id": 41,
+   "name": "kitchen and bar",
+   "wbs": "1.9.3",
+   "duration": 15,
+   "demands": []
+  },
+  {
+   "id": 37,
+   "name": "techniques",
+   "wbs": "1.9.4",
+   "duration": 15,
+   "demands": []
+  },
+  {
+   "id": 44,
+   "name": "stairs",
+   "wbs": "1.9.5",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 42,
+   "name": "entrance doors",
+   "wbs": "1.9.6",
+   "duration": 10,
+   "demands": []
+  },
+  {
+   "id": 43,
+   "name": "elevator",
+   "wbs": "1.9.7",
+   "duration": 5,
+   "demands": []
+  },
+  {
+   "id": 38,
+   "name": "suspended ceiling",
+   "wbs": "1.9.8",
+   "duration": 5,
+   "demands": []
+  },
+  {
+   "id": 39,
+   "name": "painting",
+   "wbs": "1.9.9",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "furniture",
+   "wbs": "1.9.10",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "furniture",
+     "units": 5
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 2,
+   "succ": 3,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 69,
+   "lag": 0
+  },
+  {
+   "pred": 17,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 17,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 69,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 25,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 49,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 59,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 52,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 45,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 60,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 51,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 59,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 59,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 52,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 45,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 60,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 51,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 53,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 55,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 56,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 61,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 54,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 67,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 57,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 57,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 57,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 57,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 56,
+   "succ": 68,
+   "lag": 0
+  },
+  {
+   "pred": 56,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 68,
+   "succ": 58,
+   "lag": 0
+  },
+  {
+   "pred": 68,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 58,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 58,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 58,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 37,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 37,
+   "succ": 42,
+   "lag": 0
+  },
+  {
+   "pred": 37,
+   "succ": 43,
+   "lag": 0
+  },
+  {
+   "pred": 37,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 40,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2011-12 Claeys-Verhelst Premises.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

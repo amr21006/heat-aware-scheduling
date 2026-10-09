@@ -1,7 +1,8 @@
 """
 run_all.py — Reproduce the entire pipeline end to end.
 
-Runs scripts 01..07 in order. Step 03 (weather retrieval) is network-bound and
+Runs scripts 01..19 in order (step 10 is the earlier single-plan experiment; steps 12-19
+implement the planning-time evaluation, common scoring and display items). Step 03 (weather retrieval) is network-bound and
 resume-safe (per-case parquet cache); re-running continues from the cache.
 
 Usage:
@@ -28,6 +29,15 @@ STEPS = [
     ("09", "09_build_risk_calendars.py"),
     ("10", "10_schedule_optimization.py"),
     ("11", "11_validate_verify.py"),
+    ("12", "12_prediction_uncertainty.py"),
+    ("12b", "12b_rule_vs_injury_discrimination.py"),
+    ("13", "13_climatology_calendars.py"),
+    ("14", "14_nbm_forecasts.py"),
+    ("15", "15_evaluation_inputs.py"),
+    ("15b", "15b_bls_hours.py"),
+    ("16", "16_schedule_r1.py"),
+    ("16c", "16c_solver_budget.py"),
+    ("17", "17_posthoc_r1.py"),
 ]
 HERE = Path(__file__).resolve().parent
 

@@ -1,0 +1,1336 @@
+{
+ "code": "C2012-13",
+ "name": "Pumping Station Jabbeke",
+ "sector": "Construction (civil)",
+ "n_activities": 74,
+ "resources": [
+  {
+   "name": "ploeg 1&2",
+   "capacity": 2
+  },
+  {
+   "name": "vandezande",
+   "capacity": 1
+  }
+ ],
+ "activities": [
+  {
+   "id": 1,
+   "name": "start plaatsing looplatform ALSB",
+   "wbs": "1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "start plaatsing RVS looplatform krooshekreiniger",
+   "wbs": "1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "start plaatsing trap krooshekreiniger",
+   "wbs": "1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "startplaatsing RVS roosters uitstroom + veilgheidsleuning",
+   "wbs": "1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "leveren en plaatsen opbergsysteem noodafsluitschotten",
+   "wbs": "1.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "constructie ALSB in atelier",
+   "wbs": "1.6",
+   "duration": 25,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "verplaatsen bord PLC , wegnemen stopcontacten en verwarming muur loopplatform ALSB",
+   "wbs": "1.7",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "bespreken lay-out ALSB met Glenn",
+   "wbs": "1.8",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "bestellen lay-out ALSB",
+   "wbs": "1.9",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "afwerking looplatform ALSBkroooshekreiniger,trap krooshekreiniger,leuning uitstroom",
+   "wbs": "1.10",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "vandezande",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "verhogen rolbrug mits voorafgaandelijke goedkeuring offerte door bestuur + omwisselen manuele bediening takel",
+   "wbs": "1.11",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "vandezande",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "programmatie en testen PLC en visualisatie  atelier Decat",
+   "wbs": "1.12",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "oplevering ALSB bij Decat door glenn Degros",
+   "wbs": "1.13",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "uitvoeren nodige aanpassingen aan bord + software + schema's volgens opmerkingen glenn Degros",
+   "wbs": "1.14",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "leveren en plaatsen van elektrische spindelaandrijving op de noodschuiven",
+   "wbs": "1.15",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "vandezande",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "nazicht en uit testen door Glenn Degros",
+   "wbs": "1.16",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "graafwerken+ opstellen betonijzer + gieten fundering voor peilmeting stroom af en opwaarts + seinborden",
+   "wbs": "1.17",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "maken sleuf voor peilmeting stroomopwaarts",
+   "wbs": "1.18",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "leveren en plaatsen bekabeling tussen ALSB en peilmeting + vlotters stroomopwaarts+ seinborden",
+   "wbs": "1.19",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "opstellen en aansluiten ALSB op loopplatform + kast no break",
+   "wbs": "1.20",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "venster pomplokaal wegnemen + bijkomende doorgang maken naar loopplatform roosterreinigers",
+   "wbs": "1.21",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "vandezande",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "plaatsen platform peilmeting af en opwaarts",
+   "wbs": "1.22",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "opstelling radarpeilmeting op en afwaarts + vlotters",
+   "wbs": "1.23",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "opstellen peilmetingen na de roosters",
+   "wbs": "1.24",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "leveren en plaatsen ventilatiekanalen voor koeling frequentieregelaars ALSB+geluidswerende wand",
+   "wbs": "1.25",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "aansluitingen peilmetingen",
+   "wbs": "1.26",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "leveren en plaatsen nieuwe voedingskabels tussen ALSB en transfo HS lokaal voor voeding nieuw ALSB incl aansluiting op transformator",
+   "wbs": "1.27",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "plaatsen geluidswerende wand + dubbel geluidswerende deur",
+   "wbs": "1.28",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "uitvoeren van de nodige aardingen",
+   "wbs": "1.29",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "ALSB onder spanning brengen",
+   "wbs": "1.30",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "omschakelen pomp 1 op nieuw ALSB",
+   "wbs": "1.31",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "leveren en plaatsen werkschakelaar pomp 1",
+   "wbs": "1.32",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "tussenwand tussen bureau en keuken",
+   "wbs": "1.33",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "leveren en plaatsen voedingskabel tussen pomp  en werkschakelaar + tussen werkschakelaar en nieuw bord 1",
+   "wbs": "1.34",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "leveren en plaatsen keukenblok",
+   "wbs": "1.35",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "leveren en plaatsen voedingskabel smeerpomp 1",
+   "wbs": "1.36",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "name": "Verplaatsen boiler en aanpassen leidingen",
+   "wbs": "1.37",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "aanpassen smeersysteem pomp 1",
+   "wbs": "1.38",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "geluidsdichte omkasting rond boiler",
+   "wbs": "1.39",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "proefdraaien pomp 1 op nieuw ALSB",
+   "wbs": "1.40",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "leveren en plaatsen bekabeling roosterreinigers + transportband + noodstoppen + console + buitenverlichting",
+   "wbs": "1.41",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "aansluiten installatie op Abba",
+   "wbs": "1.42",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "name": "aansluiten roosterreiniger 1 op nieuw ALSB , testen en in dienst stellen",
+   "wbs": "1.43",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "name": "aansluiten roosterreiniger 2 op nieuw ALSB , testen en in dienst stellen",
+   "wbs": "1.44",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "aansluiten roosterreiniger 3 op nieuw ALSB , testen en in dienst stellen",
+   "wbs": "1.45",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "aansluiten transportband op nieuw ALSB",
+   "wbs": "1.46",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "name": "aansluiten noodstoppen op nieuw ALSB",
+   "wbs": "1.47",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "omschakelen pomp 2 op nieuw ALSB",
+   "wbs": "1.48",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "name": "leveren en plaatsen werkschakelaar pomp 2",
+   "wbs": "1.49",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "name": "leveren en plaatsen voedingskabel tussen pomp  en werkschakelaar + tussen werkschakelaar en nieuw bord 2",
+   "wbs": "1.50",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "name": "leveren en plaatsen voedingskabel smeerpomp 2",
+   "wbs": "1.51",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "name": "aanpassen smeersysteem pomp 2",
+   "wbs": "1.52",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "name": "leveren en plaatsen bekabeling noodschuiven",
+   "wbs": "1.53",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "name": "proefdraaien pomp 2 op nieuw ALSB",
+   "wbs": "1.54",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "name": "aansluiten noodschuif 1 + in dienst stellen",
+   "wbs": "1.55",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "name": "aansluiten noodschuif 2 + in dienst stellen",
+   "wbs": "1.56",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "name": "aansluiten noodschuif 3 + in dienst stellen",
+   "wbs": "1.57",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "name": "leveren en plaatsen seinborden",
+   "wbs": "1.58",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "name": "leveren, plaatsen en aansluiten  buitenverlichtingspaal",
+   "wbs": "1.59",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "name": "leveren en plaatsen bekabeling binnenverlichting , stopcontacten en klimatisatie",
+   "wbs": "1.60",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "name": "omschakelen pomp 3 op nieuw ALSB",
+   "wbs": "1.61",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "name": "plaatsen en aansluiten verlichting en stopcontacten pomplokaal",
+   "wbs": "1.62",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "name": "leveren en plaatsen werkschakelaar pomp 3",
+   "wbs": "1.63",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "name": "leveren en plaatsen voedingskabel tussen pomp  en werkschakelaar + tussen werkschakelaar en nieuw bord 3",
+   "wbs": "1.64",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "name": "leveren en plaatsen voedingskabel smeerpomp 3",
+   "wbs": "1.65",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "name": "aanpassen smeersysteem pomp 3",
+   "wbs": "1.66",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "name": "proefdraaien pomp 3",
+   "wbs": "1.67",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "name": "leveren en installeren branddetectie",
+   "wbs": "1.68",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "name": "leveren en installeren klimatisatie in pomplokaal , bureau en HS",
+   "wbs": "1.69",
+   "duration": 8,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "name": "afbraak bestaand ALSB",
+   "wbs": "1.70",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "name": "opmaken as built dossier elekriciteit en mechanica",
+   "wbs": "1.71",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "name": "kabelnummering bord",
+   "wbs": "1.72",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "name": "identificatie kabels en toestellen",
+   "wbs": "1.73",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 74,
+   "name": "schilderwerken",
+   "wbs": "1.74",
+   "duration": 9,
+   "demands": [
+    {
+     "resource": "ploeg 1&2",
+     "units": 1
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 1,
+   "succ": 2,
+   "lag": 0
+  },
+  {
+   "pred": 2,
+   "succ": 3,
+   "lag": 0
+  },
+  {
+   "pred": 3,
+   "succ": 4,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 5,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 6,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 6,
+   "succ": 7,
+   "lag": -25
+  },
+  {
+   "pred": 6,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 8,
+   "lag": 0
+  },
+  {
+   "pred": 7,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 14,
+   "lag": -5
+  },
+  {
+   "pred": 14,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 16,
+   "lag": -5
+  },
+  {
+   "pred": 16,
+   "succ": 19,
+   "lag": -5
+  },
+  {
+   "pred": 17,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 20,
+   "succ": 25,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 25,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 31,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 42,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 32,
+   "lag": -1
+  },
+  {
+   "pred": 32,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 36,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 37,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 60,
+   "lag": 0
+  },
+  {
+   "pred": 40,
+   "succ": 41,
+   "lag": -1
+  },
+  {
+   "pred": 41,
+   "succ": 43,
+   "lag": 0
+  },
+  {
+   "pred": 41,
+   "succ": 53,
+   "lag": 0
+  },
+  {
+   "pred": 42,
+   "succ": 43,
+   "lag": 0
+  },
+  {
+   "pred": 43,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 44,
+   "succ": 45,
+   "lag": 0
+  },
+  {
+   "pred": 45,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 46,
+   "succ": 47,
+   "lag": 0
+  },
+  {
+   "pred": 47,
+   "succ": 48,
+   "lag": 0
+  },
+  {
+   "pred": 48,
+   "succ": 49,
+   "lag": -1
+  },
+  {
+   "pred": 49,
+   "succ": 50,
+   "lag": 0
+  },
+  {
+   "pred": 50,
+   "succ": 51,
+   "lag": 0
+  },
+  {
+   "pred": 51,
+   "succ": 52,
+   "lag": 0
+  },
+  {
+   "pred": 52,
+   "succ": 54,
+   "lag": 0
+  },
+  {
+   "pred": 53,
+   "succ": 55,
+   "lag": -3
+  },
+  {
+   "pred": 54,
+   "succ": 55,
+   "lag": 0
+  },
+  {
+   "pred": 55,
+   "succ": 56,
+   "lag": 0
+  },
+  {
+   "pred": 56,
+   "succ": 57,
+   "lag": 0
+  },
+  {
+   "pred": 57,
+   "succ": 58,
+   "lag": 0
+  },
+  {
+   "pred": 57,
+   "succ": 61,
+   "lag": 0
+  },
+  {
+   "pred": 58,
+   "succ": 59,
+   "lag": -3
+  },
+  {
+   "pred": 60,
+   "succ": 62,
+   "lag": 0
+  },
+  {
+   "pred": 61,
+   "succ": 63,
+   "lag": -1
+  },
+  {
+   "pred": 61,
+   "succ": 70,
+   "lag": -1
+  },
+  {
+   "pred": 62,
+   "succ": 68,
+   "lag": 0
+  },
+  {
+   "pred": 63,
+   "succ": 64,
+   "lag": 0
+  },
+  {
+   "pred": 64,
+   "succ": 65,
+   "lag": 0
+  },
+  {
+   "pred": 65,
+   "succ": 66,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 67,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 73,
+   "lag": 0
+  },
+  {
+   "pred": 68,
+   "succ": 69,
+   "lag": 0
+  },
+  {
+   "pred": 69,
+   "succ": 73,
+   "lag": 0
+  },
+  {
+   "pred": 69,
+   "succ": 74,
+   "lag": 0
+  },
+  {
+   "pred": 70,
+   "succ": 71,
+   "lag": 0
+  },
+  {
+   "pred": 71,
+   "succ": 72,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 73,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2012-13 Pumping Station Jabbeke.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

@@ -16,13 +16,15 @@ from datetime import date, timedelta
 
 import numpy as np
 import pandas as pd
-from ortools.sat.python import cp_model
-
 import config
 import common
+from ortools.sat.python import cp_model
 from importlib import import_module
 
-_ew = import_module("13_exposure_weights")
+try:
+    _ew = import_module("07_exposure_weights")
+except ModuleNotFoundError:
+    _ew = import_module("13_exposure_weights")
 
 warnings.filterwarnings("ignore")
 log = common.setup_logger("14_rerun_scheduling")
@@ -426,7 +428,7 @@ def main():
         done = len([r for r in rows if r["location"] == loc])
         log.info(f"[{loc}] {done} scenarios completed")
 
-    # ---- exposure-weight sensitivity (R1.6) --------------------------------
+    # ---- exposure-weight sensitivity -------------------------------------
     # The same projects and calendars are rerun on the primary risk scale with the
     # activity exposure weights replaced, so the influence of the weighting can be
     # read directly against the empirically indexed result.

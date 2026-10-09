@@ -1,0 +1,1674 @@
+{
+ "code": "C2025-02",
+ "name": "Urban road",
+ "sector": "Construction (Civil)",
+ "n_activities": 100,
+ "resources": [
+  {
+   "name": "carpenter",
+   "capacity": 8
+  },
+  {
+   "name": "mason",
+   "capacity": 16
+  },
+  {
+   "name": "painter",
+   "capacity": 3
+  },
+  {
+   "name": "plumber",
+   "capacity": 7
+  },
+  {
+   "name": "steel worker",
+   "capacity": 6
+  },
+  {
+   "name": "team subcontractor",
+   "capacity": 12
+  }
+ ],
+ "activities": [
+  {
+   "id": 3,
+   "name": "ALQUILER DE ALMACEN Y OFICINA",
+   "wbs": "1.1.1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "AMBIENTE PARA GUARDIANIA",
+   "wbs": "1.1.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "CONEXI\u00d3N PROVISIONAL DE ENERGIA ELECTRICA Y CONSUMO",
+   "wbs": "1.1.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "INSTALACION PROVISIONAL DE AGUA Y DESAGUE",
+   "wbs": "1.1.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "SERVICIOS HIGIENICOS EN OBRA (PORTATIL)",
+   "wbs": "1.1.1.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "CARTEL DE IDENTIFICACION DE LA OBRA (2.40MX3.60 M)",
+   "wbs": "1.1.1.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "MOVILIZACION Y DESMOVILIZACION DE EQUIPOS Y MAQUINARIAS",
+   "wbs": "1.1.2.1",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 11,
+   "name": "LIMPIEZA DEL TERRENO MANUAL",
+   "wbs": "1.1.2.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "TRAZO Y REPLANTEO INICAL",
+   "wbs": "1.1.2.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "ELABORACION, IMPLEMENTACION Y ADMINISTRACION DE SEGURIDAD Y SALUD EN EL TRABAJO",
+   "wbs": "1.1.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "EQUIPO DE PROTECCION PERSONAL",
+   "wbs": "1.1.3.2",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 16,
+   "name": "EQUIPO DE PROTECCION COLECTIVA",
+   "wbs": "1.1.3.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "SE\u00d1ALIZACION TEMPORAL DE SEGURIDAD",
+   "wbs": "1.1.3.4",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 18,
+   "name": "CAPACITACION EN SEGURIDAD Y SALUD",
+   "wbs": "1.1.3.5",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 19,
+   "name": "RECURSOS PARA RESPUESTAS ANTE EMERGENCIAS EN SST.",
+   "wbs": "1.1.3.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "CERCO PROVISIONAL C/MANTAS DE POLIPROPILENO",
+   "wbs": "1.1.4.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "PASE PEATONAL PROVISIONAL",
+   "wbs": "1.1.4.2",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "LIMPIEZA DEL TERRENO MANUAL",
+   "wbs": "1.2.1.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "TRAZO NIVELACION Y REPLANTEO DURANTE EL PROCESO",
+   "wbs": "1.2.1.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "EXCAVACION EN TERRENO NORMAL CON MAQUINARIA",
+   "wbs": "1.2.1.2.1",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 30,
+   "name": "EXCAVACION EN TERRENO NORMAL",
+   "wbs": "1.2.1.2.2",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "EXCAVACION EN TERRENO ROCOSO",
+   "wbs": "1.2.1.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "PERFILADO Y COMPACTACION SUB-RASANTES ZONAS CORTE",
+   "wbs": "1.2.1.2.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "ACARREO DE MATERIAL SUELTO",
+   "wbs": "1.2.1.2.5",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "ELIMINACION DE MATERIAL EXCEDENTE",
+   "wbs": "1.2.1.2.6",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 36,
+   "name": "ESPARCIDO Y COMPACTADO DE LA BASE EN CAPAS E=0.20CM",
+   "wbs": "1.2.1.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "ENCOFRADO Y DESENCOFRADO NORMAL - PAVIMENTO",
+   "wbs": "1.2.1.4.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "CONCRETO f\u00b4c = 210 kg/cm2 - PAVIMENTOS E=0.10",
+   "wbs": "1.2.1.4.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "ENPEDRADO DE PAVIMENTO (EMBOQUILLADO CON PIEDRA LABRADA GRANITO E=0.15CM)",
+   "wbs": "1.2.1.4.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "RELLENO DE JUNTAS CON CEMNETO Y ARENA GRUESA C:A 1:2",
+   "wbs": "1.2.1.4.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "ACABADO Y BRU\u00d1ADO DE ENPEDRADO",
+   "wbs": "1.2.1.4.5",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "name": "CURADO DE CONCRETO",
+   "wbs": "1.2.1.5.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "JUNTA  ASFALTICA DE E=1\"",
+   "wbs": "1.2.1.6.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "name": "JUNTA DE CONTRACCION ASFALTICA DE E=1\"",
+   "wbs": "1.2.1.6.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "JUNTA LONGITUDINAL DE CONSTRUCCION ASFALTICA DE E=1\"",
+   "wbs": "1.2.1.6.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "name": "LIMPIEZA DEL TERRENO MANUAL",
+   "wbs": "1.2.2.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "name": "TRAZO NIVELACION Y REPLANTEO DURANTE EL PROCESO",
+   "wbs": "1.2.2.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "name": "EXCAVACION EN TERRENO NORMAL",
+   "wbs": "1.2.2.2.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "name": "NIVELACION Y COMPACTACION MANUAL",
+   "wbs": "1.2.2.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "name": "ELIMINACION MATERIAL EXCEDENTE EN CARRETILLA (50 M) - MANUAL",
+   "wbs": "1.2.2.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "name": "ESPARCIDO, NIVELADO Y COMPAC. DE LA BASE E=0.15CM. PARA VEREDAS",
+   "wbs": "1.2.2.2.4",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "name": "ENCOFRADO Y DESENCOFRADO PARA VEREDAS",
+   "wbs": "1.2.2.3.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "name": "CONCRETO f'c=175 kg/cm2 EN VEREDAS",
+   "wbs": "1.2.2.3.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "name": "ENPEDRADO DE PAVIMENTO (EMBOQUILLADO CON PIEDRA LABRADA GRANITO E=0.15CM)",
+   "wbs": "1.2.2.3.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "name": "RELLENO DE JUNTAS CON CEMNETO Y ARENA GRUESA C:A 1:2",
+   "wbs": "1.2.2.3.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "name": "ACABADO PULIDO DE PISO CON MORTERO 1:2 X 1.5CM DE ESPESOR. INCL. BRU\u00d1A",
+   "wbs": "1.2.2.4.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "name": "JUNTA  ASFALTICA DE E=1\"",
+   "wbs": "1.2.2.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "name": "JUNTA DE CONTRACCION ASFALTICA DE E=1\"",
+   "wbs": "1.2.2.5.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "name": "CURADO DE CONCRETO",
+   "wbs": "1.2.2.6.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "name": "LIMPIEZA DEL TERRENO MANUAL",
+   "wbs": "1.2.3.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "name": "TRAZO NIVELACION Y REPLANTEO DURANTE EL PROCESO",
+   "wbs": "1.2.3.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "name": "EXCAVACION EN TERRENO NORMAL CON MAQUINARIA",
+   "wbs": "1.2.3.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 76,
+   "name": "EXCAVACION EN TERRENO ROCOSO",
+   "wbs": "1.2.3.2.2",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 77,
+   "name": "PERFILADO Y COMPACTACION SUB-RASANTES ZONAS CORTE",
+   "wbs": "1.2.3.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "name": "ACARREO DE MATERIAL SUELTO",
+   "wbs": "1.2.3.2.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "name": "ELIMINACION DE MATERIAL EXCEDENTE",
+   "wbs": "1.2.3.2.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "name": "SOLADO DE CONCRETO C:H 1:2,  E=4\"",
+   "wbs": "1.2.3.3.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "name": "CONCRETO f\u00b4c = 210 kg/cm2",
+   "wbs": "1.2.3.3.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 83,
+   "name": "ENCOFRADO Y DESENCOFRADO NORMAL",
+   "wbs": "1.2.3.3.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 84,
+   "name": "ACERO CORRUGADO FY= 4200 kg/cm2 GRADO 60",
+   "wbs": "1.2.3.3.4",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 86,
+   "name": "CURADO DE CONCRETO",
+   "wbs": "1.2.3.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 88,
+   "name": "REJILLA METALICA SEGUN DISE\u00d1O",
+   "wbs": "1.2.3.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "name": "LIMPIEZA DEL TERRENO MANUAL",
+   "wbs": "1.3.1.1.1",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 93,
+   "name": "TRAZO NIVELACION Y REPLANTEO DURANTE EL PROCESO",
+   "wbs": "1.3.1.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "name": "CINTA  PLASTICA PARA SE\u00d1AL DE PELIGRO",
+   "wbs": "1.3.1.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 96,
+   "name": "EXCAVACION HASTA 0.60CM EN TERRENO  NORMAL",
+   "wbs": "1.3.1.2.1",
+   "duration": 6,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "name": "EXCAVACION HASTA 0.60M EN TERRENO ROCOSO",
+   "wbs": "1.3.1.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 98,
+   "name": "NIVELACION Y REFINE DEL FONDO SE ZANJA",
+   "wbs": "1.3.1.2.3",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 99,
+   "name": "RELLENO COMPACTADO DE ZANJA CON MATERIAL PROPIO",
+   "wbs": "1.3.1.2.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 100,
+   "name": "CAMA DE APOYO PARA TUBERIAS E=10 CM.",
+   "wbs": "1.3.1.2.5",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "name": "ELIMINACION DE MATERIAL EXCEDENTE",
+   "wbs": "1.3.1.2.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "name": "SUMINISTRO E INSTALACION DE TUBERIA PVC D=1\"",
+   "wbs": "1.3.1.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 104,
+   "name": "SUMINISTRO E INST. DE CONEXIONES DOMICILIARIAS C/TUBERIA PVC-SAP D=1/2\"",
+   "wbs": "1.3.1.3.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "name": "DOBLE PRUEBA HIDRAULICA",
+   "wbs": "1.3.1.3.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 107,
+   "name": "SUMINISTRO E INST. DE CAJA/TAPA METALICA DE 0.30 X 0.30M, TN P/REGISTRO DE AGUA POTABLE",
+   "wbs": "1.3.1.4.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 109,
+   "name": "REPARACION DE REDES DE AGUA POTABLE",
+   "wbs": "1.3.1.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 112,
+   "name": "LIMPIEZA DEL TERRENO MANUAL",
+   "wbs": "1.3.2.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 113,
+   "name": "TRAZO NIVELACION Y REPLANTEO DURANTE EL PROCESO",
+   "wbs": "1.3.2.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 114,
+   "name": "CINTA  PLASTICA PARA SE\u00d1AL DE PELIGRO",
+   "wbs": "1.3.2.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 116,
+   "name": "EXCAVACION HASTA 1.60M EN TERRENO  NORMAL",
+   "wbs": "1.3.2.2.1",
+   "duration": 6,
+   "demands": []
+  },
+  {
+   "id": 117,
+   "name": "EXCAVACION HASTA 1.60M EN TERRENO ROCOSO",
+   "wbs": "1.3.2.2.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 118,
+   "name": "NIVELACION Y REFINE DEL FONDO SE ZANJA",
+   "wbs": "1.3.2.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 119,
+   "name": "RELLENO COMPACTADO DE ZANJA CON MATERIAL PROPIO",
+   "wbs": "1.3.2.2.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 120,
+   "name": "CAMA DE APOYO PARA TUBERIAS E=10 CM.",
+   "wbs": "1.3.2.2.5",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 121,
+   "name": "ELIMINACION DE MATERIAL EXCEDENTE",
+   "wbs": "1.3.2.2.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 123,
+   "name": "SUMINISTRO E INST. DE TUBERIA  DE DESAGUE PVC D=6\" (160MM) U.F",
+   "wbs": "1.3.2.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 124,
+   "name": "SUMINISTRO E INST. DE CONEXIONES DOMICILIARIAS DE DESAGUE C/TUBERIA PVC-U D=4\" (110MM) U.F",
+   "wbs": "1.3.2.3.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 125,
+   "name": "SUMINISTRO E INSTALACION DE CACHIMBA TEE PVC D=160MM X 110MM, ISO S-25 P/D",
+   "wbs": "1.3.2.3.3",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 126,
+   "name": "DOBLE PRUEBA HIDRAULICA DE DESAGUE",
+   "wbs": "1.3.2.3.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 128,
+   "name": "SUMINISTRO E INST. DE CAJA/TAPA METALICA DE 0.30 X 0.60M, TN P/REGISTRO DE DESAGUE",
+   "wbs": "1.3.2.4.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 130,
+   "name": "REPARACION DE REDES DE DESAGUE",
+   "wbs": "1.3.2.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 133,
+   "name": "PINTURA EN SARDINELES, VEREDAS Y PAVIMENTOS",
+   "wbs": "1.4.1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 135,
+   "name": "POSTES DE ALUMBRADO CON PANEL SOLAR",
+   "wbs": "1.4.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 136,
+   "name": "TACHO DE BASURA INC. COLOCACION",
+   "wbs": "1.4.2.2",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 137,
+   "name": "BANCA DE MADERA INC. COLOCACION",
+   "wbs": "1.4.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 138,
+   "name": "COBERTURA DE BANCAS",
+   "wbs": "1.4.2.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 140,
+   "name": "LIMPIEZA FINAL DE OBRA",
+   "wbs": "1.5.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 141,
+   "name": "CAPACITACION A LA POBLACION BENEFICIADA",
+   "wbs": "1.5.2",
+   "duration": 1,
+   "demands": []
+  },
+  {
+   "id": 143,
+   "name": "MITIGACION DEL IMPACTO AMBIENTAL",
+   "wbs": "1.6.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 145,
+   "name": "FLETE TERRESTRE",
+   "wbs": "1.7.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 3,
+   "succ": 4,
+   "lag": -2
+  },
+  {
+   "pred": 4,
+   "succ": 5,
+   "lag": -1
+  },
+  {
+   "pred": 4,
+   "succ": 8,
+   "lag": -1
+  },
+  {
+   "pred": 5,
+   "succ": 6,
+   "lag": -1
+  },
+  {
+   "pred": 6,
+   "succ": 7,
+   "lag": -1
+  },
+  {
+   "pred": 8,
+   "succ": 10,
+   "lag": -1
+  },
+  {
+   "pred": 8,
+   "succ": 145,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 11,
+   "lag": -1
+  },
+  {
+   "pred": 12,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 14,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 16,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 17,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 18,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 27,
+   "lag": -1
+  },
+  {
+   "pred": 26,
+   "succ": 51,
+   "lag": -1
+  },
+  {
+   "pred": 26,
+   "succ": 92,
+   "lag": -1
+  },
+  {
+   "pred": 27,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 30,
+   "lag": -1
+  },
+  {
+   "pred": 30,
+   "succ": 31,
+   "lag": -4
+  },
+  {
+   "pred": 31,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 34,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 36,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 39,
+   "lag": -2
+  },
+  {
+   "pred": 39,
+   "succ": 40,
+   "lag": -2
+  },
+  {
+   "pred": 40,
+   "succ": 42,
+   "lag": 0
+  },
+  {
+   "pred": 40,
+   "succ": 46,
+   "lag": 0
+  },
+  {
+   "pred": 42,
+   "succ": 44,
+   "lag": 0
+  },
+  {
+   "pred": 44,
+   "succ": 41,
+   "lag": 0
+  },
+  {
+   "pred": 46,
+   "succ": 47,
+   "lag": -2
+  },
+  {
+   "pred": 47,
+   "succ": 48,
+   "lag": -1
+  },
+  {
+   "pred": 51,
+   "succ": 52,
+   "lag": -1
+  },
+  {
+   "pred": 51,
+   "succ": 72,
+   "lag": -1
+  },
+  {
+   "pred": 52,
+   "succ": 54,
+   "lag": 0
+  },
+  {
+   "pred": 54,
+   "succ": 55,
+   "lag": 0
+  },
+  {
+   "pred": 55,
+   "succ": 56,
+   "lag": 0
+  },
+  {
+   "pred": 56,
+   "succ": 57,
+   "lag": 0
+  },
+  {
+   "pred": 57,
+   "succ": 59,
+   "lag": 0
+  },
+  {
+   "pred": 59,
+   "succ": 60,
+   "lag": 0
+  },
+  {
+   "pred": 60,
+   "succ": 61,
+   "lag": -3
+  },
+  {
+   "pred": 61,
+   "succ": 64,
+   "lag": -3
+  },
+  {
+   "pred": 64,
+   "succ": 66,
+   "lag": -3
+  },
+  {
+   "pred": 64,
+   "succ": 69,
+   "lag": -1
+  },
+  {
+   "pred": 66,
+   "succ": 67,
+   "lag": -1
+  },
+  {
+   "pred": 69,
+   "succ": 62,
+   "lag": 0
+  },
+  {
+   "pred": 72,
+   "succ": 73,
+   "lag": -1
+  },
+  {
+   "pred": 73,
+   "succ": 75,
+   "lag": 0
+  },
+  {
+   "pred": 75,
+   "succ": 76,
+   "lag": 0
+  },
+  {
+   "pred": 76,
+   "succ": 77,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 78,
+   "lag": -1
+  },
+  {
+   "pred": 78,
+   "succ": 79,
+   "lag": 0
+  },
+  {
+   "pred": 79,
+   "succ": 81,
+   "lag": 0
+  },
+  {
+   "pred": 81,
+   "succ": 84,
+   "lag": 0
+  },
+  {
+   "pred": 82,
+   "succ": 86,
+   "lag": 0
+  },
+  {
+   "pred": 83,
+   "succ": 82,
+   "lag": 0
+  },
+  {
+   "pred": 84,
+   "succ": 83,
+   "lag": -2
+  },
+  {
+   "pred": 86,
+   "succ": 88,
+   "lag": 0
+  },
+  {
+   "pred": 92,
+   "succ": 93,
+   "lag": -1
+  },
+  {
+   "pred": 92,
+   "succ": 112,
+   "lag": -1
+  },
+  {
+   "pred": 93,
+   "succ": 94,
+   "lag": -1
+  },
+  {
+   "pred": 94,
+   "succ": 96,
+   "lag": 0
+  },
+  {
+   "pred": 96,
+   "succ": 97,
+   "lag": -6
+  },
+  {
+   "pred": 97,
+   "succ": 98,
+   "lag": 0
+  },
+  {
+   "pred": 97,
+   "succ": 109,
+   "lag": -1
+  },
+  {
+   "pred": 98,
+   "succ": 99,
+   "lag": -1
+  },
+  {
+   "pred": 99,
+   "succ": 100,
+   "lag": 0
+  },
+  {
+   "pred": 100,
+   "succ": 101,
+   "lag": 0
+  },
+  {
+   "pred": 101,
+   "succ": 103,
+   "lag": 0
+  },
+  {
+   "pred": 103,
+   "succ": 104,
+   "lag": 0
+  },
+  {
+   "pred": 104,
+   "succ": 105,
+   "lag": 0
+  },
+  {
+   "pred": 105,
+   "succ": 107,
+   "lag": 0
+  },
+  {
+   "pred": 109,
+   "succ": 99,
+   "lag": -1
+  },
+  {
+   "pred": 112,
+   "succ": 113,
+   "lag": -1
+  },
+  {
+   "pred": 113,
+   "succ": 114,
+   "lag": -1
+  },
+  {
+   "pred": 114,
+   "succ": 116,
+   "lag": 0
+  },
+  {
+   "pred": 116,
+   "succ": 117,
+   "lag": -2
+  },
+  {
+   "pred": 117,
+   "succ": 118,
+   "lag": 0
+  },
+  {
+   "pred": 117,
+   "succ": 130,
+   "lag": -2
+  },
+  {
+   "pred": 118,
+   "succ": 119,
+   "lag": 0
+  },
+  {
+   "pred": 119,
+   "succ": 120,
+   "lag": 0
+  },
+  {
+   "pred": 120,
+   "succ": 121,
+   "lag": 0
+  },
+  {
+   "pred": 121,
+   "succ": 123,
+   "lag": 0
+  },
+  {
+   "pred": 123,
+   "succ": 124,
+   "lag": 0
+  },
+  {
+   "pred": 124,
+   "succ": 125,
+   "lag": 0
+  },
+  {
+   "pred": 125,
+   "succ": 126,
+   "lag": 0
+  },
+  {
+   "pred": 126,
+   "succ": 128,
+   "lag": 0
+  },
+  {
+   "pred": 128,
+   "succ": 133,
+   "lag": 0
+  },
+  {
+   "pred": 130,
+   "succ": 119,
+   "lag": 0
+  },
+  {
+   "pred": 133,
+   "succ": 135,
+   "lag": 0
+  },
+  {
+   "pred": 135,
+   "succ": 136,
+   "lag": 0
+  },
+  {
+   "pred": 136,
+   "succ": 137,
+   "lag": 0
+  },
+  {
+   "pred": 137,
+   "succ": 138,
+   "lag": 0
+  },
+  {
+   "pred": 138,
+   "succ": 140,
+   "lag": 0
+  },
+  {
+   "pred": 140,
+   "succ": 141,
+   "lag": 0
+  },
+  {
+   "pred": 141,
+   "succ": 143,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2025-02 Urban Road.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 1,
+  "demands_clipped_to_capacity": 0
+ }
+}

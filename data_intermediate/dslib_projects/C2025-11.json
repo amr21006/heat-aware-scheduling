@@ -1,0 +1,685 @@
+{
+ "code": "C2025-11",
+ "name": "Power Network",
+ "sector": "Construction (Industrial)",
+ "n_activities": 33,
+ "resources": [
+  {
+   "name": "carpenter",
+   "capacity": 3
+  },
+  {
+   "name": "electrician",
+   "capacity": 5
+  },
+  {
+   "name": "mason",
+   "capacity": 2
+  },
+  {
+   "name": "painter",
+   "capacity": 6
+  },
+  {
+   "name": "plasterer",
+   "capacity": 2
+  },
+  {
+   "name": "team subcontractor",
+   "capacity": 7
+  }
+ ],
+ "activities": [
+  {
+   "id": 3,
+   "name": "Movilizaci\u00f3n de Equipos y herramientas",
+   "wbs": "1.1.1",
+   "duration": 7,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Trazo, Replanteo y Ubicaci\u00f3n de Estructuras",
+   "wbs": "1.1.2",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Obras Preliminares, Obtenci\u00f3n del CIRA y Aprobacion del DIA",
+   "wbs": "1.1.3",
+   "duration": 25,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Postes, crucetas, mensulas, medias lozas y aSSesorios de concreto",
+   "wbs": "1.1.4.1.1",
+   "duration": 30,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Conductores, cables y aSSesorios",
+   "wbs": "1.1.4.1.2",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Transformadores, tableros y sistema de proteSSion",
+   "wbs": "1.1.4.1.3",
+   "duration": 30,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Ferreterias y aSSesorios",
+   "wbs": "1.1.4.1.4",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Retenidas",
+   "wbs": "1.1.4.1.5",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Puestas a tierra",
+   "wbs": "1.1.4.1.6",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Instalaci\u00f3n de Postes",
+   "wbs": "1.1.4.2.1",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Instalaci\u00f3n de Retenidas",
+   "wbs": "1.1.4.2.2",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Montaje de Armados",
+   "wbs": "1.1.4.2.3",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Montaje de Conductores",
+   "wbs": "1.1.4.2.4",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Instalaci\u00f3n de Transformadores y Tableros",
+   "wbs": "1.1.4.2.5",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Instalaci\u00f3n de Puesta a Tierra",
+   "wbs": "1.1.4.2.6",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 3
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "Pruebas y Puesta en Servicio",
+   "wbs": "1.1.4.2.7",
+   "duration": 12,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Postes Concreto Armado Centrifugado",
+   "wbs": "1.1.5.1.1",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "Conductores",
+   "wbs": "1.1.5.1.2",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Ferreter\u00eda de Estructuras y ASSesorios de Cables Autoportantes",
+   "wbs": "1.1.5.1.3",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Conexi\u00f3n de Caja de Derivaci\u00f3n",
+   "wbs": "1.1.5.1.4",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Retenidas",
+   "wbs": "1.1.5.1.5",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Puesta a Tierra",
+   "wbs": "1.1.5.1.6",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "Equipos de Alumbrado P\u00fablico",
+   "wbs": "1.1.5.1.7",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "Conexiones Domiciliarias",
+   "wbs": "1.1.5.1.8",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "Instalaci\u00f3n de Postes",
+   "wbs": "1.1.5.2.1",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "Instalaci\u00f3n de Retenidas",
+   "wbs": "1.1.5.2.2",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "Montaje de Armados",
+   "wbs": "1.1.5.2.3",
+   "duration": 20,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "Montaje de Conductores",
+   "wbs": "1.1.5.2.4",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "name": "Instalaci\u00f3n de Puesta a Tierra",
+   "wbs": "1.1.5.2.5",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "Instalaci\u00f3n de Equipos de Alumbrado Publico y acometidas",
+   "wbs": "1.1.5.2.6",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "Conexiones Domiciliarias",
+   "wbs": "1.1.5.2.7",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "Pruebas y Puesta en Servicio",
+   "wbs": "1.1.5.2.8",
+   "duration": 10,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "Tramite Conformidad de obra ENSA",
+   "wbs": "1.1.6.1",
+   "duration": 15,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 3,
+   "succ": 4,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 8,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 9,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 10,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 11,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 12,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 13,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 25,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 26,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 29,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 30,
+   "lag": 0
+  },
+  {
+   "pred": 4,
+   "succ": 31,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 5,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 8,
+   "succ": 15,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 9,
+   "succ": 18,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 19,
+   "lag": 0
+  },
+  {
+   "pred": 11,
+   "succ": 17,
+   "lag": 0
+  },
+  {
+   "pred": 12,
+   "succ": 16,
+   "lag": 0
+  },
+  {
+   "pred": 13,
+   "succ": 20,
+   "lag": 0
+  },
+  {
+   "pred": 15,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 19,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 21,
+   "succ": 42,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 26,
+   "succ": 35,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 34,
+   "lag": 0
+  },
+  {
+   "pred": 29,
+   "succ": 37,
+   "lag": 0
+  },
+  {
+   "pred": 30,
+   "succ": 38,
+   "lag": 0
+  },
+  {
+   "pred": 31,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 39,
+   "succ": 40,
+   "lag": 0
+  },
+  {
+   "pred": 40,
+   "succ": 42,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2025-11 Power Network.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}

@@ -1,0 +1,2142 @@
+{
+ "code": "C2025-12",
+ "name": "Public Plaza",
+ "sector": "Construction (Civil)",
+ "n_activities": 123,
+ "resources": [
+  {
+   "name": "carpenter",
+   "capacity": 8
+  },
+  {
+   "name": "electrician",
+   "capacity": 6
+  },
+  {
+   "name": "mason",
+   "capacity": 16
+  },
+  {
+   "name": "painter",
+   "capacity": 3
+  },
+  {
+   "name": "plasterer",
+   "capacity": 7
+  },
+  {
+   "name": "plumber",
+   "capacity": 7
+  },
+  {
+   "name": "steel worker",
+   "capacity": 6
+  },
+  {
+   "name": "team subcontractor",
+   "capacity": 12
+  },
+  {
+   "name": "welder",
+   "capacity": 8
+  }
+ ],
+ "activities": [
+  {
+   "id": 4,
+   "name": "CARTEL DE IDENTIFICACION DE OBRA DE 3.60 X 2.40 m.",
+   "wbs": "1.1.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "ALQUILER DE ALMACEN Y GUARDIANIA",
+   "wbs": "1.1.1.2",
+   "duration": 59,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "FLETE TERRESTRE",
+   "wbs": "1.1.2.1",
+   "duration": 59,
+   "demands": [
+    {
+     "resource": "plumber",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "MOVILIZACION Y DESMOVILIZACION DE EQUIPOS Y MAQUINARIAS",
+   "wbs": "1.1.2.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "PLAN DE MITIGACION DEL IMPACTO AMBIENTAL EN OBRA",
+   "wbs": "1.1.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "LIMPIEZA FINAL DE LA OBRA",
+   "wbs": "1.1.3.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "MEDIDA DE COMUNICACI\u00d3N E INFORMACION ANTI COVID 19",
+   "wbs": "1.1.4.1",
+   "duration": 30,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "ELEMENTOS DE PROTESSION PERSONAL ANTI COVID - 19",
+   "wbs": "1.1.4.2",
+   "duration": 30,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "MEDIDAS DE CONTROL ANTI COVID - 19",
+   "wbs": "1.1.4.3",
+   "duration": 59,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "MEDIDAS DE PREVENCION HABITUALES ANTI COVID - 19",
+   "wbs": "1.1.4.4",
+   "duration": 59,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "EQUIPOS DE PROTESSION INDIVIDUAL PARA OBRA",
+   "wbs": "1.1.4.5",
+   "duration": 59,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "SE\u00d1ALIZACION TEMPORAL EN OBRA",
+   "wbs": "1.1.4.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 2
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "DEMOLICION DE PISO DE CONCRETO e =0.15 m",
+   "wbs": "1.2.1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "steel worker",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "DEMOLICION DE SARDINEL PERALTADO H=0.60m e=0.15m",
+   "wbs": "1.2.1.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "DESMONTAJE DE CERCO PERIMETRICO DE ACERO EN SARDINEL H=0.65m",
+   "wbs": "1.2.1.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "DESMONTAJE DE BANCA DE FIERRO GALVANIZADO CON MADERA",
+   "wbs": "1.2.1.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "DESMONTAJE DE TACHOS DE BASURA",
+   "wbs": "1.2.1.5",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "LIMPIEZA DEL TERRENO MANUAL",
+   "wbs": "1.2.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "TRAZO Y REPLANTEO PRELIMINAR",
+   "wbs": "1.2.2.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "CONTROL TOPOGRAFICO DURANTE EJECUCION DE OBRA",
+   "wbs": "1.2.2.3",
+   "duration": 46,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "CORTE A NIVEL DE SUBRASANTE PARA VEREDAS",
+   "wbs": "1.2.3.1.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "RELLENO COMPACTADO C/EQUIPO LIVIANO CON MATERIAL PROPIO",
+   "wbs": "1.2.3.1.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "CORTE A NIVEL DE SUBRASANTE PARA RAMPAS",
+   "wbs": "1.2.3.2.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "RELLENO COMPACTADO C/EQUIPO LIVIANO CON MATERIAL PROPIO",
+   "wbs": "1.2.3.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "CORTE A NIVEL DE SUBRASANTE PARA PISOS",
+   "wbs": "1.2.3.3.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "RELLENO COMPACTADO C/EQUIPO LIVIANO CON MATERIAL PROPIO",
+   "wbs": "1.2.3.3.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "CORTE A NIVEL DE SUBRASANTE PARA PISOS",
+   "wbs": "1.2.3.4.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "RELLENO COMPACTADO C/EQUIPO LIVIANO CON MATERIAL PROPIO",
+   "wbs": "1.2.3.4.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "name": "EXCAVACION MANUAL EN TERRENO NORMAL",
+   "wbs": "1.2.3.5.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "name": "EXCAVACION MANUAL EN TERRENO NORMAL",
+   "wbs": "1.2.3.6.1",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "ELIMINACION DE MATERIAL EXCEDENTE CON EQUIPO HASTA 5 km",
+   "wbs": "1.2.3.7.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "name": "BASE GRANULAR E=0.10 m.COMPACTADA",
+   "wbs": "1.2.4.1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "name": "ENCOFRADO Y DESENCOFRADO EN VEREDAS",
+   "wbs": "1.2.4.1.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "team subcontractor",
+     "units": 4
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "name": "CONCRETO EN VEREDAS Y RAMPAS f'c=175 Kg/cm2, ACABADO SEMIPULIDO",
+   "wbs": "1.2.4.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "name": "SARDINEL DE VEREDA f'c = 175 Kg/cm2, H=VAR.(U\u00d1A)",
+   "wbs": "1.2.4.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "name": "CURADO DE VEREDA DE CONCRETO",
+   "wbs": "1.2.4.1.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "name": "JUNTA DE DILATACION EN VEREDAS",
+   "wbs": "1.2.4.1.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "name": "BASE GRANULAR E=0.10 m.COMPACTADA",
+   "wbs": "1.2.5.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "name": "ENCOFRADO Y DESENCOFRADO EN RAMPAS",
+   "wbs": "1.2.5.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "name": "CONCRETO EN VEREDAS Y RAMPAS f'c=175 Kg/cm2, ACABADO SEMIPULIDO",
+   "wbs": "1.2.5.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "name": "CURADO DE RAMPA DE CONCRETO",
+   "wbs": "1.2.5.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "painter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "name": "JUNTA DE DILATACION EN RAMPAS",
+   "wbs": "1.2.5.1.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "name": "BASE GRANULAR E=0.10 m.COMPACTADA",
+   "wbs": "1.2.6.1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "name": "CAMA DE ARENA PARA ADOQUIN DE CONCRETO h=4 cm",
+   "wbs": "1.2.6.1.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "name": "COLOCACION DE ADOQUIN DE CONCRETO RECTAGULAR 0.10x0.20 m, E= 4CM, COLOR ROJO",
+   "wbs": "1.2.6.1.3",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "name": "COLOCACION DE ADOQUIN DE CONCRETO RECTAGULAR 0.10x0.20 m, E= 4CM, COLOR NEGRO",
+   "wbs": "1.2.6.1.4",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "name": "COLOCACION DE ADOQUIN DE CONCRETO RECTAGULAR 0.10x0.20 m, E= 4CM, COLOR AMARILLO",
+   "wbs": "1.2.6.1.5",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "name": "COMPACTACION INICIAL Y SELLADO DEL ADOQUIN DE CONCRETO",
+   "wbs": "1.2.6.1.6",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "name": "COLOCACION DE ARENA DE SELLO O SELLADO DE JUNTAS",
+   "wbs": "1.2.6.1.7",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "name": "COMPACTACION FINAL Y LIMPIEZA",
+   "wbs": "1.2.6.1.8",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 76,
+   "name": "BASE GRANULAR E=0.10 m.COMPACTADA",
+   "wbs": "1.2.7.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "name": "ENCOFRADO Y DESENCOFRADO  EN PISO",
+   "wbs": "1.2.7.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "name": "CONCRETO f'c=175 kg/cm2, ACABADO SEMIPULIDO h=10 cm",
+   "wbs": "1.2.7.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "name": "CURADO DE PISO DE CONCRETO",
+   "wbs": "1.2.7.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "name": "JUNTA DE DILATACION EN PISO DE COLOR",
+   "wbs": "1.2.7.1.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 83,
+   "name": "ENCOFRADO Y DESENCOFRADO EN SARDINEL, h=0.30 m",
+   "wbs": "1.2.8.1.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 84,
+   "name": "CONCRETO f'c=175 kg/cm2, ACABADO SEMIPULIDO",
+   "wbs": "1.2.8.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "name": "CURADO DE SARDINEL",
+   "wbs": "1.2.8.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 86,
+   "name": "JUNTA DE DILATACION e=1",
+   "wbs": "1.2.8.1.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 88,
+   "name": "PINTURA EN SARDINELES",
+   "wbs": "1.2.8.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 91,
+   "name": "ENCOFRADO Y DESENCOFRADO EN SARDINEL PERALTADO",
+   "wbs": "1.2.9.1.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "name": "CONCRETO f'c=210 kg/cm2, ACABADO SEMIPULIDO",
+   "wbs": "1.2.9.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "name": "ACERO CORRUGADO FY= 4200 kg/cm2 GRADO 60",
+   "wbs": "1.2.9.1.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "name": "CURADO DE SARDINEL",
+   "wbs": "1.2.9.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "name": "JUNTA DE DILATACION e=1",
+   "wbs": "1.2.9.1.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "name": "PINTURA EN SARDINELES",
+   "wbs": "1.2.9.2.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 99,
+   "name": "SUMINISTRO E INSTALACION DE PERGOLA DE MADERA  TIPO I",
+   "wbs": "1.2.10.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "name": "PREPARACION DE TERRENO PARA AREA VERDE",
+   "wbs": "1.2.11.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 102,
+   "name": "COLOCACION DE TIERRA DE CHACRA",
+   "wbs": "1.2.11.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "name": "SEMBRADO DE GRASS",
+   "wbs": "1.2.11.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 104,
+   "name": "SEMBRADO DE PLANTAS ORNAMENTALES",
+   "wbs": "1.2.11.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "name": "SEMBRADO DE PLANTONES (FICUS O SIMILAR)",
+   "wbs": "1.2.11.5",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 108,
+   "name": "EXCAVACION MANUAL DE ZANJAS EN TERRENO NORMAL",
+   "wbs": "1.2.12.1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 109,
+   "name": "RELLENO COMPACTADO C/EQUIPO LIVIANO CON MATERIAL PROPIO",
+   "wbs": "1.2.12.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 111,
+   "name": "TUBERIA PVC SAP DE 3/4",
+   "wbs": "1.2.12.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 112,
+   "name": "TUBERIA PVC SAP DE 1/2",
+   "wbs": "1.2.12.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 113,
+   "name": "SALIDA DE AGUA FRIA TUBERIA PVC - SAP 1/2",
+   "wbs": "1.2.12.2.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 114,
+   "name": "CAJA DE REGISTRO DE 12 X 24 CON TAPA DE CONCRETO INCLUYE VALVULA DE PASO Y ASSESORIOS",
+   "wbs": "1.2.12.2.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 115,
+   "name": "SUMINISTRO E INSTALACION DE ASSESORIOS PARA RED",
+   "wbs": "1.2.12.2.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 118,
+   "name": "EXCAVACION MANUAL DE ZANJAS EN TERRENO NORMAL",
+   "wbs": "1.2.13.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 120,
+   "name": "CONCRETO f'c=175 kg/cm2, PARA DADO DE POSTE ORNAMENTAL",
+   "wbs": "1.2.13.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 122,
+   "name": "POSTE ORNAMENTAL DE F\u00b0G\u00b0 4 CON 1 FAROL LED 50W, INC. ACABDO Y COLOCACION",
+   "wbs": "1.2.13.3.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 124,
+   "name": "SUMINISTRO E INSTALACION DE PANELES SOLARES TIPO BOMBILLA",
+   "wbs": "1.2.13.4.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 126,
+   "name": "SUMINISTRO E INSTALACION DE PAPELERAS",
+   "wbs": "1.2.14.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 127,
+   "name": "SUMINISTRO E INSTALACION DE LETRERO DE CONCRETO ARMADO MAS BASE",
+   "wbs": "1.2.14.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 128,
+   "name": "SUMINISTRO E INSTALACION DE BANCA DE MADERA CON FIERRO GALVANIZADO",
+   "wbs": "1.2.14.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 129,
+   "name": "BANCA DE CONCRETO SEMICIRCULAR TIPO I",
+   "wbs": "1.2.14.4",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 130,
+   "name": "BANCA DE CONCRETO SEMICIRCULAR TIPO II",
+   "wbs": "1.2.14.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 133,
+   "name": "LIMPIEZA DEL TERRENO MANUAL",
+   "wbs": "1.3.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 134,
+   "name": "TRAZO Y REPLANTEO PRELIMINAR",
+   "wbs": "1.3.1.2",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 135,
+   "name": "CONTROL TOPOGRAFICO DURANTE EJECUCION DE OBRA",
+   "wbs": "1.3.1.3",
+   "duration": 5,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 137,
+   "name": "DEMOLICION DE VEREDA EXISTENTES",
+   "wbs": "1.3.1.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 140,
+   "name": "CORTE A NIVEL DE SUBRASANTE PARA VEREDAS",
+   "wbs": "1.3.2.1.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 141,
+   "name": "RELLENO COMPACTADO C/EQUIPO LIVIANO CON MATERIAL PROPIO",
+   "wbs": "1.3.2.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 143,
+   "name": "CORTE A NIVEL DE SUBRASANTE PARA RAMPAS",
+   "wbs": "1.3.2.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 144,
+   "name": "RELLENO COMPACTADO C/EQUIPO LIVIANO CON MATERIAL PROPIO",
+   "wbs": "1.3.2.2.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 146,
+   "name": "CORTE A NIVEL DE SUBRASANTE PARA ESCALERAS",
+   "wbs": "1.3.2.3.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 147,
+   "name": "RELLENO COMPACTADO C/EQUIPO LIVIANO CON MATERIAL PROPIO",
+   "wbs": "1.3.2.3.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 149,
+   "name": "ELIMINACION DE MATERIAL EXCEDENTE CON EQUIPO HASTA 5 km",
+   "wbs": "1.3.2.4.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 152,
+   "name": "BASE GRANULAR E=0.10 m.COMPACTADA",
+   "wbs": "1.3.3.1.1",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 153,
+   "name": "ENCOFRADO Y DESENCOFRADO EN VEREDAS",
+   "wbs": "1.3.3.1.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 154,
+   "name": "CONCRETO EN VEREDAS Y RAMPAS f'c=175 Kg/cm2, ACABADO SEMIPULIDO",
+   "wbs": "1.3.3.1.3",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 155,
+   "name": "SARDINEL DE VEREDA f'c = 175 Kg/cm2, H=VAR.(U\u00d1A)",
+   "wbs": "1.3.3.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 156,
+   "name": "CURADO DE VEREDA DE CONCRETO",
+   "wbs": "1.3.3.1.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 157,
+   "name": "JUNTA DE DILATACION EN VEREDAS",
+   "wbs": "1.3.3.1.6",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 159,
+   "name": "PINTURA EN BORDE DE VEREDAS",
+   "wbs": "1.3.3.2.1",
+   "duration": 4,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 162,
+   "name": "BASE GRANULAR E=0.10 m.COMPACTADA",
+   "wbs": "1.3.4.1.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 163,
+   "name": "ENCOFRADO Y DESENCOFRADO EN RAMPAS",
+   "wbs": "1.3.4.1.2",
+   "duration": 3,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 164,
+   "name": "CONCRETO EN VEREDAS Y RAMPAS f'c=175 Kg/cm2, ACABADO SEMIPULIDO",
+   "wbs": "1.3.4.1.3",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 165,
+   "name": "SARDINEL DE RAMPA f'c = 175 Kg/cm2, H=VAR.(U\u00d1A)",
+   "wbs": "1.3.4.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 166,
+   "name": "CURADO DE RAMPA DE CONCRETO",
+   "wbs": "1.3.4.1.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 167,
+   "name": "JUNTA DE DILATACION EN RAMPAS",
+   "wbs": "1.3.4.1.6",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 170,
+   "name": "BASE GRANULAR E=0.10 m.COMPACTADA",
+   "wbs": "1.3.5.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 171,
+   "name": "ENCOFRADO Y DESENCOFRADO EN ESCALERAS",
+   "wbs": "1.3.5.1.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 172,
+   "name": "CONCRETO EN ESCALERA f'c=175 kg/cm2, ACABADO SEMIPULIDO",
+   "wbs": "1.3.5.1.3",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 173,
+   "name": "CURADO DE ESCALERA DE CONCRETO",
+   "wbs": "1.3.5.1.4",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 174,
+   "name": "JUNTA DE DILATACION EN ESCALERA",
+   "wbs": "1.3.5.1.5",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "plasterer",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 176,
+   "name": "NIVELACION Y REPOSICION DE MARCO Y TAPA DE CAJA DE AGUA",
+   "wbs": "1.3.6.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 177,
+   "name": "NIVELACION Y REPOSICION DE MARCO Y TAPA DE CAJA DE DESAGUE",
+   "wbs": "1.3.6.2",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "electrician",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 180,
+   "name": "EXCAVACION MANUAL DE ZANJAS EN TERRENO NORMAL",
+   "wbs": "1.3.7.1.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 182,
+   "name": "CONCRETO f'c=175 kg/cm2, PARA DADO DE POSTE ORNAMENTAL",
+   "wbs": "1.3.7.2.1",
+   "duration": 1,
+   "demands": [
+    {
+     "resource": "welder",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 184,
+   "name": "POSTE PARA ALUMBRADO DE F\u00b0G\u00b0 4 , INC. ACABADO (PINTURA) Y COLOCACION",
+   "wbs": "1.3.7.3.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "mason",
+     "units": 1
+    }
+   ]
+  },
+  {
+   "id": 186,
+   "name": "SUMINISTRO E INSTALACION DE PANELES SOLARES TIPO RECTANGULO",
+   "wbs": "1.3.7.4.1",
+   "duration": 2,
+   "demands": [
+    {
+     "resource": "carpenter",
+     "units": 1
+    }
+   ]
+  }
+ ],
+ "precedence": [
+  {
+   "pred": 5,
+   "succ": 4,
+   "lag": -59
+  },
+  {
+   "pred": 7,
+   "succ": 5,
+   "lag": -59
+  },
+  {
+   "pred": 7,
+   "succ": 8,
+   "lag": -59
+  },
+  {
+   "pred": 7,
+   "succ": 10,
+   "lag": -59
+  },
+  {
+   "pred": 8,
+   "succ": 21,
+   "lag": 0
+  },
+  {
+   "pred": 10,
+   "succ": 13,
+   "lag": -1
+  },
+  {
+   "pred": 13,
+   "succ": 14,
+   "lag": -30
+  },
+  {
+   "pred": 14,
+   "succ": 15,
+   "lag": -30
+  },
+  {
+   "pred": 15,
+   "succ": 16,
+   "lag": -59
+  },
+  {
+   "pred": 16,
+   "succ": 17,
+   "lag": -59
+  },
+  {
+   "pred": 17,
+   "succ": 18,
+   "lag": -59
+  },
+  {
+   "pred": 21,
+   "succ": 22,
+   "lag": 0
+  },
+  {
+   "pred": 22,
+   "succ": 23,
+   "lag": 0
+  },
+  {
+   "pred": 23,
+   "succ": 24,
+   "lag": 0
+  },
+  {
+   "pred": 24,
+   "succ": 25,
+   "lag": 0
+  },
+  {
+   "pred": 25,
+   "succ": 27,
+   "lag": 0
+  },
+  {
+   "pred": 27,
+   "succ": 28,
+   "lag": 0
+  },
+  {
+   "pred": 28,
+   "succ": 29,
+   "lag": -2
+  },
+  {
+   "pred": 28,
+   "succ": 32,
+   "lag": 0
+  },
+  {
+   "pred": 32,
+   "succ": 35,
+   "lag": -5
+  },
+  {
+   "pred": 32,
+   "succ": 51,
+   "lag": 0
+  },
+  {
+   "pred": 33,
+   "succ": 48,
+   "lag": 0
+  },
+  {
+   "pred": 35,
+   "succ": 38,
+   "lag": -2
+  },
+  {
+   "pred": 35,
+   "succ": 59,
+   "lag": 0
+  },
+  {
+   "pred": 38,
+   "succ": 41,
+   "lag": -3
+  },
+  {
+   "pred": 38,
+   "succ": 66,
+   "lag": 0
+  },
+  {
+   "pred": 41,
+   "succ": 44,
+   "lag": -3
+  },
+  {
+   "pred": 41,
+   "succ": 76,
+   "lag": 0
+  },
+  {
+   "pred": 44,
+   "succ": 46,
+   "lag": -5
+  },
+  {
+   "pred": 44,
+   "succ": 83,
+   "lag": 0
+  },
+  {
+   "pred": 46,
+   "succ": 91,
+   "lag": 0
+  },
+  {
+   "pred": 51,
+   "succ": 52,
+   "lag": 0
+  },
+  {
+   "pred": 52,
+   "succ": 53,
+   "lag": 0
+  },
+  {
+   "pred": 52,
+   "succ": 56,
+   "lag": -3
+  },
+  {
+   "pred": 53,
+   "succ": 33,
+   "lag": 0
+  },
+  {
+   "pred": 53,
+   "succ": 54,
+   "lag": -1
+  },
+  {
+   "pred": 54,
+   "succ": 55,
+   "lag": 0
+  },
+  {
+   "pred": 59,
+   "succ": 60,
+   "lag": 0
+  },
+  {
+   "pred": 60,
+   "succ": 61,
+   "lag": 0
+  },
+  {
+   "pred": 60,
+   "succ": 63,
+   "lag": -1
+  },
+  {
+   "pred": 61,
+   "succ": 36,
+   "lag": 0
+  },
+  {
+   "pred": 61,
+   "succ": 62,
+   "lag": 0
+  },
+  {
+   "pred": 66,
+   "succ": 67,
+   "lag": 0
+  },
+  {
+   "pred": 67,
+   "succ": 68,
+   "lag": 0
+  },
+  {
+   "pred": 68,
+   "succ": 69,
+   "lag": -4
+  },
+  {
+   "pred": 69,
+   "succ": 70,
+   "lag": -4
+  },
+  {
+   "pred": 70,
+   "succ": 39,
+   "lag": 0
+  },
+  {
+   "pred": 70,
+   "succ": 71,
+   "lag": 0
+  },
+  {
+   "pred": 71,
+   "succ": 72,
+   "lag": -4
+  },
+  {
+   "pred": 71,
+   "succ": 73,
+   "lag": 0
+  },
+  {
+   "pred": 76,
+   "succ": 77,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 78,
+   "lag": 0
+  },
+  {
+   "pred": 77,
+   "succ": 80,
+   "lag": -1
+  },
+  {
+   "pred": 78,
+   "succ": 42,
+   "lag": 0
+  },
+  {
+   "pred": 78,
+   "succ": 79,
+   "lag": 0
+  },
+  {
+   "pred": 83,
+   "succ": 84,
+   "lag": 0
+  },
+  {
+   "pred": 83,
+   "succ": 86,
+   "lag": -4
+  },
+  {
+   "pred": 84,
+   "succ": 85,
+   "lag": 0
+  },
+  {
+   "pred": 85,
+   "succ": 88,
+   "lag": 0
+  },
+  {
+   "pred": 91,
+   "succ": 92,
+   "lag": 0
+  },
+  {
+   "pred": 91,
+   "succ": 93,
+   "lag": -3
+  },
+  {
+   "pred": 91,
+   "succ": 95,
+   "lag": -3
+  },
+  {
+   "pred": 92,
+   "succ": 94,
+   "lag": 0
+  },
+  {
+   "pred": 94,
+   "succ": 97,
+   "lag": 0
+  },
+  {
+   "pred": 95,
+   "succ": 108,
+   "lag": -1
+  },
+  {
+   "pred": 97,
+   "succ": 99,
+   "lag": 0
+  },
+  {
+   "pred": 99,
+   "succ": 101,
+   "lag": -2
+  },
+  {
+   "pred": 101,
+   "succ": 102,
+   "lag": -2
+  },
+  {
+   "pred": 102,
+   "succ": 103,
+   "lag": -2
+  },
+  {
+   "pred": 103,
+   "succ": 104,
+   "lag": -2
+  },
+  {
+   "pred": 104,
+   "succ": 105,
+   "lag": -2
+  },
+  {
+   "pred": 108,
+   "succ": 111,
+   "lag": 0
+  },
+  {
+   "pred": 111,
+   "succ": 112,
+   "lag": 0
+  },
+  {
+   "pred": 112,
+   "succ": 113,
+   "lag": 0
+  },
+  {
+   "pred": 113,
+   "succ": 114,
+   "lag": 0
+  },
+  {
+   "pred": 113,
+   "succ": 115,
+   "lag": -1
+  },
+  {
+   "pred": 114,
+   "succ": 109,
+   "lag": 0
+  },
+  {
+   "pred": 115,
+   "succ": 118,
+   "lag": 0
+  },
+  {
+   "pred": 118,
+   "succ": 122,
+   "lag": 0
+  },
+  {
+   "pred": 120,
+   "succ": 124,
+   "lag": 0
+  },
+  {
+   "pred": 122,
+   "succ": 120,
+   "lag": 0
+  },
+  {
+   "pred": 124,
+   "succ": 126,
+   "lag": 0
+  },
+  {
+   "pred": 126,
+   "succ": 127,
+   "lag": -2
+  },
+  {
+   "pred": 127,
+   "succ": 128,
+   "lag": -1
+  },
+  {
+   "pred": 128,
+   "succ": 129,
+   "lag": -2
+  },
+  {
+   "pred": 129,
+   "succ": 130,
+   "lag": -2
+  },
+  {
+   "pred": 130,
+   "succ": 133,
+   "lag": 0
+  },
+  {
+   "pred": 133,
+   "succ": 134,
+   "lag": 0
+  },
+  {
+   "pred": 134,
+   "succ": 135,
+   "lag": 0
+  },
+  {
+   "pred": 134,
+   "succ": 137,
+   "lag": -2
+  },
+  {
+   "pred": 135,
+   "succ": 140,
+   "lag": -5
+  },
+  {
+   "pred": 140,
+   "succ": 143,
+   "lag": -3
+  },
+  {
+   "pred": 140,
+   "succ": 152,
+   "lag": 0
+  },
+  {
+   "pred": 143,
+   "succ": 146,
+   "lag": -1
+  },
+  {
+   "pred": 143,
+   "succ": 162,
+   "lag": 0
+  },
+  {
+   "pred": 146,
+   "succ": 170,
+   "lag": 0
+  },
+  {
+   "pred": 152,
+   "succ": 153,
+   "lag": 0
+  },
+  {
+   "pred": 153,
+   "succ": 154,
+   "lag": 0
+  },
+  {
+   "pred": 153,
+   "succ": 157,
+   "lag": -3
+  },
+  {
+   "pred": 154,
+   "succ": 141,
+   "lag": 0
+  },
+  {
+   "pred": 154,
+   "succ": 155,
+   "lag": -3
+  },
+  {
+   "pred": 154,
+   "succ": 156,
+   "lag": 0
+  },
+  {
+   "pred": 156,
+   "succ": 159,
+   "lag": 0
+  },
+  {
+   "pred": 159,
+   "succ": 176,
+   "lag": 0
+  },
+  {
+   "pred": 162,
+   "succ": 163,
+   "lag": 0
+  },
+  {
+   "pred": 163,
+   "succ": 164,
+   "lag": 0
+  },
+  {
+   "pred": 163,
+   "succ": 167,
+   "lag": 0
+  },
+  {
+   "pred": 164,
+   "succ": 144,
+   "lag": 0
+  },
+  {
+   "pred": 164,
+   "succ": 165,
+   "lag": -2
+  },
+  {
+   "pred": 164,
+   "succ": 166,
+   "lag": 0
+  },
+  {
+   "pred": 170,
+   "succ": 171,
+   "lag": 0
+  },
+  {
+   "pred": 171,
+   "succ": 172,
+   "lag": 0
+  },
+  {
+   "pred": 171,
+   "succ": 174,
+   "lag": 0
+  },
+  {
+   "pred": 172,
+   "succ": 147,
+   "lag": 0
+  },
+  {
+   "pred": 172,
+   "succ": 173,
+   "lag": 0
+  },
+  {
+   "pred": 176,
+   "succ": 177,
+   "lag": -2
+  },
+  {
+   "pred": 177,
+   "succ": 149,
+   "lag": 0
+  },
+  {
+   "pred": 177,
+   "succ": 180,
+   "lag": 0
+  },
+  {
+   "pred": 180,
+   "succ": 184,
+   "lag": 0
+  },
+  {
+   "pred": 182,
+   "succ": 186,
+   "lag": 0
+  },
+  {
+   "pred": 184,
+   "succ": 182,
+   "lag": 0
+  },
+  {
+   "pred": 186,
+   "succ": 11,
+   "lag": 0
+  }
+ ],
+ "provenance": {
+  "database": "DSLIB v3.2 (Dynamic Scheduling Library), OR&S Ghent University",
+  "reference": "Batselier and Vanhoucke (2015)",
+  "source_file": "C2025-12 Public Plaza.xlsx",
+  "relations_dropped_unparseable": 0,
+  "relations_dropped_cyclic": 0,
+  "demands_clipped_to_capacity": 0
+ }
+}
